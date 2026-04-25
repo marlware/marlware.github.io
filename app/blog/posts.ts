@@ -1,5 +1,16 @@
 export const posts = [
   {
+    slug: "daily-routine",
+    title: "Daily routine",
+    date: "April 25, 2026",
+    summary: "A simple daily routine for summer 2026",
+    content: `
+      5:30 AM: wake up
+      6:15 AM: leave for work
+      9:30 PM: go to sleep
+    `
+  },
+  {
     slug: "wander",
     title: "Wander around school",
     date: "April 21, 2026",
