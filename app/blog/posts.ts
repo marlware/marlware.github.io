@@ -1,5 +1,279 @@
 export const posts = [
   {
+    slug: "songs",
+    title: "Songs by month",
+    date: "May 2, 2026",
+    summary: "Favorite songs by month",
+    content: `
+      [04/2026]
+      Daft Punk, "Face to Face"
+      Circa Survive, "The Great Golden Baby"
+
+      [03/2026]
+      Sophie, "Bipp"
+      Underscores, "Do It"
+      Kaskade, "Move For Me"
+      Azealia Banks, "Slow Hands"
+
+      [02/2026]
+      Electric Guest, "Dear to Me"
+
+      [12/2025]
+      We Were Promised Jetpacks, "The Mother We Share"
+
+      [11/2025]
+      The 1975, "Talk!"
+      The 1975, "M.O.N.E.Y."
+
+      [09/2025]
+      NewJeans, "OMG"
+      NewJeans, "Attention"
+      PinkPantheress, "Noises"
+
+      [07/2025]
+      Katseye, "Gnarly"
+      Katseye, "Gameboy"
+
+      [06/2025]
+      Griff, "Hiding Alone"
+      LCD Soundsystem, "North American Scum"
+      Chairlift, "Show U Off"
+
+      [05/2025]
+      Regina Spektor, "20 Years"
+      Prince, "1999"
+
+      [04/2025]
+      Prince, "I Would Die 4 U"
+
+      [03/2025]
+      Nicholas Semrad, "Crush"
+
+      [12/2024]
+      Gracie Abrams, "I Love You, I'm Sorry"
+
+      [10/2024]
+      Animal Collective, "My Girls"
+      Animal Collective, "Summertime Clothes"
+      Gracie Abrams, "Risk"
+
+      [06/2024]
+      Bonobo, "Kiara"
+      My Chemical Romance, "The Ghost of You"
+
+      [05/2024]
+      Kate Bush, "Army Dreamers"
+      Cartel, "If I Fail"
+
+      [02/2024]
+      JPEGMafia and Danny Brown, "Kingdom Hearts Key"
+
+      [10/2023]
+      Flume, "Never Be Like You"
+      Dua Lipa, "Pretty Please"
+
+      [09/2023]
+      Fridge, "Aphelion"
+      R.E.M., "Losing My Religion"
+      Sampha, "Plastic 100°C"
+
+      [08/2023]
+      ASAP Rocky, "Peso"
+      Nick Jonas, "Jealous"
+      Rihanna, "If It's Lovin' That You Want"
+
+      [07/2023]
+      Taylor Swift, "Wonderland"
+      C418, "Aria Math"
+
+      [06/2023]
+      Taylor Swift, "I Wish You Would"
+      Silversun Pickups, "Substitution"
+
+      [04/2023]
+      Radiohead, "Myxomatosis"
+      Radiohead, "15 Step"
+      Kid Cudi, "Red Eye"
+
+      [03/2023]
+      Grimes, "Symphonia IX (My Wait Is U)"
+      Chairlift, "Met Before"
+
+      [09/2022]
+      Paramore, "Now"
+
+      [08/2022]
+      Kate Bush, "Running Up That Hill"
+      Blood Cultures, "Indian Summer"
+
+      [07/2022]
+      Wilco, "Jesus, Etc."
+      Mac DeMarco, "Freaking Out the Neighborhood"
+
+      [06/2022]
+      Big Boi, "Objectum Sexuality"
+      Clams Casino, "I'm God"
+      Death Cab for Cutie, "I Will Possess Your Heart"
+
+      [05/2022]
+      American Football, "Never Meant"
+      Coldplay, "Speed of Sound"
+      Paramore, "This Circle"
+
+      [04/2022]
+      Nas, "Cherry Wine"
+      Jack Off Jill, "Vivica"
+
+      [03/2022]
+      Paramore, "Monster"
+      Purity Ring, "Lofticries"
+      Radiohead, "Knives Out"
+      Lupe Fiasco, "Hello/Goodbye (Uncool)"
+      Foster the People, "Helena Beat"
+
+      [02/2022]
+      Ellie Goulding, "Lights"
+
+      [01/2022]
+      Phantogram, "Fall in Love"
+      Maroon 5, "Makes Me Wonder"
+
+      [12/2021]
+      Japanese Breakfast, "Be Sweet"
+      Jai Paul, "Genevieve"
+      Haim, "If I Could Change Your Mind"
+      Soccer Mommy, "Your Dog"
+
+      [11/2021]
+      Drake, "Little Bit"
+      Drake, "Let's Call It Off"
+      Kid Cudi, "Mr. Rager"
+
+      [09/2021]
+      Paramore, "Decode"
+
+      [08/2021]
+      Paramore, "Emergency"
+      Paramore, "Playing God"
+      Mitski, "Washing Machine Heart"
+
+      [07/2021]
+      Mario Judah, "I Miss the Rage"
+      Caroline Polachek, "So Hot You're Hurting My Feelings"
+
+      [06/2021]
+      PinkPantheress, "Break It Off"
+      Azealia Banks, "Luxury"
+
+      [05/2021]
+      Chvrches, "The Mother We Share"
+
+      [04/2021]
+      Grimes, "Oblivion"
+
+      [03/2021]
+      Paramore, "Hard Times"
+      Grimes, "Flesh without Blood"
+      Linkin Park, "She Couldn't"
+
+      [02/2021]
+      Paramore, "Fences"
+
+      [11/2020]
+      The Dave Brubeck Quartet, "Maria"
+
+      [10/2020]
+      Linkin Park, "Numb"
+      Linkin Park, "Breaking the Habit"
+
+      [09/2020]
+      Melanie Martinez, "Cry Baby"
+      Riton and Kah-Lo, "Fake ID"
+
+      [08/2020]
+      A Tribe Called Quest, "Check the Rhime"
+      Blank Banshee, "Ammonia Clouds"
+
+      [07/2020]
+      Mariya Takeuchi, "Plastic Love"
+
+      [06/2020]
+      Billie Eilish, "Ocean Eyes"
+      Lady Gaga, "Stupid Love"
+
+      [05/2020]
+      Zane Alexander, "Nine"
+      J. Cole, "False Prophets"
+      Philip George, "Wish You Were Mine"
+
+      [03/2020]
+      Silk City and Dua Lipa, "Electricity"
+      Drake, "One Dance"
+      John Pizzarelli, "I Only Want Some"
+
+      [02/2020]
+      Doja Cat, "Say So"
+      Wu-Tang Clan, "C.R.E.A.M."
+      Massive Attack, "Unfinished Sympathy"
+      Tame Impala, "The Less I Know the Better"
+
+      [11/2019]
+      Childish Gambino, "Sober"
+      Dirty Vegas, "Days Go By"
+
+      [09/2019]
+      Kanye West, "Saint Pablo"
+      Estelle, "American Boy"
+
+      [07/2019]
+      Eminem, "Without Me"
+      Eminem, "The Real Slim Shady"
+      Modjo, "Lady (Hear Me Tonight)"
+
+      [06/2019]
+      Frank Sinatra, "The Way You Look Tonight"
+
+      [05/2019]
+      Syn Cole, "Feel Good"
+
+      [04/2019]
+      A.L.I.S.O.N, "Golden Dust"
+      DJ Snake and Justin Bieber, "Let Me Love You"
+
+      [03/2019]
+      Wayne Shorter, "Footprints"
+      Bobby Darin, "Beyond the Sea"
+
+      [02/2019]
+      Com Truise, "Brokendate"
+
+      [01/2019]
+      Bell Biv Devoe, "Poison"
+
+      [11/2018]
+      Superorganism, "Night Time"
+
+      [08/2018]
+      Kendrick Lamar and SZA, "All the Stars"
+
+      [05/2018]
+      Camilla Cabello and Young Thug, "Havana"
+    `
+  },
+  {
+    slug: "things",
+    title: "Random things I like",
+    date: "April 27, 2026",
+    summary: "Title",
+    content: `
+      Ocean Network Express pink shipping containers
+      Cookies and cream–flavored anything
+      High Chuck Taylors All Star XX High Buckles
+      Almond Joy
+      Fruit in general
+    `
+  },
+  {
     slug: "daily-routine",
     title: "Daily routine",
     date: "April 25, 2026",
