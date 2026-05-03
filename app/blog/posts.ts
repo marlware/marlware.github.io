@@ -25,9 +25,12 @@ export const posts = [
       The 1975, "Talk!"
       The 1975, "M.O.N.E.Y."
 
+      [10/2025]
+      NewJeans, "Attention"
+
       [09/2025]
       NewJeans, "OMG"
-      NewJeans, "Attention"
+      Le Sserafim, "Antifragile"
       PinkPantheress, "Noises"
 
       [07/2025]
