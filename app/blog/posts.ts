@@ -32,6 +32,7 @@ export const posts = [
 
       [10/2025]
       NewJeans, "Attention"
+      The Debut: Dream Academy, "Dirty Water"
 
       [09/2025]
       NewJeans, "OMG"
@@ -142,6 +143,8 @@ export const posts = [
       Mac DeMarco, "Freaking Out the Neighborhood"
 
       [06/2022]
+      Akira Yamaoka, "White Noiz"
+      Shinkichi Mitsumune, "Fall in Love"
       Big Boi, "Objectum Sexuality"
       Clams Casino, "I'm God"
       Death Cab for Cutie, "I Will Possess Your Heart"
@@ -151,6 +154,8 @@ export const posts = [
       American Football, "Never Meant"
       Coldplay, "Speed of Sound"
       Paramore, "This Circle"
+      Radiohead, "15 Step"
+      Jason Tai, "Vale of Tears"
 
       [04/2022]
       Nas, "Cherry Wine"
@@ -181,15 +186,13 @@ export const posts = [
       Drake, "Let's Call It Off"
       Kid Cudi, "Mr. Rager"
 
-      [09/2021]
-      Paramore, "Decode"
-
       [08/2021]
       Paramore, "Emergency"
       Paramore, "Playing God"
       Mitski, "Washing Machine Heart"
 
       [07/2021]
+      Paramore, "Decode"
       Mario Judah, "I Miss the Rage"
       Caroline Polachek, "So Hot You're Hurting My Feelings"
 
@@ -310,6 +313,7 @@ export const posts = [
 
       [12/2018]
       Oliver Nelson Septet, "Stolen Moments"
+      John Coltrane, "My Favorite Things"
 
       [11/2018]
       Superorganism, "Night Time"
