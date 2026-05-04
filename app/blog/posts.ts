@@ -233,7 +233,10 @@ export const posts = [
       Blank Banshee, "Ammonia Clouds"
 
       [07/2020]
+      Breakbot, "Be Mine Tonight"
       Mariya Takeuchi, "Plastic Love"
+      Kanye West, "Heartless"
+      Deadmau5 and Melleefresh, "Hey Baby"
 
       [06/2020]
       Billie Eilish, "Ocean Eyes"
@@ -266,8 +269,13 @@ export const posts = [
 
       [12/2019]
       Deadmau5, "I Remember"
+      Eminem, "'97 Bonnie and Clyde"
+      Major Lazer, "Lean On"
 
       [11/2019]
+      XXXTentacion, "Riot"
+      Krono, "Dancin"
+      Montell Jordan, "This is How We Do It"
       Childish Gambino, "Sober"
       Dirty Vegas, "Days Go By"
 
@@ -287,12 +295,12 @@ export const posts = [
       Benny Blanco, Halsey, and Khalid, "Eastside"
 
       [07/2019]
-      Eminem, "Without Me"
-      Eminem, "The Real Slim Shady"
       Modjo, "Lady (Hear Me Tonight)"
 
       [06/2019]
       Frank Sinatra, "The Way You Look Tonight"
+      Eminem, "Without Me"
+      Eminem, "The Real Slim Shady"
 
       [05/2019]
       Syn Cole, "Feel Good"
