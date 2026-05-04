@@ -67,6 +67,11 @@ export const posts = [
 
       [12/2024]
       Gracie Abrams, "I Love You, I'm Sorry"
+      Gracie Abrams, "Us"
+
+      [11/2024]
+      Beabadoobee, "Here's Where the Story Ends"
+      Panda Bear, "Mr Noah"
 
       [10/2024]
       Animal Collective, "My Girls"
@@ -81,8 +86,15 @@ export const posts = [
       Kate Bush, "Army Dreamers"
       Cartel, "If I Fail"
 
+      [04/2024]
+      Hideki Sakamoto, "Lifelight"
+
       [02/2024]
       JPEGMafia and Danny Brown, "Kingdom Hearts Key"
+
+      [01/2024]
+      Beabadoobee, "10:36"
+      Taylor Swift, "Red"
 
       [10/2023]
       Flume, "Never Be Like You"
@@ -94,13 +106,13 @@ export const posts = [
       Sampha, "Plastic 100°C"
 
       [08/2023]
-      ASAP Rocky, "Peso"
       Nick Jonas, "Jealous"
       Rihanna, "If It's Lovin' That You Want"
 
       [07/2023]
       Taylor Swift, "Wonderland"
       C418, "Aria Math"
+      Jamie xx, "Gosh"
 
       [06/2023]
       Taylor Swift, "I Wish You Would"
@@ -114,6 +126,9 @@ export const posts = [
       [03/2023]
       Grimes, "Symphonia IX (My Wait Is U)"
       Chairlift, "Met Before"
+
+      [11/2022]
+      Weezer, "I Just Threw Out the Love of My Dreams"
 
       [09/2022]
       Paramore, "Now"
@@ -197,6 +212,7 @@ export const posts = [
 
       [02/2021]
       Paramore, "Fences"
+      Dua Lipa and Angèle, "Fever"
 
       [11/2020]
       The Dave Brubeck Quartet, "Maria"
