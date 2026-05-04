@@ -5,6 +5,10 @@ export const posts = [
     date: "May 2, 2026",
     summary: "Favorite songs by month",
     content: `
+
+      [05/2026]
+      Big Boi, "Shutterbugg"
+
       [04/2026]
       Daft Punk, "Face to Face"
       Circa Survive, "The Great Golden Baby"
@@ -117,6 +121,7 @@ export const posts = [
       Big Boi, "Objectum Sexuality"
       Clams Casino, "I'm God"
       Death Cab for Cutie, "I Will Possess Your Heart"
+      Aphex Twin, "Xtal"
 
       [05/2022]
       American Football, "Never Meant"
@@ -129,8 +134,8 @@ export const posts = [
 
       [03/2022]
       Paramore, "Monster"
-      Purity Ring, "Lofticries"
       Radiohead, "Knives Out"
+      Purity Ring, "Lofticries"
       Lupe Fiasco, "Hello/Goodbye (Uncool)"
       Foster the People, "Helena Beat"
 
@@ -170,9 +175,11 @@ export const posts = [
 
       [05/2021]
       Chvrches, "The Mother We Share"
+      Chvrches, "Gun"
 
       [04/2021]
       Grimes, "Oblivion"
+      Olivia Rodrigo, "Deja Vu"
 
       [03/2021]
       Paramore, "Hard Times"
@@ -209,6 +216,11 @@ export const posts = [
       J. Cole, "False Prophets"
       Philip George, "Wish You Were Mine"
 
+      [04/2020]
+      Eminem, "Tonite"
+      Kanye West, "Good Morning"
+      Michael Sembello, "Maniac"
+
       [03/2020]
       Silk City and Dua Lipa, "Electricity"
       Drake, "One Dance"
@@ -220,13 +232,31 @@ export const posts = [
       Massive Attack, "Unfinished Sympathy"
       Tame Impala, "The Less I Know the Better"
 
+      [01/2020]
+      Ross From Friends, "Crimson"
+      Mac Miller, "My Favorite Part"
+
+      [12/2019]
+      Deadmau5, "I Remember"
+
       [11/2019]
       Childish Gambino, "Sober"
       Dirty Vegas, "Days Go By"
 
+      [10/2019]
+      Estelle, "American Boy"
+      The Bangles, "Walk Like an Egyptian"
+      Breakbot, "Baby I'm Yours"
+      Billy Joel, "The Longest Time"
+      Drake, "Nice for What"
+
       [09/2019]
       Kanye West, "Saint Pablo"
-      Estelle, "American Boy"
+      Billie Eilish, "Bad Guy"
+
+      [08/2019]
+      Lorde, "Royals"
+      Benny Blanco, Halsey, and Khalid, "Eastside"
 
       [07/2019]
       Eminem, "Without Me"
@@ -253,11 +283,25 @@ export const posts = [
       [01/2019]
       Bell Biv Devoe, "Poison"
 
+      [12/2018]
+      Oliver Nelson Septet, "Stolen Moments"
+
       [11/2018]
       Superorganism, "Night Time"
 
+      [09/2018]
+      Joji, "Worldstar Money (Interlude)"
+      Naoto Kubo, "Jump Up, Super Star!"
+
       [08/2018]
       Kendrick Lamar and SZA, "All the Stars"
+
+      [07/2018]
+      Ariana Grande, "No Tears Left to Cry"
+      Calvin Harris and Dua Lipa, "One Kiss"
+
+      [06/2018]
+      Marshmello and Anne-Marie, "Friends"
 
       [05/2018]
       Camilla Cabello and Young Thug, "Havana"
