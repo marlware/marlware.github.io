@@ -28,6 +28,7 @@ export const posts = [
       [11/2025]
       The 1975, "Talk!"
       The 1975, "M.O.N.E.Y."
+      George Clanton, "It Makes the Babies Want to Cry"
 
       [10/2025]
       NewJeans, "Attention"
@@ -51,10 +52,18 @@ export const posts = [
       Prince, "1999"
 
       [04/2025]
+      Pharrell Williams, "Gust of Wind"
       Prince, "I Would Die 4 U"
 
       [03/2025]
       Nicholas Semrad, "Crush"
+
+      [02/2025]
+      Maroon 5, "Kiwi"
+
+      [01/2025]
+      Pom Pom Squad, "Head Cheerleader"
+      Basement Jaxx, "SFM"
 
       [12/2024]
       Gracie Abrams, "I Love You, I'm Sorry"
