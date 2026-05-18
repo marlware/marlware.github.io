@@ -1,5 +1,22 @@
 export const posts = [
   {
+    slug: "cranes",
+    title: "To fold 1,000 paper cranes",
+    date: "May 4, 2026",
+    summary: "Summary",
+    content: `
+      Samurai Matcha - fold 1,000 paper cranes
+      But other people have already folded 500 cranes
+      But other people folded 1,000 cranes when they were my age
+      But I wasn't taught how to fold a crane
+      But my cranes are constructed all sloppy
+      But my cranes don't look good
+      But I want to fold paper airplanes instead
+      But what if I fold 100 paper cranes and they're not good
+      But what if I get to crane 999 and realize I wasn't supposed to fold cranes
+    `
+  },
+  {
     slug: "songs",
     title: "Songs by month",
     date: "May 2, 2026",
@@ -18,8 +35,10 @@ export const posts = [
       Underscores, "Do It"
       Kaskade, "Move For Me"
       Azealia Banks, "Slow Hands"
+      Underscores, "The Peace"
 
       [02/2026]
+      John Powell, "Mars Needs Moms Credits Suite"
       Electric Guest, "Dear to Me"
 
       [12/2025]
@@ -81,6 +100,7 @@ export const posts = [
 
       [06/2024]
       Bonobo, "Kiara"
+      Beabadoobee, "Don't Get the Deal"
       My Chemical Romance, "The Ghost of You"
 
       [05/2024]
@@ -366,6 +386,12 @@ export const posts = [
       5:30 AM: wake up
       6:15 AM: leave for work
       9:30 PM: go to sleep
+
+      How I fixed my personal schedule in Spring 2026
+      > sleep before 12 AM, naturally wake up before 8 AM
+      > eat dinner 3 hours before sleeping
+      > no candy
+      > eat a bunch of fruit for breakfast
     `
   },
   {
