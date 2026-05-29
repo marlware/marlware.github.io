@@ -1,30 +1,14 @@
 export const posts = [
   {
-    slug: "cranes",
-    title: "To fold 1,000 paper cranes",
-    date: "May 4, 2026",
-    summary: "Summary",
-    content: `
-      Samurai Matcha - fold 1,000 paper cranes
-      But other people have already folded 500 cranes
-      But other people folded 1,000 cranes when they were my age
-      But I wasn't taught how to fold a crane
-      But my cranes are constructed all sloppy
-      But my cranes don't look good
-      But I want to fold paper airplanes instead
-      But what if I fold 100 paper cranes and they're not good
-      But what if I get to crane 999 and realize I wasn't supposed to fold cranes
-    `
-  },
-  {
     slug: "songs",
     title: "Songs by month",
-    date: "May 2, 2026",
+    date: "May 29, 2026",
     summary: "Favorite songs by month",
     content: `
 
       [05/2026]
       Big Boi, "Shutterbugg"
+      Grimes, "Artangels"
 
       [04/2026]
       Daft Punk, "Face to Face"
@@ -97,6 +81,13 @@ export const posts = [
       Animal Collective, "My Girls"
       Animal Collective, "Summertime Clothes"
       Gracie Abrams, "Risk"
+
+      [09/2024]
+      Ruthven, "Evil"
+      Sabrina Carpenter, "Taste"
+
+      [07/2024]
+      Silversun Pickups, "Substitution"
 
       [06/2024]
       Bonobo, "Kiara"
@@ -362,6 +353,23 @@ export const posts = [
 
       [05/2018]
       Camilla Cabello and Young Thug, "Havana"
+    `
+  },
+  {
+    slug: "cranes",
+    title: "To fold 1,000 paper cranes",
+    date: "May 4, 2026",
+    summary: "Summary",
+    content: `
+      Samurai Matcha - fold 1,000 paper cranes
+      But other people have already folded 500 cranes
+      But other people folded 1,000 cranes when they were my age
+      But I wasn't taught how to fold a crane
+      But my cranes are constructed all sloppy
+      But my cranes don't look good
+      But I want to fold paper airplanes instead
+      But what if I fold 100 paper cranes and they're not good
+      But what if I get to crane 999 and realize I wasn't supposed to fold cranes
     `
   },
   {
