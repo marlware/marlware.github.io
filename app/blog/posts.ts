@@ -142,6 +142,9 @@ export const posts = [
       [11/2022]
       Weezer, "I Just Threw Out the Love of My Dreams"
 
+      [10/2022]
+      Massive Attack, "Group Four"
+
       [09/2022]
       Paramore, "Now"
 
@@ -191,6 +194,7 @@ export const posts = [
       Jai Paul, "Genevieve"
       Haim, "If I Could Change Your Mind"
       Soccer Mommy, "Your Dog"
+      Bjork, "Enjoy"
 
       [11/2021]
       Drake, "Little Bit"
@@ -232,16 +236,20 @@ export const posts = [
       The Dave Brubeck Quartet, "Maria"
 
       [10/2020]
+      Melanie Martinez, "Piggyback"
       Linkin Park, "Numb"
       Linkin Park, "Breaking the Habit"
 
       [09/2020]
-      Melanie Martinez, "Cry Baby"
+      Melanie Martinez, "Play Date"
       Riton and Kah-Lo, "Fake ID"
+      MF Doom, "Raid"
+      Aesop Rock, "None Shall Pass"
 
       [08/2020]
       A Tribe Called Quest, "Check the Rhime"
       Blank Banshee, "Ammonia Clouds"
+      Nas, "The World Is Yours"
 
       [07/2020]
       Breakbot, "Be Mine Tonight"
