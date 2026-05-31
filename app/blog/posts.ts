@@ -11,8 +11,9 @@ export const posts = [
       Grimes, "Artangels"
 
       [04/2026]
-      Daft Punk, "Face to Face"
       Circa Survive, "The Great Golden Baby"
+      Daft Punk, "Face to Face"
+      Circa Survive, "The Glorious Nosebleed"
 
       [03/2026]
       Sophie, "Bipp"
@@ -139,11 +140,19 @@ export const posts = [
       Grimes, "Symphonia IX (My Wait Is U)"
       Chairlift, "Met Before"
 
+      [02/2023]
+      Lady Gaga, "Telephone"
+
+      [12/2022]
+      Haim, "Gasoline"
+
       [11/2022]
       Weezer, "I Just Threw Out the Love of My Dreams"
+      Weezer, "Billie Jean"
 
       [10/2022]
       Massive Attack, "Group Four"
+      Unkle, "Bloodstain"
 
       [09/2022]
       Paramore, "Now"
@@ -260,6 +269,7 @@ export const posts = [
       [06/2020]
       Billie Eilish, "Ocean Eyes"
       Lady Gaga, "Stupid Love"
+      Kanye West, "Flashing Lights"
 
       [05/2020]
       Zane Alexander, "Nine"
@@ -344,6 +354,7 @@ export const posts = [
 
       [11/2018]
       Superorganism, "Night Time"
+      Cosimo Fogg, "Life Is"
 
       [09/2018]
       Joji, "Worldstar Money (Interlude)"
@@ -386,11 +397,7 @@ export const posts = [
     date: "April 27, 2026",
     summary: "Title",
     content: `
-      Ocean Network Express pink shipping containers
-      Cookies and cream–flavored anything
-      High Chuck Taylors All Star XX High Buckles
-      Almond Joy
-      Fruit in general
+      Ocean Network Express pink shipping containers. Cookies and cream–flavored anything. High Chuck Taylors All Star XX High Buckles. Almond Joy. Fruit in general.
     `
   },
   {
@@ -399,9 +406,9 @@ export const posts = [
     date: "April 25, 2026",
     summary: "A simple daily routine for summer 2026",
     content: `
-      5:30 AM: wake up
-      6:15 AM: leave for work
-      9:30 PM: go to sleep
+      4:45 AM: wake up
+      5:45 AM: leave for work
+      9:00 PM: go to sleep
 
       How I fixed my personal schedule in Spring 2026
       > sleep before 12 AM, naturally wake up before 8 AM
@@ -483,7 +490,7 @@ export const posts = [
     slug: "katsdn",
     title: ".NET ecosystem components as Katseye members",
     date: "March 16, 2026",
-    summary: "Unorthodox interview prep",
+    summary: "Unorthodox internship prep",
     content: `
       In March, I got a call from my recruiter offering me an internship at Mission Support and Test Services in North Las Vegas. I graciously accepted, understanding that there was much to teach myself about the great big .NET ecosystem.
       
