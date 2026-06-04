@@ -33,11 +33,11 @@ export const posts = [
       [11/2025]
       The 1975, "Talk!"
       The 1975, "M.O.N.E.Y."
-      George Clanton, "It Makes the Babies Want to Cry"
 
       [10/2025]
       NewJeans, "Attention"
       The Debut: Dream Academy, "Dirty Water"
+      George Clanton, "It Makes the Babies Want to Cry"
 
       [09/2025]
       NewJeans, "OMG"
@@ -74,6 +74,7 @@ export const posts = [
       [12/2024]
       Gracie Abrams, "I Love You, I'm Sorry"
       Gracie Abrams, "Us"
+      Pom Pom Squad, "Doll Song"
 
       [11/2024]
       Beabadoobee, "Here's Where the Story Ends"
@@ -87,6 +88,7 @@ export const posts = [
       [09/2024]
       Ruthven, "Evil"
       Sabrina Carpenter, "Taste"
+      Olivia Rodrigo, "So American"
 
       [07/2024]
       Silversun Pickups, "Substitution"
