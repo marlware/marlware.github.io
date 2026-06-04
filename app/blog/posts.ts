@@ -27,12 +27,16 @@ export const posts = [
       John Powell, "Mars Needs Moms Credits Suite"
       Electric Guest, "Dear to Me"
 
+      [01/2026]
+      The 1975, "Pressure"
+
       [12/2025]
       We Were Promised Jetpacks, "The Mother We Share"
 
       [11/2025]
       The 1975, "Talk!"
       The 1975, "M.O.N.E.Y."
+      The 1975, "Menswear"
 
       [10/2025]
       NewJeans, "Attention"
@@ -58,6 +62,7 @@ export const posts = [
       Prince, "1999"
 
       [04/2025]
+      Prince, "Computer Blue"
       Pharrell Williams, "Gust of Wind"
       Prince, "I Would Die 4 U"
 
@@ -77,6 +82,7 @@ export const posts = [
       Pom Pom Squad, "Doll Song"
 
       [11/2024]
+      Azealia Banks, "Wallace"
       Beabadoobee, "Here's Where the Story Ends"
       Panda Bear, "Mr Noah"
 
@@ -87,8 +93,9 @@ export const posts = [
 
       [09/2024]
       Ruthven, "Evil"
-      Sabrina Carpenter, "Taste"
       Olivia Rodrigo, "So American"
+      Sabrina Carpenter, "Taste"
+      Tame Impala, "The Moment"
 
       [07/2024]
       Silversun Pickups, "Substitution"
@@ -248,8 +255,13 @@ export const posts = [
       Paramore, "Fences"
       Dua Lipa and Angèle, "Fever"
 
+      [12/2020]
+      Melanie Martinez, "Strawberry Shortcake"
+      Deltron 3030, "3030"
+
       [11/2020]
       The Dave Brubeck Quartet, "Maria"
+      A Tribe Called Quest, "8 Million Stories"
 
       [10/2020]
       Melanie Martinez, "Piggyback"
