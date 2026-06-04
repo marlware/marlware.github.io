@@ -142,9 +142,13 @@ export const posts = [
       [03/2023]
       Grimes, "Symphonia IX (My Wait Is U)"
       Chairlift, "Met Before"
+      Boygenius, "$20"
 
       [02/2023]
       Lady Gaga, "Telephone"
+
+      [1/2023]
+      Taylor Swift, "Style"
 
       [12/2022]
       Haim, "Gasoline"
