@@ -2,13 +2,14 @@ export const posts = [
   {
     slug: "songs",
     title: "Songs by month",
-    date: "May 29, 2026",
+    date: "June 3, 2026",
     summary: "Favorite songs by month",
     content: `
 
       [05/2026]
       Big Boi, "Shutterbugg"
       Grimes, "Artangels"
+      Sophie, "Ooh"
 
       [04/2026]
       Circa Survive, "The Great Golden Baby"
