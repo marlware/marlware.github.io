@@ -6,6 +6,10 @@ export const posts = [
     summary: "Favorite songs by month",
     content: `
 
+      [06/2026]
+      Caribou, "Second Chance"
+      Basement Jaxx, "U Can't Stop Me"
+
       [05/2026]
       Big Boi, "Shutterbugg"
       Bloc Party, "Banquet"
@@ -27,6 +31,7 @@ export const posts = [
       [02/2026]
       John Powell, "Mars Needs Moms Credits Suite"
       Electric Guest, "Dear to Me"
+      Haim, "The Wire"
 
       [01/2026]
       The 1975, "Pressure"
@@ -58,6 +63,7 @@ export const posts = [
 
       [07/2025]
       Katseye, "Gnarly"
+      Marquis Compressor, "Landing"
       Katseye, "Gameboy"
       
       [06/2025]
@@ -104,7 +110,7 @@ export const posts = [
 
       [09/2024]
       Ruthven, "Evil"
-      Olivia Rodrigo, "So American"
+      Lorde, "Supercut"
       Sabrina Carpenter, "Taste"
       Tame Impala, "The Moment"
 
@@ -219,11 +225,13 @@ export const posts = [
       Paramore, "Monster"
       Radiohead, "Knives Out"
       Purity Ring, "Lofticries"
+      Grimes, "World Princess Part II"
       Lupe Fiasco, "Hello/Goodbye (Uncool)"
       Foster the People, "Helena Beat"
       JPEGMafia, "1539 N. Calvert"
 
       [02/2022]
+      Everything But The Girl, "Before Today"
       Ellie Goulding, "Lights"
       Pillar Point, "Dove"
 
@@ -244,12 +252,19 @@ export const posts = [
       Kid Cudi, "Mr. Rager"
 
       [10/2021]
+      Bôa, "Little Miss"
+      PinkPantheress, "Last Valentines"
       PinkPantheress, "Noticed I Cried"
+
+      [09/2021]
+      Bôa, "Duvet"
+      Death Grips, "Punk Weight"
+      Faye Webster, "A Dream with a Baseball Player"
 
       [08/2021]
       Paramore, "Emergency"
-      Paramore, "Playing God"
       Mitski, "Washing Machine Heart"
+      Paramore, "Playing God"
 
       [07/2021]
       Paramore, "Decode"
@@ -260,6 +275,7 @@ export const posts = [
       Grimes, "Kill V. Maim"
       PinkPantheress, "Break It Off"
       Azealia Banks, "Luxury"
+      Paramore, "That's What You Get"
 
       [05/2021]
       Chvrches, "The Mother We Share"
@@ -391,6 +407,7 @@ export const posts = [
       Com Truise, "Brokendate"
 
       [01/2019]
+      Unnamed, "Sundown"
       Bell Biv Devoe, "Poison"
 
       [12/2018]
