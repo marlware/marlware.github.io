@@ -2,7 +2,7 @@ export const posts = [
   {
     slug: "songs",
     title: "Songs by month",
-    date: "June 3, 2026",
+    date: "June 5, 2026",
     summary: "Favorite songs by month",
     content: `
 
@@ -18,14 +18,14 @@ export const posts = [
 
       [04/2026]
       Underscores, "The Peace"
-      Circa Survive, "The Great Golden Baby"
-      Daft Punk, "Face to Face"
       Circa Survive, "The Glorious Nosebleed"
+      Daft Punk, "Face to Face"
+      Kaskade, "Move For Me"
 
       [03/2026]
       Sophie, "Bipp"
       Underscores, "Do It"
-      Kaskade, "Move For Me"
+      Circa Survive, "The Great Golden Baby"
       Azealia Banks, "Slow Hands"
 
       [02/2026]
@@ -72,14 +72,14 @@ export const posts = [
       Chairlift, "Show U Off"
 
       [05/2025]
-      Regina Spektor, "20 Years"
       Prince, "1999"
+      Regina Spektor, "20 Years"
       LCD Soundsystem, "North American Scum"
       Ben Khan, "Youth"
 
       [04/2025]
-      Prince, "Computer Blue"
       Pharrell Williams, "Gust of Wind"
+      Prince, "Computer Blue"
       Prince, "I Would Die 4 U"
 
       [03/2025]
@@ -96,6 +96,7 @@ export const posts = [
       [12/2024]
       Gracie Abrams, "I Love You, I'm Sorry"
       Gracie Abrams, "Us"
+      Gracie Abrams, "That's So True"
       Pom Pom Squad, "Doll Song"
 
       [11/2024]
@@ -107,6 +108,7 @@ export const posts = [
       [10/2024]
       Animal Collective, "My Girls"
       Animal Collective, "Summertime Clothes"
+      Animal Collective, "Bluish"
       Gracie Abrams, "Risk"
 
       [09/2024]
