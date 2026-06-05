@@ -88,6 +88,7 @@ export const posts = [
 
       [11/2024]
       Azealia Banks, "Wallace"
+      Pattern Is Movement, "Enjoy"
       Beabadoobee, "Here's Where the Story Ends"
       Panda Bear, "Mr Noah"
 
@@ -123,6 +124,9 @@ export const posts = [
       [01/2024]
       Beabadoobee, "10:36"
       Taylor Swift, "Red"
+
+      [11/2023]
+      Madonna, "Dress You Up"
 
       [10/2023]
       Flume, "Never Be Like You"
@@ -300,6 +304,7 @@ export const posts = [
       [06/2020]
       Billie Eilish, "Ocean Eyes"
       Lady Gaga, "Stupid Love"
+      Eyedress, "Jealous"
       Kanye West, "Flashing Lights"
 
       [05/2020]
