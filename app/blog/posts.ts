@@ -159,6 +159,7 @@ export const posts = [
       [03/2023]
       Grimes, "Symphonia IX (My Wait Is U)"
       Boygenius, "$20"
+      Chairlift, "Crying in Public"
 
       [02/2023]
       Lady Gaga, "Telephone"
