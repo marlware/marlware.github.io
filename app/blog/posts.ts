@@ -153,7 +153,6 @@ export const posts = [
 
       [03/2023]
       Grimes, "Symphonia IX (My Wait Is U)"
-      Chairlift, "Met Before"
       Boygenius, "$20"
 
       [02/2023]
@@ -182,6 +181,7 @@ export const posts = [
 
       [07/2022]
       Wilco, "Jesus, Etc."
+      Chairlift, "Sidewalk Safari"
       Mac DeMarco, "Freaking Out the Neighborhood"
 
       [06/2022]
@@ -201,7 +201,9 @@ export const posts = [
 
       [04/2022]
       Nas, "Cherry Wine"
+      Björk, "I Remember You"
       Jack Off Jill, "Vivica"
+      Chairlift, "Met Before"
 
       [03/2022]
       Paramore, "Monster"
@@ -209,6 +211,7 @@ export const posts = [
       Purity Ring, "Lofticries"
       Lupe Fiasco, "Hello/Goodbye (Uncool)"
       Foster the People, "Helena Beat"
+      JPEGMafia, "1539 N. Calvert"
 
       [02/2022]
       Ellie Goulding, "Lights"
@@ -222,12 +225,15 @@ export const posts = [
       Jai Paul, "Genevieve"
       Haim, "If I Could Change Your Mind"
       Soccer Mommy, "Your Dog"
-      Bjork, "Enjoy"
+      Björk, "Enjoy"
 
       [11/2021]
       Drake, "Little Bit"
       Drake, "Let's Call It Off"
       Kid Cudi, "Mr. Rager"
+
+      [10/2021]
+      PinkPantheress, "Noticed I Cried"
 
       [08/2021]
       Paramore, "Emergency"
@@ -240,6 +246,7 @@ export const posts = [
       Caroline Polachek, "So Hot You're Hurting My Feelings"
 
       [06/2021]
+      Grimes, "Kill V. Maim"
       PinkPantheress, "Break It Off"
       Azealia Banks, "Luxury"
 
