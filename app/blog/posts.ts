@@ -32,6 +32,7 @@ export const posts = [
 
       [12/2025]
       We Were Promised Jetpacks, "The Mother We Share"
+      Kaskade and Deadmau5, "Move For Me (DJ Hero 2 Remix)"
 
       [11/2025]
       The 1975, "Talk!"
@@ -44,14 +45,18 @@ export const posts = [
       George Clanton, "It Makes the Babies Want to Cry"
 
       [09/2025]
-      NewJeans, "OMG"
       Le Sserafim, "Antifragile"
       PinkPantheress, "Noises"
+      Cherrelle, "I Didn't Mean to Turn You On"
+
+      [08/2025]
+      John Powell, "Test Drive"
+      NewJeans, "OMG"
 
       [07/2025]
       Katseye, "Gnarly"
       Katseye, "Gameboy"
-
+      
       [06/2025]
       Griff, "Hiding Alone"
       LCD Soundsystem, "North American Scum"
