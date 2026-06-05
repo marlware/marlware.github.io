@@ -13,6 +13,7 @@ export const posts = [
       Sophie, "Ooh"
 
       [04/2026]
+      Underscores, "The Peace"
       Circa Survive, "The Great Golden Baby"
       Daft Punk, "Face to Face"
       Circa Survive, "The Glorious Nosebleed"
@@ -22,7 +23,6 @@ export const posts = [
       Underscores, "Do It"
       Kaskade, "Move For Me"
       Azealia Banks, "Slow Hands"
-      Underscores, "The Peace"
 
       [02/2026]
       John Powell, "Mars Needs Moms Credits Suite"
@@ -33,12 +33,14 @@ export const posts = [
 
       [12/2025]
       We Were Promised Jetpacks, "The Mother We Share"
+      NewJeans, "Hype Boy"
       Kaskade and Deadmau5, "Move For Me (DJ Hero 2 Remix)"
 
       [11/2025]
       The 1975, "Talk!"
       The 1975, "M.O.N.E.Y."
       The 1975, "Menswear"
+      Disclosure, "January"
 
       [10/2025]
       NewJeans, "Attention"
@@ -66,6 +68,8 @@ export const posts = [
       [05/2025]
       Regina Spektor, "20 Years"
       Prince, "1999"
+      LCD Soundsystem, "North American Scum"
+      Ben Khan, "Youth"
 
       [04/2025]
       Prince, "Computer Blue"
@@ -221,6 +225,7 @@ export const posts = [
 
       [02/2022]
       Ellie Goulding, "Lights"
+      Pillar Point, "Dove"
 
       [01/2022]
       Phantogram, "Fall in Love"
@@ -316,6 +321,7 @@ export const posts = [
 
       [04/2020]
       Eminem, "Tonite"
+      Kendrick Lamar, "Alright"
       Kanye West, "Good Morning"
       Michael Sembello, "Maniac"
 
@@ -362,6 +368,7 @@ export const posts = [
       Benny Blanco, Halsey, and Khalid, "Eastside"
 
       [07/2019]
+      SZA, "Broken Clocks"
       Modjo, "Lady (Hear Me Tonight)"
 
       [06/2019]
@@ -435,7 +442,7 @@ export const posts = [
     date: "April 27, 2026",
     summary: "Title",
     content: `
-      Ocean Network Express pink shipping containers. Cookies and cream–flavored anything. High Chuck Taylors All Star XX High Buckles. Almond Joy. Fruit in general.
+      Ocean Network Express pink shipping containers. Cookies and cream–flavored anything. High Chuck Taylors All Star XX High Buckles. Almond Joy. Fruit in general. Walking. Checkered Vans slip-ons. Black backpacks. Unused buildings.
     `
   },
   {
@@ -452,7 +459,7 @@ export const posts = [
       > sleep before 12 AM, naturally wake up before 8 AM
       > eat dinner 3 hours before sleeping
       > no candy
-      > eat a bunch of fruit for breakfast
+      > eat a bunch of meat and fruit for breakfast
     `
   },
   {
