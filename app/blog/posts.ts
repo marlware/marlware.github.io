@@ -8,6 +8,7 @@ export const posts = [
 
       [05/2026]
       Big Boi, "Shutterbugg"
+      Bloc Party, "Banquet"
       Grimes, "Artangels"
       Sophie, "Ooh"
 
