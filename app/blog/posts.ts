@@ -9,6 +9,7 @@ export const posts = [
       [06/2026]
       Caribou, "Second Chance"
       Basement Jaxx, "U Can't Stop Me"
+      No Doubt, "Hella Good"
 
       [05/2026]
       Big Boi, "Shutterbugg"
@@ -62,14 +63,14 @@ export const posts = [
       NewJeans, "OMG"
 
       [07/2025]
-      Katseye, "Gnarly"
       Marquis Compressor, "Landing"
       Katseye, "Gameboy"
+      Chairlift, "Show U Off"
       
       [06/2025]
       LCD Soundsystem, "North American Scum"
       Griff, "Hiding Alone"
-      Chairlift, "Show U Off"
+      Katseye, "Gnarly"
 
       [05/2025]
       Prince, "1999"
