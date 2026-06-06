@@ -52,14 +52,16 @@ export const posts = [
       Disclosure, "January"
 
       [10/2025]
-      NewJeans, "Attention"
+      Kid Cudi, "Young Lady"
       The Debut: Dream Academy, "Dirty Water"
       George Clanton, "It Makes the Babies Want to Cry"
+      Amerie, "Float"
 
       [09/2025]
       Le Sserafim, "Antifragile"
       PinkPantheress, "Noises"
       Cherrelle, "I Didn't Mean to Turn You On"
+      NewJeans, "Attention"
 
       [08/2025]
       John Powell, "Test Drive"
@@ -124,8 +126,11 @@ export const posts = [
 
       [07/2024]
       Silversun Pickups, "Substitution"
+      Amerie, "Why Don't We Fall in Love"
+      Amerie, "Pretty Brown"
 
       [06/2024]
+      Shoji Meguro, "Stray Sheep"
       Bonobo, "Kiara"
       Beabadoobee, "Don't Get the Deal"
       My Chemical Romance, "The Ghost of You"
@@ -133,6 +138,7 @@ export const posts = [
       [05/2024]
       Kate Bush, "Army Dreamers"
       Cartel, "If I Fail"
+      John Mayer, "Stop This Train"
 
       [04/2024]
       Hideki Sakamoto, "Lifelight"
@@ -145,11 +151,13 @@ export const posts = [
       Taylor Swift, "Red"
 
       [11/2023]
+      Madonna, "Angel"
       Madonna, "Dress You Up"
 
       [10/2023]
       Flume, "Never Be Like You"
       Dua Lipa, "Pretty Please"
+      This Town Needs Guns, "Pig"
 
       [09/2023]
       Fridge, "Aphelion"
@@ -167,14 +175,14 @@ export const posts = [
 
       [06/2023]
       Taylor Swift, "I Wish You Would"
-      Silversun Pickups, "Substitution"
 
       [04/2023]
+      Chairlift, "Amanaemonesia"
       Radiohead, "Myxomatosis"
       Radiohead, "15 Step"
       Kid Cudi, "Red Eye"
 
-      [03/2023]
+      [03/2023] 
       Grimes, "Symphonia IX (My Wait Is U)"
       Boygenius, "$20"
       Chairlift, "Crying in Public"
@@ -251,6 +259,7 @@ export const posts = [
       Björk, "Enjoy"
 
       [11/2021]
+      Beabadoobee, "Talk"
       Weezer, "I Just Threw Out the Love of My Dreams"
       Weezer, "Billie Jean"
       Sneaker Pimps, "Perfect One"
