@@ -34,11 +34,13 @@ export const posts = [
       John Powell, "Mars Needs Moms Credits Suite"
       Electric Guest, "Dear to Me"
       Haim, "The Wire"
+      The 1975, "Heart Out"
 
       [01/2026]
       The 1975, "Pressure"
 
       [12/2025]
+      Fall Out Boy, "Sugar, We're Goin Down"
       We Were Promised Jetpacks, "The Mother We Share"
       NewJeans, "Hype Boy"
       Kaskade and Deadmau5, "Move For Me (DJ Hero 2 Remix)"
@@ -62,6 +64,7 @@ export const posts = [
       [08/2025]
       John Powell, "Test Drive"
       NewJeans, "OMG"
+      Illit, "Jellyous"
 
       [07/2025]
       Marquis Compressor, "Landing"
@@ -185,21 +188,20 @@ export const posts = [
       [12/2022]
       Haim, "Gasoline"
 
-      [11/2022]
-      Weezer, "I Just Threw Out the Love of My Dreams"
-      Weezer, "Billie Jean"
-
       [09/2022]
       Paramore, "Now"
 
       [08/2022]
       Kate Bush, "Running Up That Hill"
       Blood Cultures, "Indian Summer"
+      Blood Cultures, "Phospholipid"
+      Chris Vrenna, "Village of the Doomed"
 
       [07/2022]
       Wilco, "Jesus, Etc."
       Chairlift, "Sidewalk Safari"
       Mac DeMarco, "Freaking Out the Neighborhood"
+      Rainer Maria, "Lost, Dropped, and Cancelled"
 
       [06/2022]
       Akira Yamaoka, "White Noiz"
@@ -235,6 +237,7 @@ export const posts = [
       Everything But The Girl, "Before Today"
       Ellie Goulding, "Lights"
       Pillar Point, "Dove"
+      Paramore, "My Hero"
 
       [01/2022]
       Phantogram, "Fall in Love"
@@ -248,6 +251,8 @@ export const posts = [
       Björk, "Enjoy"
 
       [11/2021]
+      Weezer, "I Just Threw Out the Love of My Dreams"
+      Weezer, "Billie Jean"
       Sneaker Pimps, "Perfect One"
       Drake, "Little Bit"
       Drake, "Let's Call It Off"
@@ -268,10 +273,12 @@ export const posts = [
       Paramore, "Emergency"
       Mitski, "Washing Machine Heart"
       Paramore, "Playing God"
+      Flyleaf, "All Around Me"
 
       [07/2021]
       Paramore, "Decode"
       Mario Judah, "I Miss the Rage"
+      Paramore, "Ain't It Fun"
       Caroline Polachek, "So Hot You're Hurting My Feelings"
 
       [06/2021]
@@ -407,8 +414,10 @@ export const posts = [
       [03/2019]
       Wayne Shorter, "Footprints"
       Bobby Darin, "Beyond the Sea"
+      Silly Wizard, "Donald McGillavry / O'Neill's Cavalry March"
 
       [02/2019]
+      Home, "Resonance"
       Com Truise, "Brokendate"
 
       [01/2019]
