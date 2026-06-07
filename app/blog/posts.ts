@@ -2,7 +2,7 @@ export const posts = [
   {
     slug: "songs",
     title: "Songs by month",
-    date: "June 5, 2026",
+    date: "June 6, 2026",
     summary: "Favorite songs by month",
     content: `
 
@@ -183,15 +183,17 @@ export const posts = [
       Kid Cudi, "Red Eye"
 
       [03/2023] 
-      Grimes, "Symphonia IX (My Wait Is U)"
       Boygenius, "$20"
+      Grimes, "Symphonia IX (My Wait Is U)"
       Chairlift, "Crying in Public"
 
       [02/2023]
+      Carly Rae Jepsen, "This Kiss"
       Lady Gaga, "Telephone"
 
       [1/2023]
       Taylor Swift, "Style"
+      Taylor Swift, "Blank Space"
 
       [12/2022]
       Haim, "Gasoline"
