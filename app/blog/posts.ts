@@ -10,7 +10,7 @@ export const posts = [
       Caribou, "Second Chance"
       Basement Jaxx, "U Can't Stop Me"
       No Doubt, "Hella Good"
-      Azealia Banks, "Liquorice"
+      Circa Survive, "Oh, Hello"
 
       [05/2026]
       Big Boi, "Shutterbugg"
