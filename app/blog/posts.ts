@@ -11,6 +11,7 @@ export const posts = [
       Basement Jaxx, "U Can't Stop Me"
       No Doubt, "Hella Good"
       Circa Survive, "Oh, Hello"
+      As Tall as Lions, "Ghost of York"
 
       [05/2026]
       Big Boi, "Shutterbugg"
@@ -487,7 +488,17 @@ export const posts = [
     date: "April 27, 2026",
     summary: "Title",
     content: `
-      Ocean Network Express pink shipping containers. Cookies and cream–flavored anything. High Chuck Taylors All Star XX High Buckles. Almond Joy. Fruit in general. Walking. Checkered Vans slip-ons. Black backpacks. Unused buildings.
+      Ocean Network Express pink shipping containers.
+      Cookies and cream–flavored anything.
+      Chuck Taylor All Star XXHi Buckles.
+      Almond Joy.
+      Fruit in general.
+      Walking.
+      Checkered Vans slip-ons.
+      Black backpacks.
+      Unused buildings.
+      Fruity Pebbles.
+      Walking simulator video games
     `
   },
   {
