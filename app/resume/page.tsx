@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function ResumePage() {
-  const resumePath = path.join(process.cwd(), "public", "Resume_-_Marl_Jonson.pdf");
+  const resumePath = path.join(process.cwd(), "public", "Marl-Jonson-Resume.pdf");
   const stats = fs.statSync(resumePath);
   const lastUpdated = stats.mtime.toLocaleDateString();
 
