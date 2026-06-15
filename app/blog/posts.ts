@@ -13,7 +13,7 @@ export const posts = [
       Circa Survive, "Oh, Hello"
       As Tall as Lions, "Ghost of York"
 
-      [05/2026]
+      [05/2026]i
       Big Boi, "Shutterbugg"
       Bloc Party, "Banquet"
       Grimes, "Artangels"
