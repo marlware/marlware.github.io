@@ -4,7 +4,15 @@ export const posts = [
     title: "Songs by month",
     date: "June 6, 2026",
     summary: "Favorite songs by month",
-    content: `
+    content: `1. C418, "Aria Math"
+      2. Dave Brubeck, "Maria"
+      3. Underscores, "The Peace"
+      4. Haim, "If I Could Change Your Mind"
+      5. Kate Bush, "Army Dreamers"
+      6. Boygenius, "$20"
+      7. Jason Vai, "Vale of Tears"
+      8. Jai Paul, "Genevieve"
+      9. Chvrches, "The Mother We Share"
 
       [06/2026]
       Caribou, "Second Chance"
@@ -131,7 +139,7 @@ export const posts = [
       Amerie, "Pretty Brown"
 
       [06/2024]
-      Shoji Meguro, "Stray Sheep"
+      Shoji Meguro, "Also Sprach Brooks"
       Bonobo, "Kiara"
       Beabadoobee, "Don't Get the Deal"
       My Chemical Romance, "The Ghost of You"
@@ -234,6 +242,7 @@ export const posts = [
       Björk, "I Remember You"
       Jack Off Jill, "Vivica"
       Chairlift, "Met Before"
+      Paramore, "Rewind"
 
       [03/2022]
       Paramore, "Monster"
