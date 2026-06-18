@@ -4,15 +4,17 @@ export const posts = [
     title: "Songs by month",
     date: "June 6, 2026",
     summary: "Favorite songs by month",
-    content: `1. C418, "Aria Math"
-      2. Dave Brubeck, "Maria"
-      3. Underscores, "The Peace"
-      4. Haim, "If I Could Change Your Mind"
-      5. Kate Bush, "Army Dreamers"
-      6. Boygenius, "$20"
-      7. Jason Vai, "Vale of Tears"
-      8. Jai Paul, "Genevieve"
-      9. Chvrches, "The Mother We Share"
+    content: `Many of these songs I associate with vacations. Others bring back memories of being in school or at home or other places close by.
+
+    1. C418, "Aria Math"
+    2. Dave Brubeck, "Maria"
+    3. Underscores, "The Peace"
+    4. Haim, "If I Could Change Your Mind"
+    5. Kate Bush, "Army Dreamers"
+    6. Boygenius, "$20"
+    7. Jason Vai, "Vale of Tears"
+    8. Jai Paul, "Genevieve (Unfinished)"
+    9. Chvrches, "The Mother We Share"
 
       [06/2026]
       Caribou, "Second Chance"
@@ -479,8 +481,7 @@ export const posts = [
     title: "To fold 1,000 paper cranes",
     date: "May 4, 2026",
     summary: "Summary",
-    content: `
-      Samurai Matcha - fold 1,000 paper cranes
+    content: `Samurai Matcha - fold 1,000 paper cranes
       But other people have already folded 500 cranes
       But other people folded 1,000 cranes when they were my age
       But I wasn't taught how to fold a crane
@@ -493,11 +494,11 @@ export const posts = [
   },
   {
     slug: "things",
-    title: "Random things I like",
+    title: "Liking things",
     date: "April 27, 2026",
-    summary: "Title",
-    content: `
-      Ocean Network Express pink shipping containers.
+    summary: "Why do I like these things?",
+    content: `The Japanese shipping company Ocean Network Express boasts vibrant pink containers. For reference, almost all shipping containers are drab and rust-colored. ONE containers are pink to honor the chery blossom.
+
       Cookies and cream–flavored anything.
       Chuck Taylor All Star XXHi Buckles.
       Almond Joy.
@@ -507,7 +508,9 @@ export const posts = [
       Black backpacks.
       Unused buildings.
       Fruity Pebbles.
-      Walking simulator video games
+      Walking simulator video games.
+
+      I have always been drawn to colorful things with one uniform size. This includes rectangles (cereal boxes) and squares (music album cover artwork). These are typically entities that are mass-produced with one size for commercial profit but burst with ideas that are contained to four sides. Rectangles and squares can have their own little rectangles and squares of their own, in grids and stripes like flags and checkers.
     `
   },
   {
@@ -515,16 +518,34 @@ export const posts = [
     title: "Daily routine",
     date: "April 25, 2026",
     summary: "A simple daily routine for summer 2026",
-    content: `
-      4:45 AM: wake up
-      5:45 AM: leave for work
-      9:00 PM: go to sleep
+    content: `Days after I got the schedule for my summer internship, I imagined the daunting feeling of working from 6:30 AM to 5:00 PM. That was quite early. Usually I rolled out of bed at 8:00 AM for class and fell asleep at 11:00 PM scrolling on my phone.
+    
+    I realized it could be a good challenge to optimize the times I slept and the food I ate. Doing this would minimize the time I spent thinking about them. I felt this way because it meant more time thinking about my duties at work and other areas of personal growth.
 
-      How I fixed my personal schedule in Spring 2026
-      > sleep before 12 AM, naturally wake up before 8 AM
-      > eat dinner 3 hours before sleeping
-      > no candy
-      > eat a bunch of meat and fruit for breakfast
+    This was a typical day between January and May 2026:
+
+    07:30 AM: turn off first alarm
+    08:00 AM: turn off second alarm,, cook eggs, air fry toast, eat breakfast
+    09:00 AM: Class 1
+    12:00 PM: Class 2, then 3, then 4, all in one building (a brash, spur-of-the-moment scheduling decision I will never make again in my academic career)
+    04:30 PM: go to apartment and eat an early dinner
+    06:00 PM: Class 5
+    07:30 PM: go to apartment and eat more (still hungry)
+    11:30 PM: fall asleep doomscrolling
+
+    Now here is how my day goes:
+
+    4:45 AM: turn off first alarm
+    5:00 AM: turn off second alarm
+    5:45 AM: go to work
+    5:00 PM: go to apartment and eat an early dinner
+    8:30 PM: fall asleep reading a physical book (too early to get hungry again)
+
+    You may be asking yourself: how did I pull off this miraculous feat?
+
+    It all began with sleep. I rebooted my system by waking up at 4:00 AM. Just one time. Being up so early made me tired by afternoon. I felt like sleeping at 7:00 PM, so I did, and I woke up at 4:00 AM the next morning, and then I was knocked out at 7:00 PM again. As you can see, this cycle sustained itself. For personal reasons, I pushed it 1 hour forward.
+
+    My breakfasts are identical: Greek yogurt, chia seeds, nuts. I pour the seeds first, nuts second, honey third. When I snap out of my sleep at 5:00 AM, I anticipate this routine. Like how Steve Jobs put on a black turtleneck each morning, I open the same yogurt cup without objection. It's easy and I really like it! No more mental debate about eggs vs. leftovers, abc vs. xyz, etc.
     `
   },
   {
@@ -532,8 +553,7 @@ export const posts = [
     title: "Wander around school",
     date: "April 21, 2026",
     summary: "Wandering around campus is a joyful experience.",
-    content: `
-      One day I'll put these lists on a map using ArcGIS Online.
+    content: `One day I'll put these lists on a map using ArcGIS Online.
 
       ...
 
@@ -579,62 +599,22 @@ export const posts = [
     content: `
       I find the film studio Pixar fascinating. They are built like a software company with a variety of specialized roles (tech and non-tech) that contribute to the final product.
       
-      I watched the docuseries "Inside Pixar" before I determined Pixar was not the most ideal first employer for my career aspirations. From watching the series I was introduced to employees with intriguing, didn't-know-you-could-get-paid-for-that roles.
+      Before I determined Pixar was not my ideal employer, and that my career aspirations could grow elsewhere, I watched some episodes of the series "Inside Pixar" on Disney Plus. It was a fun show. It introduced me to people working at Pixar who had intriguing, didn't-know-you-could-get-paid-for-that roles.
       
       ...
 
-      Jessica Heidt, script supervisor
-      "implement information you have that no one else has"
+      Jessica Heidt worked for Pixar as script supervisor. Her advice:
+      
+      [implement information you have that no one else has]
 
-      She implemented a gender-balanced script working on Cars 3.
+      She implemented a gender-balanced script working on Cars 3. She used her software skills to automate parts of this development.
 
       ...
 
-      Barney Jones, music editor
+      Barney Jones worked for Pixar as a music editor.
       "be comfortable with ambiguity"
 
       His duty is to interpret the animators' abstract feelings about the best musical representations of their visible work.
-    `,
-  },
-  {
-    slug: "katsdn",
-    title: ".NET ecosystem components as Katseye members",
-    date: "March 16, 2026",
-    summary: "Unorthodox internship prep",
-    content: `
-      In March, I got a call from my recruiter offering me an internship at Mission Support and Test Services in North Las Vegas. I graciously accepted, understanding that there was much to teach myself about the great big .NET ecosystem.
-      
-      Intelligently, I realized no method can be more effective than designing this write-up. My efforts will undoubtedly inspire Hybe to tour Katseye in Vegas this summer and give me somewhere to go besides sitting around in my single at UNLV.
-
-      ...
-
-      Daniela is ASP.NET Core
-      ASP.NET Core is a major pillar of the .NET ecosystem. It is a web framework for building modern cloud-based applications. Daniela is similarly the backbone of the group's choreography.
-      
-      ...
-
-      Manon is Blazor
-      Blazor is a web framework for building interactive web applications with C#. Manon and Blazor are each the unique visual center of their group. Blazor is overshadowed by the more popular React, Vue, and Angular; Manon found success despite her non-traditional come-up with no background in dance performance.
-      
-      ...
-
-      Lara is .NET Runtime
-      .NET Runtime is the runtime environment for .NET applications. Lara is a vocal powerhouse. She isa technical engine whose singing ability stands out in parallel to .NET Runtime's ability to handle CPU-intensive tasks.
-      
-      ...
-
-      Megan is .NET MAUI (Multi-App UI)
-      MAUI is a framework for building cross-platform mobile and desktop applications. Megan is energetic and adaptable to the group's singing and dancing needs. Megan and MAUI both have a history of being a little awkward.
-      
-      ...
-
-      Sophia is Windows Presentation Foundation (WPF)
-      Just as WPF represents top-tier traditional desktop UI development, Sophia is the de facto leader of the group and one of the more senior members.
-      
-      ...
-
-      Yoonchae is NuGet package manager
-      Yoonchae is the package manager for .NET. She is responsible for managing and distributing libraries and tools across the .NET ecosystem. Just as Yoonchae is equally proficient at singing and dancing, NuGet is an "all-in-one" .NET solution. It can download code and handle versioning and dependency management. Yoonchae is a crucial link to Katseye's (small) Korean fanbase as NuGet is commonly the first interaction for a .NET developer.
     `,
   }
 ];
