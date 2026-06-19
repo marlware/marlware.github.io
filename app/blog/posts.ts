@@ -4,7 +4,7 @@ export const posts = [
     title: "Songs by month",
     date: "June 19, 2026",
     summary: "Favorite songs by month",
-    content: `Many of these songs I associate with vacations. Others bring back memories of being in school or at home or other places close by.
+    content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself.
 
     1. C418, "Aria Math"
     2. Dave Brubeck, "Maria"
@@ -20,7 +20,6 @@ export const posts = [
     Caribou, "Second Chance"
     Basement Jaxx, "U Can't Stop Me"
     No Doubt, "Hella Good"
-    Circa Survive, "Oh, Hello"
     As Tall as Lions, "Ghost of York"
 
     [05/2026]
@@ -81,11 +80,12 @@ export const posts = [
 
     [07/2025]
     Marquis Compressor, "Landing"
+    Jai Paul, "Jasmine (Demo)"
     Katseye, "Gameboy"
     Chairlift, "Show U Off"
     
     [06/2025]
-    Brooke Valentine, "Long As You Come Home"
+    The Internet, "Dontcha"
     LCD Soundsystem, "North American Scum"
     Griff, "Hiding Alone"
     Katseye, "Gnarly"
