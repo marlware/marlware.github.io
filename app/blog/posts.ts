@@ -124,6 +124,7 @@ export const posts = [
       Panda Bear, "Mr Noah"
 
       [10/2024]
+      Gustav Holst, "Jupiter"
       Animal Collective, "My Girls"
       Animal Collective, "Summertime Clothes"
       Animal Collective, "Bluish"
@@ -597,24 +598,17 @@ export const posts = [
     date: "April 18, 2026",
     summary: "Exploring the creative roles at Pixar that shape storytelling and music.",
     content: `
-      I find the film studio Pixar fascinating. They are built like a software company with a variety of specialized roles (tech and non-tech) that contribute to the final product.
+      I find the film studio Pixar fascinating. They are built like a software company with a variety of specialized roles in technology, art, and business that contribute to their products (the movies).
       
       Before I determined Pixar was not my ideal employer, and that my career aspirations could grow elsewhere, I watched some episodes of the series "Inside Pixar" on Disney Plus. It was a fun show. It introduced me to people working at Pixar who had intriguing, didn't-know-you-could-get-paid-for-that roles.
       
       ...
 
-      Jessica Heidt worked for Pixar as script supervisor. Her advice:
-      
-      [implement information you have that no one else has]
-
-      She implemented a gender-balanced script working on Cars 3. She used her software skills to automate parts of this development.
+      Jessica Heidt worked for Pixar as script supervisor. Her advice: implement information you have that no one else has. She implemented a gender-balanced script working on Cars 3. She used her software skills to automate parts of this development.
 
       ...
 
-      Barney Jones worked for Pixar as a music editor.
-      "be comfortable with ambiguity"
-
-      His duty is to interpret the animators' abstract feelings about the best musical representations of their visible work.
+      Barney Jones worked for Pixar as a music editor. His advice: be comfortable with ambiguity. His duty is to interpret the animators' abstract feelings about the best musical representations of their visible work. I feel like this relates to software engineering and business application development in the sense that the core value add comes from understanding how the users (viewers) will best experience the end product and what it takes to get to that development point.
     `,
   }
 ];
