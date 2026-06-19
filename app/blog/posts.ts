@@ -2,7 +2,7 @@ export const posts = [
   {
     slug: "songs",
     title: "Songs by month",
-    date: "June 6, 2026",
+    date: "June 19, 2026",
     summary: "Favorite songs by month",
     content: `Many of these songs I associate with vacations. Others bring back memories of being in school or at home or other places close by.
 
@@ -114,6 +114,7 @@ export const posts = [
     Basement Jaxx, "Breakaway"
 
     [12/2024]
+    Rachel Zegler and Ansel Elgort, "Balcony Scene (Tonight)"
     Gracie Abrams, "I Love You, I'm Sorry"
     Gracie Abrams, "Us"
     Gracie Abrams, "That's So True"
@@ -163,11 +164,15 @@ export const posts = [
 
     [01/2024]
     Beabadoobee, "10:36"
+    Taylor Swift, "Treacherous"
+
+    [12/2023]
     Taylor Swift, "Red"
 
     [11/2023]
     Madonna, "Angel"
     Madonna, "Dress You Up"
+    Taylor Swift, "Haunted"
 
     [10/2023]
     Flume, "Never Be Like You"
@@ -175,9 +180,9 @@ export const posts = [
     This Town Needs Guns, "Pig"
 
     [09/2023]
+    Sampha, "Plastic 100°C"
     Fridge, "Aphelion"
     R.E.M., "Losing My Religion"
-    Sampha, "Plastic 100°C"
 
     [08/2023]
     Nick Jonas, "Jealous"
@@ -384,9 +389,11 @@ export const posts = [
     Kanye West, "Flashing Lights"
 
     [05/2020]
+    Eminem, "It's O.K."
     Zane Alexander, "Nine"
     J. Cole, "False Prophets"
     Philip George, "Wish You Were Mine"
+    Eminem, "If I Had"
 
     [04/2020]
     Eminem, "Tonite"
@@ -395,6 +402,7 @@ export const posts = [
     Michael Sembello, "Maniac"
 
     [03/2020]
+    Eminem, "Backstabber"
     Silk City and Dua Lipa, "Electricity"
     Drake, "One Dance"
     John Pizzarelli, "I Only Want Some"
@@ -441,6 +449,7 @@ export const posts = [
     Sam Smith and Normani, "Dancing with a Stranger"
     SZA, "Broken Clocks"
     Modjo, "Lady (Hear Me Tonight)"
+    Eminem, "313"
 
     [06/2019]
     Frank Sinatra, "The Way You Look Tonight"
