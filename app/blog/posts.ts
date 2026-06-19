@@ -230,10 +230,12 @@ export const posts = [
     [07/2022]
     Wilco, "Jesus, Etc."
     Chairlift, "Sidewalk Safari"
+    Kanye West, "Late"
     Mac DeMarco, "Freaking Out the Neighborhood"
     Rainer Maria, "Lost, Dropped, and Cancelled"
 
     [06/2022]
+    Talib Kweli, "Get By"
     Big Boi, "Objectum Sexuality"
     Clams Casino, "I'm God"
     Aphex Twin, "Xtal"
@@ -250,6 +252,7 @@ export const posts = [
     Shinkichi Mitsumune, "Fall in Love"
 
     [04/2022]
+    Jay-Z, "Already Home"
     Nas, "Cherry Wine"
     Björk, "I Remember You"
     Jack Off Jill, "Vivica"
@@ -276,6 +279,7 @@ export const posts = [
     Maroon 5, "Makes Me Wonder"
 
     [12/2021]
+    The Game, "Wouldn't Get Far"
     Japanese Breakfast, "Be Sweet"
     Jai Paul, "Genevieve (Unfinished)"
     Haim, "If I Could Change Your Mind"
@@ -365,6 +369,7 @@ export const posts = [
     A Tribe Called Quest, "Check the Rhime"
     Blank Banshee, "Ammonia Clouds"
     Nas, "The World Is Yours"
+    Reap, "I'm Leaving"
 
     [07/2020]
     Breakbot, "Be Mine Tonight"
