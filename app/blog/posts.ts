@@ -511,15 +511,26 @@ export const posts = [
     title: "To fold 1,000 paper cranes",
     date: "May 4, 2026",
     summary: "Summary",
-    content: `Samurai Matcha - fold 1,000 paper cranes
-      But other people have already folded 500 cranes
-      But other people folded 1,000 cranes when they were my age
-      But I wasn't taught how to fold a crane
-      But my cranes are constructed all sloppy
-      But my cranes don't look good
-      But I want to fold paper airplanes instead
-      But what if I fold 100 paper cranes and they're not good
-      But what if I get to crane 999 and realize I wasn't supposed to fold cranes
+    content: `Samurai Matcha is a YouTuber who makes videos about minimalism. Minimalism the idea of living with less stuff. In a video, he told an anecdote about folding 1,000 paper cranes. I thought the anecdote was interesting; I saw its parallels to my own doubts about my career.
+
+    "Other people have already folded 500 cranes."
+    "Other people folded 1,000 cranes when they were my age"
+    "But I wasn't taught how to fold a crane."
+
+    Software developers teach themselves how to write software and design systems.
+
+    "But my cranes are constructed all sloppy."
+
+    The common retort is that no one gets it right on the first try, or first 100 or 1,000 tries. Another complaint is how the paper industry is accelerating, no one wants to see a sloppy crane, etc. Showing one's sloppy cranes in public view suggests the creator fails to work hard or understand the bigger picture of how cranes should be crisp and neat. However, the paper-folding company wants to hire a folder who has shown enthusiasm for becoming a better paper folder
+
+    But my cranes don't look good
+
+    But I want to fold paper airplanes instead
+
+    Maybe you don't know if you want to be a crane-folder or an airplane-folder. Regardless, you need to build the skill of creasing paper. More importantly, it's good to become so familiar with creasing paper that the friction of self-doubt (do I belong in the paper industry) is removed.
+
+    But what if I fold 100 paper cranes and they're not good
+    But what if I get to crane 999 and realize I wasn't supposed to fold cranes
     `
   },
   {
@@ -622,22 +633,18 @@ export const posts = [
     `
   },
   {
-    slug: "pixadv",
+    slug: "pixar-advice",
     title: "Pixar advice",
     date: "April 18, 2026",
     summary: "Exploring the creative roles at Pixar that shape storytelling and music.",
     content: `
-      I find the film studio Pixar fascinating. They are built like a software company with a variety of specialized roles in technology, art, and business that contribute to their products (the movies).
+      I find the film studio Pixar fascinating. Pixar is built like a software company with a variety of specialized roles in technology, art, and business that contribute to their products (the movies). Pixar's history is rooted in computer science and sprouted from a desire to generate a film using a computer.
       
       Before I determined Pixar was not my ideal employer, and that my career aspirations could grow elsewhere, I watched some episodes of the series "Inside Pixar" on Disney Plus. It was a fun show. It introduced me to people working at Pixar who had intriguing, didn't-know-you-could-get-paid-for-that roles.
-      
-      ...
 
-      Jessica Heidt worked for Pixar as script supervisor. Her advice: implement information you have that no one else has. She implemented a gender-balanced script working on Cars 3. She used her software skills to automate parts of this development.
+      Jessica Heidt worked for Pixar as script supervisor. Her advice: implement information you have that no one else has. Jessica recognized that the Cars 3 script was dominated by male characters. So, she implemented a gender-balanced script working on Cars 3. She used her software skills to automate parts of this development.
 
-      ...
-
-      Barney Jones worked for Pixar as a music editor. His advice: be comfortable with ambiguity. His duty is to interpret the animators' abstract feelings about the best musical representations of their visible work. I feel like this relates to software engineering and business application development in the sense that the core value add comes from understanding how the users (viewers) will best experience the end product and what it takes to get to that development point.
+      Barney Jones worked for Pixar as a music editor. Barney's advice: become comfortable with ambiguity. Barney interprets the abstract feelings that animators possess about music that complements their visual work. This relates to software engineering and business application development. The core "value add" of Barney's work is his innate understanding of how the music will let a viewer best experience the end product: the visuals. And he knows how to do the work to get from point A (visual with no music) to point B (visual with music).
     `,
   }
 ];
