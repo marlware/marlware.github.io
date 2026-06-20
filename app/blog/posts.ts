@@ -12,7 +12,7 @@ export const posts = [
     4. Haim, "If I Could Change Your Mind"
     5. Kate Bush, "Army Dreamers"
     6. Boygenius, "$20"
-    7. Jason Vai, "Vale of Tears"
+    7. Jason Tai, "Vale of Tears"
     8. Jai Paul, "Genevieve (Unfinished)"
     9. Chvrches, "The Mother We Share"
 
