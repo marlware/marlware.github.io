@@ -4,7 +4,7 @@ export const posts = [
     title: "Songs by month",
     date: "June 19, 2026",
     summary: "Favorite songs by month",
-    content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself.
+    content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself
 
     1. C418, "Aria Math"
     2. Dave Brubeck, "Maria"
@@ -185,6 +185,7 @@ export const posts = [
     R.E.M., "Losing My Religion"
 
     [08/2023]
+    Carly Rae Jepsen, "Julien"
     Nick Jonas, "Jealous"
     Rihanna, "If It's Lovin' That You Want"
 
@@ -204,8 +205,9 @@ export const posts = [
 
     [03/2023] 
     Boygenius, "$20"
-    Grimes, "Symphonia IX (My Wait Is U)"
+    Grimes, "Visiting Statue"
     Chairlift, "Crying in Public"
+    Amerie, "Hate2LoveU"
 
     [02/2023]
     Carly Rae Jepsen, "This Kiss"
@@ -217,6 +219,9 @@ export const posts = [
 
     [12/2022]
     Haim, "Gasoline"
+
+    [11/2022]
+    Grimes, "Circumambient"
 
     [10/2022]
     Common, "Go!"
@@ -318,6 +323,7 @@ export const posts = [
     Flyleaf, "All Around Me"
 
     [07/2021]
+    Cobra Starship, "You Make Me Feel"
     Paramore, "Decode"
     Mario Judah, "I Miss the Rage"
     Paramore, "Ain't It Fun"
@@ -545,7 +551,9 @@ export const posts = [
       Almond Joy.
       Fruit in general.
       Walking.
-      Checkered Vans slip-ons.
+
+      I think checkered Vans slip-ons go with anything. A black and cream colorway is two neutral colors, so it reduces the mental overhead of matching the clothes to the shoes, in a "Steve Jobs black turtleneck" manner. Though I've yet to use the non-shoe-matching time I've saved to reinvent the wheel at a global scale...
+
       Black backpacks.
       Unused buildings.
       Fruity Pebbles.
