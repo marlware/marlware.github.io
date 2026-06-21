@@ -339,6 +339,7 @@ export const posts = [
     JPEGMafia, "1539 N. Calvert"
 
     [02/2022]
+    Santigold, "Disparate Youth"
     Everything But The Girl, "Before Today"
     Ellie Goulding, "Lights"
     Pillar Point, "Dove"
@@ -364,6 +365,7 @@ export const posts = [
     Drake, "Little Bit"
     Drake, "Let's Call It Off"
     Kid Cudi, "Mr. Rager"
+    Nicki Minaj, "Moment 4 Life"
 
     [10/2021]
     Bôa, "Little Miss"
@@ -386,6 +388,7 @@ export const posts = [
     Cobra Starship, "You Make Me Feel"
     Paramore, "Decode"
     Mario Judah, "I Miss the Rage"
+    Drake, "Fancy"
     Paramore, "Ain't It Fun"
     Caroline Polachek, "So Hot You're Hurting My Feelings"
 
