@@ -1,10 +1,69 @@
 export const posts = [
   {
+    slug: "ai-writing",
+    title: "Proof AI wrote it",
+    date: "June 21, 2026",
+    summary: "Tips and tricks to remain vigilant",
+    content: `
+    
+    It's not X. It's Y.
+    It's not just X. It's Y, and some more words here.
+    honestly, genuinely, quietly, consistently
+
+    [At some point in the past], foo was bar.
+    Now, foo is baz.
+
+    [Noun] starts [verbing]. [Noun] starts [verbing]. Passive voice. And suddenly,
+    - Bullet point
+    - Bullet point
+    A isn't X—A is Y.
+
+    B isn't X.
+    B is Y.
+    Anaphora.
+    Anaphora.
+    Anaphora.
+
+    `
+  },
+  {
+    slug: "motivation",
+    title: "\"Motivational statements don\'t work\"",
+    date: "June 21, 2026",
+    summary: "Summary",
+    content: `Motivation shouldn't be ruthless.
+  
+    Aphorism:
+    The best time to plant a tree is twenty years ago. The second best time is now.
+
+    The last thing I want to think about when doing something difficult is how easy it could have been.
+
+    Aphorism:
+    "One day or day one."
+
+    Again, I don't want to be nagged about how easy it could've been.
+
+    Aphorism:
+    Do it scared; do it tired; do it unsure.
+
+    Aphorism:
+    "Done is better than perfect."
+
+    I don't want to start a task feeling like my work is substandard the entire time.
+
+    Aphorism:
+    "Success is hard. Struggle is hard. Choose your struggle." (and similar varieties)
+
+    Everyone experiences success and struggle so frequently that it doesn't make sense to filter them.
+
+    `
+  },
+  {
     slug: "songs",
     title: "Songs by month",
     date: "June 19, 2026",
     summary: "Favorite songs by month",
-    content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself
+    content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself between the ages of 13 and 19.
 
     1. C418, "Aria Math"
     2. Dave Brubeck, "Maria"
@@ -143,6 +202,7 @@ export const posts = [
     Silversun Pickups, "Substitution"
     Amerie, "Why Don't We Fall in Love"
     Amerie, "Pretty Brown"
+    Clairo, "Juna"
 
     [06/2024]
     Shoji Meguro, "Also Sprach Brooks"
@@ -517,7 +577,7 @@ export const posts = [
     title: "To fold 1,000 paper cranes",
     date: "May 4, 2026",
     summary: "Summary",
-    content: `Samurai Matcha is a YouTuber who makes videos about minimalism. Minimalism the idea of living with less stuff. In a video, he told an anecdote about folding 1,000 paper cranes. I thought the anecdote was interesting; I saw its parallels to my own doubts about my career.
+    content: `Samurai Matcha is a YouTuber who makes videos about minimalism. Minimalism the idea of living with less stuff. In a video, he told an anecdote about folding 1,000 paper cranes. I thought the anecdote was interesting; I saw its parallels to my own doubts about my career. Common patterns of thinking:
 
     "Other people have already folded 500 cranes."
     "Other people folded 1,000 cranes when they were my age"
@@ -533,10 +593,15 @@ export const posts = [
 
     But I want to fold paper airplanes instead
 
-    Maybe you don't know if you want to be a crane-folder or an airplane-folder. Regardless, you need to build the skill of creasing paper. More importantly, it's good to become so familiar with creasing paper that the friction of self-doubt (do I belong in the paper industry) is removed.
+    Maybe you don't know if you want to be a crane-folder or an airplane-folder. Regardless, you need to build the skill of creasing paper. More importantly, it's good to become so darn familiar with the ritual of creasing paper that any personal friction of self-doubt (do I belong in the paper industry) is removed.
 
-    But what if I fold 100 paper cranes and they're not good
-    But what if I get to crane 999 and realize I wasn't supposed to fold cranes
+    "But what if I fold 100 paper cranes and they're not good?"
+
+    Unsubstantial retorts: Good is subjective. (Vague answer.)
+
+    "What if I get to crane 999 and realize I wasn't supposed to fold cranes?"
+
+    Unsubstantial retorts: You have to grow to discover what you want to do. (Assumes a "snapping point" where with enough time sustained floating above the waters of effort, the discovery materializes out of thin air.)
     `
   },
   {
