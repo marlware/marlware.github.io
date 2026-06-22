@@ -4,7 +4,7 @@ export const posts = [
     title: "Proof AI wrote it",
     date: "June 21, 2026",
     summary: "Tips and tricks to remain vigilant",
-    content: `
+    content: `I come across a lot of AI-written content on LinkedIn:
     
     It's not X. It's Y.
     It's not just X. It's Y, and some more words here.
@@ -31,7 +31,7 @@ export const posts = [
     title: "\"Motivational statements don\'t work\"",
     date: "June 21, 2026",
     summary: "Summary",
-    content: `Motivation shouldn't be ruthless.
+    content: `I used to save hundreds of screenshots of motivational quotes from Instagram, TikTok, and Reddit. I'd turn on the captions when a content creator said a phrase that sounded worthwhile. But then I'd have a trove of unread screenshots.
   
     Aphorism:
     The best time to plant a tree is twenty years ago. The second best time is now.
@@ -41,7 +41,7 @@ export const posts = [
     Aphorism:
     "One day or day one."
 
-    Again, I don't want to be nagged about how easy it could've been.
+    Again, I don't want to be reminded about how easy it could've been.
 
     Aphorism:
     Do it scared; do it tired; do it unsure.
@@ -65,6 +65,7 @@ export const posts = [
     summary: "Favorite songs by month",
     content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself between the ages of 13 and 19.
 
+    [Favorites]
     1. C418, "Aria Math"
     2. Dave Brubeck, "Maria"
     3. Underscores, "The Peace"
@@ -89,14 +90,14 @@ export const posts = [
 
     [04/2026]
     Underscores, "The Peace"
-    Circa Survive, "The Glorious Nosebleed"
+    Circa Survive, "The Great Golden Baby"
     Daft Punk, "Face to Face"
     Kaskade, "Move For Me"
 
     [03/2026]
     Sophie, "Bipp"
     Underscores, "Do It"
-    Circa Survive, "The Great Golden Baby"
+    Circa Survive, "The Glorious Nosebleed"
     Azealia Banks, "Slow Hands"
 
     [02/2026]
@@ -163,9 +164,11 @@ export const posts = [
 
     [03/2025]
     Nicholas Semrad, "Crush"
+    Big Boi, "Higher Res"
 
     [02/2025]
     Maroon 5, "Kiwi"
+    Oklou, "Family and Friends"
 
     [01/2025]
     Pom Pom Squad, "Head Cheerleader"
@@ -256,10 +259,10 @@ export const posts = [
 
     [06/2023]
     Taylor Swift, "I Wish You Would"
+    Rachel Prancer and Pandi, "The Lake"
 
     [04/2023]
     Chairlift, "Amanaemonesia"
-    Radiohead, "Myxomatosis"
     Radiohead, "15 Step"
     Kid Cudi, "Red Eye"
 
@@ -325,9 +328,11 @@ export const posts = [
     Jay-Z, "Already Home"
     Nas, "Cherry Wine"
     Björk, "I Remember You"
+    Radiohead, "Myxomatosis"
     Jack Off Jill, "Vivica"
     Chairlift, "Met Before"
     Paramore, "Rewind"
+    Coldplay, "Talk"
 
     [03/2022]
     Paramore, "Monster"
@@ -375,14 +380,16 @@ export const posts = [
 
     [09/2021]
     Bôa, "Duvet"
+    Flyleaf, "All Around Me"
     Death Grips, "Punk Weight"
     Faye Webster, "A Dream with a Baseball Player"
+    Magdalena Bay, "Secrets (Your Fire)"
 
     [08/2021]
     Paramore, "Emergency"
     Mitski, "Washing Machine Heart"
     Paramore, "Playing God"
-    Flyleaf, "All Around Me"
+    Frou Frou, "A New Kind of Love"
 
     [07/2021]
     Cobra Starship, "You Make Me Feel"
@@ -402,8 +409,10 @@ export const posts = [
     Chvrches, "The Mother We Share"
     Chvrches, "Gun"
     Foster the People, "Sit Next to Me"
+    Dev Lemons and Whose Rules, "Guessing Games"
 
     [04/2021]
+    Grimes, "Kill V. Maim"
     Paramore, "Pool"
     Paramore, "Told You So"
     Grimes, "Oblivion"
