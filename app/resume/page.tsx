@@ -23,7 +23,7 @@ export default function ResumePage() {
 
         <div className="mt-6 rounded-lg border border-zinc-800 bg-zinc-950/70 p-4">
           <a
-            href="/Resume_-_Marl_Jonson.pdf"
+            href="/Marl-Jonson-Resume.pdf"
             download
             className="text-blue-400 hover:text-white"
           >

@@ -21,8 +21,6 @@ export const posts = [
     B isn't X.
     B is Y.
     Anaphora.
-    Anaphora.
-    Anaphora.
 
     `
   },
