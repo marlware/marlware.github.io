@@ -1,5 +1,17 @@
 # marl.dev
-My personal Next.js website with a blog and my experiences, technical projects, and resume PDF.
+My personal Next.js website with a blog, my technical projects, and my work experience.
+
+## Website features
+### Blog
+Showcases my thoughts on various topics.
+### Projects
+Showcases my past, present, and future projects.
+### Resume
+Offers the ability to download my resume.
+### LinkedIn
+Redirects to my private LinkedIn profile.
+### GitHub
+Redirects to my GitHub profile.
 
 <!--
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
