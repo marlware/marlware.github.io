@@ -2,7 +2,7 @@ export const projects = [
   {
     slug: "queue-cumber",
     title: "Queue-Cumber, Distributed .NET Health Tech Pipeline",
-    status: "Completed",
+    status: "TBA",
     date: "2025-2026",
     summary: "A high-throughput health tech pipeline using .NET, ASP.NET Core, and healthcare compliance standards.",
     content: `
@@ -20,7 +20,7 @@ export const projects = [
   {
     slug: "bento-boxed",
     title: "Bento Boxed, Secure Java & Spring Boot FHIR API",
-    status: "Completed",
+    status: "TBA",
     date: "2025-2026",
     summary: "A secure backend microservice for mapping legacy clinical datasets into compliant FHIR resource endpoints.",
     content: `
@@ -38,7 +38,7 @@ export const projects = [
   {
     slug: "mockaron",
     title: "Mockaron, Cross-Platform Clinical Portal",
-    status: "Completed",
+    status: "TBA",
     date: "2025-2026",
     summary: "A responsive healthcare portal with React web dashboard, Android app, and automated CI testing.",
     content: `
