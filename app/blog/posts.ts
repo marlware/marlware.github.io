@@ -105,6 +105,8 @@ export const posts = [
     The 1975, "Heart Out"
 
     [01/2026]
+    Yeng Constantino, "Hawak Kamay"
+    Bamboo, "Noypi"
     The 1975, "Pressure"
 
     [12/2025]
@@ -258,6 +260,7 @@ export const posts = [
     [06/2023]
     Taylor Swift, "I Wish You Would"
     Rachel Prancer and Pandi, "The Lake"
+    Kate Bush, "Experiment IV"
 
     [04/2023]
     Chairlift, "Amanaemonesia"
@@ -294,6 +297,7 @@ export const posts = [
 
     [08/2022]
     Kate Bush, "Running Up That Hill"
+    Kate Bush, "Cloudbusting"
     Blood Cultures, "Indian Summer"
     Blood Cultures, "Phospholipid"
     Chris Vrenna, "Village of the Doomed"
@@ -384,6 +388,7 @@ export const posts = [
     Magdalena Bay, "Secrets (Your Fire)"
 
     [08/2021]
+    Caroline Polachek, "So Hot You're Hurting My Feelings"
     Paramore, "Emergency"
     Mitski, "Washing Machine Heart"
     Paramore, "Playing God"
@@ -395,7 +400,7 @@ export const posts = [
     Mario Judah, "I Miss the Rage"
     Drake, "Fancy"
     Paramore, "Ain't It Fun"
-    Caroline Polachek, "So Hot You're Hurting My Feelings"
+    Frou Frou, "Let Go"
 
     [06/2021]
     Grimes, "Kill V. Maim"
@@ -445,6 +450,7 @@ export const posts = [
     Riton and Kah-Lo, "Fake ID"
     MF Doom, "Raid"
     Aesop Rock, "None Shall Pass"
+    A Tribe Called Quest, "Award Tour"
 
     [08/2020]
     A Tribe Called Quest, "Check the Rhime"
@@ -499,6 +505,8 @@ export const posts = [
     Major Lazer, "Lean On"
 
     [11/2019]
+    Drake, "Too Good"
+    Drake, "Controlla"
     Billie Eilish, "Everything I Wanted"
     XXXTentacion, "Riot"
     Krono, "Dancin"
@@ -566,6 +574,7 @@ export const posts = [
     Naoto Kubo, "Jump Up, Super Star!"
 
     [08/2018]
+    Drake, "God's Plan"
     Kendrick Lamar and SZA, "All the Stars"
 
     [07/2018]
