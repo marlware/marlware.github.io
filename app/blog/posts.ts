@@ -1,5 +1,14 @@
 export const posts = [
   {
+    slug: "dream-jobs",
+    title: "Dream jobs",
+    date: "June 26, 2026",
+    summary: "Tips and tricks to remain vigilant",
+    content: `1. Line counter at Harry Potter and the Forbidden Journey
+    2. Frozen yogurt shop manager
+    `
+  },
+  {
     slug: "ai-writing",
     title: "Proof AI wrote it",
     date: "June 21, 2026",
@@ -82,6 +91,7 @@ export const posts = [
     Boygenius, "Not Strong Enough"
     Yaeji, "With a Hammer"
     Bonobo, "1009"
+    Olivia Rodrigo, "Purple"
 
     [05/2026]
     Big Boi, "Shutterbugg"
