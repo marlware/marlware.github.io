@@ -79,6 +79,9 @@ export const posts = [
     Basement Jaxx, "U Can't Stop Me"
     No Doubt, "Hella Good"
     As Tall as Lions, "Ghost of York"
+    Boygenius, "Not Strong Enough"
+    Yaeji, "With a Hammer"
+    Bonobo, "1009"
 
     [05/2026]
     Big Boi, "Shutterbugg"
