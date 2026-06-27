@@ -448,11 +448,13 @@ export const posts = [
     Melanie Martinez, "Strawberry Shortcake"
 
     [11/2020]
+    Linkin Park, "In the End"
     MF Doom, "Fancy Clown"
     The Dave Brubeck Quartet, "Maria"
     A Tribe Called Quest, "8 Million Stories"
 
     [10/2020]
+    Melanie Martinez, "Brain & Heart"
     Linkin Park, "Numb"
     Melanie Martinez, "Piggyback"
     Basement Jaxx, "Romeo"
