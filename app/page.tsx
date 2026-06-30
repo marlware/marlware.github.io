@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Gaegu } from 'next/font/google';
+import { Instrument_Serif } from 'next/font/google';
 
-const gaegu = Gaegu({ weight: '400', subsets: ['latin'] });
+const gaegu = Instrument_Serif({ weight: '400', subsets: ['latin'] });
 
 const links = [
   { label: "blog", href: "/blog"},
