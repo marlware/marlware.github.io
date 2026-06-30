@@ -262,6 +262,7 @@ export const posts = [
 
     [08/2023]
     Carly Rae Jepsen, "Julien"
+    Aespa, "Better Things"
     Nick Jonas, "Jealous"
     Rihanna, "If It's Lovin' That You Want"
 
