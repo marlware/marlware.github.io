@@ -4,8 +4,9 @@ export const posts = [
     title: "Dream jobs",
     date: "June 26, 2026",
     summary: "Tips and tricks to remain vigilant",
-    content: `1. Line counter at Harry Potter and the Forbidden Journey
-    2. Frozen yogurt shop manager
+    content: `1. Yogurtland area manager
+    2. Studio Tour guide, Universal Studios Hollywood
+    3. Line counter, Harry Potter and the Forbidden Journey, Universal Studios Hollywood
     `
   },
   {
