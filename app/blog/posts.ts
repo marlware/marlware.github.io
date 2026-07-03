@@ -547,6 +547,7 @@ export const posts = [
     Benny Blanco, Halsey, and Khalid, "Eastside"
 
     [07/2019]
+    Hello Meteor, "Coral Blush"
     Sam Smith and Normani, "Dancing with a Stranger"
     SZA, "Broken Clocks"
     Modjo, "Lady (Hear Me Tonight)"
@@ -599,6 +600,7 @@ export const posts = [
     Calvin Harris and Dua Lipa, "One Kiss"
 
     [06/2018]
+    Khalid and Normani, "Love Lies"
     Marshmello and Anne-Marie, "Friends"
 
     [05/2018]
