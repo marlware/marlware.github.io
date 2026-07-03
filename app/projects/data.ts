@@ -1,56 +1,42 @@
 export const projects = [
   {
-    slug: "queue-cumber",
-    title: "Queue-Cumber, Distributed .NET Health Tech Pipeline",
-    status: "TBA",
-    date: "2025-2026",
-    summary: "A high-throughput health tech pipeline using .NET, ASP.NET Core, and healthcare compliance standards.",
+    slug: "bloom-filter",
+    title: "Bloom Filter, Healthcare Lakehouse",
+    status: "July 2026",
+    date: "2026",
+    summary: "A Spark Structured Streaming pipeline for healthcare data, backed by Delta Lake and exposed through FastAPI.",
     content: `
-      Queue-Cumber is a distributed health tech pipeline engineered to process high volumes of simulated clinical data payloads securely and efficiently.
+      Bloom Filter is a healthcare lakehouse pipeline built to ingest, clean, and serve HL7 FHIR data at scale.
+
+      [solo project]
 
       Key capabilities:
-      - RESTful Web API using ASP.NET Core processing 5,000+ simulated daily clinical payloads
-      - HL7 FHIR R4 integration for standardized health record formats
-      - 25% query efficiency optimization through asynchronous message queues and repository patterns
-      - JWT and role-based access tokens for enterprise security and healthcare compliance
+      - Spark Structured Streaming pipeline ingesting HL7 FHIR resources into Bronze, Silver, and Gold Delta Lake tables
+      - Reusable PySpark transformations with data quality assertions, deduplication, and incremental Delta Lake merges
+      - Healthcare quality and utilization analytics exposed through FastAPI, backed by Delta Lake for sub-second queries
+      - Azure infrastructure provisioned with Terraform, automating testing, deployment, and data validation via GitHub Actions
 
-      Built with: C#, ASP.NET Core, Blazor, HL7.FHIR.R4, SQL Server, EF Core, RabbitMQ, Azure
+      Built with: Python, PySpark, Spark SQL, Delta Lake, FastAPI, Azure Blob Storage, Docker, Terraform
     `,
   },
   {
-    slug: "bento-boxed",
-    title: "Bento Boxed, Secure Java & Spring Boot FHIR API",
-    status: "TBA",
-    date: "2025-2026",
-    summary: "A secure backend microservice for mapping legacy clinical datasets into compliant FHIR resource endpoints.",
+    slug: "pollinate",
+    title: "Pollinate, Distributed Event Platform",
+    status: "July 2026",
+    date: "2026",
+    summary: "A distributed microservices platform simulating medical devices, exchanging HL7 FHIR events through Kafka.",
     content: `
-      Bento Boxed is a secure backend microservice built with Java and Spring Boot to handle legacy clinical data transformation and compliance.
+      Pollinate is a distributed event platform simulating medical devices, built around reliable event delivery and observability.
+
+      [solo project]
 
       Key capabilities:
-      - OAuth 2.0 and SMART on FHIR protocols via Spring Security for strict token authentication
-      - Relational PostgreSQL schema for complex medical metadata with indexing for low-latency performance
-      - Containerized with Docker for deployment
-      - Rigorous end-to-end API test suites via Postman to validate edge cases
+      - 8 Spring Boot microservices simulating medical devices, exchanging HL7 FHIR events through Apache Kafka
+      - Retry queues, dead letter queues, idempotent consumers, and distributed transactions for reliable event delivery
+      - REST and gRPC APIs secured with OAuth2, JWT authentication, RBAC, and audit logging
+      - Deployed to Kubernetes with Helm, GitHub Actions, OpenTelemetry, Prometheus, and Grafana for CI/CD and observability
 
-      Built with: Java, Spring Boot, Spring Security, OAuth 2.0, PostgreSQL, Docker, Postman
-    `,
-  },
-  {
-    slug: "mockaron",
-    title: "Mockaron, Cross-Platform Clinical Portal",
-    status: "TBA",
-    date: "2025-2026",
-    summary: "A responsive healthcare portal with React web dashboard, Android app, and automated CI testing.",
-    content: `
-      Mockaron is a cross-platform clinical portal providing secure patient-doctor scheduling and management across web and mobile platforms.
-
-      Key capabilities:
-      - React web portal dashboard and native Android app built in Kotlin
-      - Node.js backend using MongoDB to manage patient-doctor scheduling and secure user profiles
-      - Automated UI testing suite using Appium and Python with 85% code coverage
-      - CI workflow via GitHub Actions for automated linting, bundle building, and rapid test sweeps
-
-      Built with: React, Android Studio, Kotlin, Node.js, Express, MongoDB, Appium, GitHub Actions
+      Built with: Java, Spring Boot, Kafka, PostgreSQL, Redis, Docker, Kubernetes, OpenTelemetry, Prometheus
     `,
   },
   {
