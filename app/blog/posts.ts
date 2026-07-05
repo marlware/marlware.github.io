@@ -28,11 +28,12 @@ export const posts = [
     • Formal Languages and Computability (CS 154)
     • Computer Networks (CS 158A)
     • Software Engineering (CS 160)
+    • Internship Project (CS 190I)
 
     Spring 2027:
     • Programming Paradigms (CS 152)
-    • Database Management Systems II (CS 157B)
     • Information Security (CS 166)
+    • Take a chill pill...
     `
   },
   {
