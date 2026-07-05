@@ -1,5 +1,41 @@
 export const posts = [
   {
+    slug: "roadmap",
+    title: "Every CS class of my degree",
+    date: "July 5, 2026",
+    summary: "",
+    content: `Fall 2024:
+    • Introduction to Programming (CS 46A)
+
+    Spring 2025:
+    • Introduction to Data Structures (CS 46B)
+    • Technical Writing Workshop (CS 100W)
+
+    Fall 2025:
+    • Programming in C (CS 49C)
+    • Data Structures and Algorithms (CS 146)
+    • Object-Oriented Design (CS 151)
+
+    Spring 2026:
+    • Introduction to Computer Systems (CS 47)
+    • Processing Big Data - Tools and Techniques (CS 131)
+    • Introduction to Artificial Intelligence (CS 156)
+    • Introduction to Database Management Systems (CS 157A)
+
+    Fall 2026:
+    • Computer Architecture (CS 147)
+    • Operating Systems (CS 149)
+    • Formal Languages and Computability (CS 154)
+    • Computer Networks (CS 158A)
+    • Software Engineering (CS 160)
+
+    Spring 2027:
+    • Programming Paradigms (CS 152)
+    • Database Management Systems II (CS 157B)
+    • Information Security (CS 166)
+    `
+  },
+  {
     slug: "dream-jobs",
     title: "Dream jobs",
     date: "June 26, 2026",
