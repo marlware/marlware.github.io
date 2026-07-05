@@ -3,7 +3,7 @@ export const projects = [
     slug: "bloom-filter",
     title: "Bloom Filter, Healthcare Lakehouse",
     status: "July 2026",
-    date: "2026",
+    date: "July 5, 2026",
     summary: "A Spark Structured Streaming pipeline for healthcare data, backed by Delta Lake and exposed through FastAPI.",
     content: `
       Bloom Filter is a healthcare lakehouse pipeline built to ingest, clean, and serve HL7 FHIR data at scale.
@@ -23,7 +23,7 @@ export const projects = [
     slug: "pollinate",
     title: "Pollinate, Distributed Event Platform",
     status: "July 2026",
-    date: "2026",
+    date: "July 5, 2026",
     summary: "A distributed microservices platform simulating medical devices, exchanging HL7 FHIR events through Kafka.",
     content: `
       Pollinate is a distributed event platform simulating medical devices, built around reliable event delivery and observability.
