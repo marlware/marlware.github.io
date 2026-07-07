@@ -121,247 +121,246 @@ export const posts = [
     8. Jai Paul, "Genevieve (Unfinished)"
     9. Chvrches, "The Mother We Share"
 
-    [06/2026]
+    [June 2026]
     Caribou, "Second Chance"
     Basement Jaxx, "U Can't Stop Me"
     No Doubt, "Hella Good"
     As Tall as Lions, "Ghost of York"
     Boygenius, "Not Strong Enough"
-    Yaeji, "With a Hammer"
     Bonobo, "1009"
     Olivia Rodrigo, "Purple"
 
-    [05/2026]
+    [May 2026]
     Big Boi, "Shutterbugg"
     Bloc Party, "Banquet"
     Grimes, "Artangels"
     Sophie, "Ooh"
 
-    [04/2026]
+    [April 2026]
     Underscores, "The Peace"
     Circa Survive, "The Great Golden Baby"
     Daft Punk, "Face to Face"
     Kaskade, "Move For Me"
 
-    [03/2026]
+    [March 2026]
     Sophie, "Bipp"
     Underscores, "Do It"
     Circa Survive, "The Glorious Nosebleed"
     Azealia Banks, "Slow Hands"
 
-    [02/2026]
+    [February 2026]
     John Powell, "Mars Needs Moms Credits Suite"
     Electric Guest, "Dear to Me"
     Haim, "The Wire"
     The 1975, "Heart Out"
 
-    [01/2026]
+    [January 2026]
     Yeng Constantino, "Hawak Kamay"
     Bamboo, "Noypi"
     The 1975, "Pressure"
 
-    [12/2025]
+    [December 2025]
     Fall Out Boy, "Sugar, We're Goin Down"
     We Were Promised Jetpacks, "The Mother We Share"
     NewJeans, "Hype Boy"
     Kaskade and Deadmau5, "Move For Me (DJ Hero 2 Remix)"
 
-    [11/2025]
+    [November 2025]
     The 1975, "Talk!"
     The 1975, "M.O.N.E.Y."
     The 1975, "Menswear"
     Disclosure, "January"
 
-    [10/2025]
+    [October 2025]
     Kid Cudi, "Young Lady"
     The Debut: Dream Academy, "Dirty Water"
     George Clanton, "It Makes the Babies Want to Cry"
     Amerie, "Float"
 
-    [09/2025]
+    [September 2025]
     Le Sserafim, "Antifragile"
     PinkPantheress, "Noises"
     NewJeans, "Attention"
     Cherrelle, "I Didn't Mean to Turn You On"
 
-    [08/2025]
+    [August 2025]
     John Powell, "Test Drive"
     NewJeans, "OMG"
     Illit, "Jellyous"
 
-    [07/2025]
+    [July 2025]
     Marquis Compressor, "Landing"
     Jai Paul, "Jasmine (Demo)"
     Katseye, "Gameboy"
     Chairlift, "Show U Off"
     
-    [06/2025]
+    [June 2025]
     The Internet, "Dontcha"
     LCD Soundsystem, "North American Scum"
     Griff, "Hiding Alone"
     Katseye, "Gnarly"
 
-    [05/2025]
+    [May 2025]
     Prince, "1999"
     Regina Spektor, "20 Years"
     LCD Soundsystem, "North American Scum"
     Ben Khan, "Youth"
 
-    [04/2025]
+    [April 2025]
     Pharrell Williams, "Gust of Wind"
     Pharrell Williams, "Gush"
     Prince, "Computer Blue"
     Prince, "I Would Die 4 U"
 
-    [03/2025]
+    [March 2025]
     Nicholas Semrad, "Crush"
     Big Boi, "Higher Res"
 
-    [02/2025]
+    [February 2025]
     Maroon 5, "Kiwi"
     Oklou, "Family and Friends"
 
-    [01/2025]
+    [January 2025]
     Pom Pom Squad, "Head Cheerleader"
     Basement Jaxx, "SFM"
     Basement Jaxx, "Breakaway"
 
-    [12/2024]
+    [December 2024]
     Rachel Zegler and Ansel Elgort, "Balcony Scene (Tonight)"
     Gracie Abrams, "I Love You, I'm Sorry"
     Gracie Abrams, "Us"
     Gracie Abrams, "That's So True"
     Pom Pom Squad, "Doll Song"
 
-    [11/2024]
+    [November 2024]
     Azealia Banks, "Wallace"
     Pattern Is Movement, "Enjoy"
     Beabadoobee, "Here's Where the Story Ends"
     Panda Bear, "Mr Noah"
 
-    [10/2024]
+    [October 2024]
     Gustav Holst, "Jupiter"
     Animal Collective, "My Girls"
     Animal Collective, "Summertime Clothes"
     Animal Collective, "Bluish"
     Gracie Abrams, "Risk"
 
-    [09/2024]
+    [September 2024]
     Ruthven, "Evil"
     Lorde, "Supercut"
     Tame Impala, "The Moment"
     Sabrina Carpenter, "Taste"
 
-    [07/2024]
+    [July 2024]
     Silversun Pickups, "Substitution"
     Amerie, "Why Don't We Fall in Love"
     Amerie, "Pretty Brown"
     Clairo, "Juna"
 
-    [06/2024]
+    [June 2024]
     Shoji Meguro, "Also Sprach Brooks"
     Bonobo, "Kiara"
     Beabadoobee, "Don't Get the Deal"
     My Chemical Romance, "The Ghost of You"
 
-    [05/2024]
+    [May 2024]
     Kate Bush, "Army Dreamers"
     Cartel, "If I Fail"
     John Mayer, "Stop This Train"
 
-    [04/2024]
+    [April 2024]
     Hideki Sakamoto, "Lifelight"
 
-    [02/2024]
+    [February 2024]
     JPEGMafia and Danny Brown, "Kingdom Hearts Key"
     Beabadoobee, "Cologne"
 
-    [01/2024]
+    [January 2024]
     Beabadoobee, "10:36"
     Taylor Swift, "Treacherous"
 
-    [12/2023]
+    [December 2023]
     Taylor Swift, "Red"
 
-    [11/2023]
+    [November 2023]
     Madonna, "Angel"
     Madonna, "Dress You Up"
     Taylor Swift, "Haunted"
 
-    [10/2023]
+    [October 2023]
     Flume, "Never Be Like You"
     Dua Lipa, "Pretty Please"
     This Town Needs Guns, "Pig"
 
-    [09/2023]
+    [September 2023]
     Sampha, "Plastic 100°C"
     Fridge, "Aphelion"
     R.E.M., "Losing My Religion"
 
-    [08/2023]
+    [August 2023]
     Carly Rae Jepsen, "Julien"
     Aespa, "Better Things"
     Nick Jonas, "Jealous"
     Rihanna, "If It's Lovin' That You Want"
 
-    [07/2023]
+    [July 2023]
     Taylor Swift, "Wonderland"
     C418, "Aria Math"
     Jamie xx, "Gosh"
 
-    [06/2023]
+    [June 2023]
     Taylor Swift, "I Wish You Would"
     Rachel Prancer and Pandi, "The Lake"
     Kate Bush, "Experiment IV"
 
-    [04/2023]
+    [April 2023]
     Chairlift, "Amanaemonesia"
     Radiohead, "15 Step"
     Kid Cudi, "Red Eye"
 
-    [03/2023] 
+    [March 2023] 
     Boygenius, "$20"
     Grimes, "Visiting Statue"
     Chairlift, "Crying in Public"
     Amerie, "Hate2LoveU"
 
-    [02/2023]
+    [February 2023]
     Carly Rae Jepsen, "This Kiss"
     Lady Gaga, "Telephone"
 
-    [1/2023]
+    [January 2023]
     Taylor Swift, "Style"
     Taylor Swift, "Blank Space"
 
-    [12/2022]
+    [December 2022]
     Haim, "Gasoline"
 
-    [11/2022]
+    [November 2022]
     Grimes, "Circumambient"
 
-    [10/2022]
+    [October 2022]
     Common, "Go!"
     Common, "The Food (Live)"
 
-    [09/2022]
+    [September 2022]
     Paramore, "Now"
     Nine Inch Nails, "Kinda I Want To"
 
-    [08/2022]
+    [August 2022]
     Kate Bush, "Running Up That Hill"
     Kate Bush, "Cloudbusting"
     Blood Cultures, "Indian Summer"
     Blood Cultures, "Phospholipid"
     Chris Vrenna, "Village of the Doomed"
 
-    [07/2022]
+    [July 2022]
     Wilco, "Jesus, Etc."
     Chairlift, "Sidewalk Safari"
     Kanye West, "Late"
     Mac DeMarco, "Freaking Out the Neighborhood"
     Rainer Maria, "Lost, Dropped, and Cancelled"
 
-    [06/2022]
+    [June 2022]
     Talib Kweli, "Get By"
     Big Boi, "Objectum Sexuality"
     Clams Casino, "I'm God"
@@ -369,7 +368,7 @@ export const posts = [
     Aphex Twin, "180db_ [130]"
     Death Cab for Cutie, "I Will Possess Your Heart"
 
-    [05/2022]
+    [May 2022]
     American Football, "Never Meant"
     Coldplay, "Speed of Sound"
     Paramore, "This Circle"
@@ -378,7 +377,7 @@ export const posts = [
     Akira Yamaoka, "White Noiz"
     Shinkichi Mitsumune, "Fall in Love"
 
-    [04/2022]
+    [April 2022]
     Jay-Z, "Already Home"
     Nas, "Cherry Wine"
     Björk, "I Remember You"
@@ -388,7 +387,7 @@ export const posts = [
     Paramore, "Rewind"
     Coldplay, "Talk"
 
-    [03/2022]
+    [March 2022]
     Paramore, "Monster"
     Radiohead, "Knives Out"
     Purity Ring, "Lofticries"
@@ -397,18 +396,18 @@ export const posts = [
     Foster the People, "Helena Beat"
     JPEGMafia, "1539 N. Calvert"
 
-    [02/2022]
+    [February 2022]
     Santigold, "Disparate Youth"
     Everything But The Girl, "Before Today"
     Ellie Goulding, "Lights"
     Pillar Point, "Dove"
     Paramore, "My Hero"
 
-    [01/2022]
+    [January 2022]
     Phantogram, "Fall in Love"
     Maroon 5, "Makes Me Wonder"
 
-    [12/2021]
+    [December 2021]
     The Game, "Wouldn't Get Far"
     Japanese Breakfast, "Be Sweet"
     Jai Paul, "Genevieve (Unfinished)"
@@ -416,7 +415,7 @@ export const posts = [
     Soccer Mommy, "Your Dog"
     Björk, "Enjoy"
 
-    [11/2021]
+    [November 2021]
     Beabadoobee, "Talk"
     Weezer, "I Just Threw Out the Love of My Dreams"
     Weezer, "Billie Jean"
@@ -426,27 +425,27 @@ export const posts = [
     Kid Cudi, "Mr. Rager"
     Nicki Minaj, "Moment 4 Life"
 
-    [10/2021]
+    [October 2021]
     Bôa, "Little Miss"
     PinkPantheress, "Last Valentines"
     PinkPantheress, "Noticed I Cried"
     Massive Attack, "Group Four"
 
-    [09/2021]
+    [September 2021]
     Bôa, "Duvet"
     Flyleaf, "All Around Me"
     Death Grips, "Punk Weight"
     Faye Webster, "A Dream with a Baseball Player"
     Magdalena Bay, "Secrets (Your Fire)"
 
-    [08/2021]
+    [August 2021]
     Caroline Polachek, "So Hot You're Hurting My Feelings"
     Paramore, "Emergency"
     Mitski, "Washing Machine Heart"
     Paramore, "Playing God"
     Frou Frou, "A New Kind of Love"
 
-    [07/2021]
+    [July 2021]
     Cobra Starship, "You Make Me Feel"
     Paramore, "Decode"
     Mario Judah, "I Miss the Rage"
@@ -454,111 +453,111 @@ export const posts = [
     Paramore, "Ain't It Fun"
     Frou Frou, "Let Go"
 
-    [06/2021]
+    [June 2021]
     Grimes, "Kill V. Maim"
     PinkPantheress, "Break It Off"
     Azealia Banks, "Luxury"
     Paramore, "That's What You Get"
 
-    [05/2021]
+    [May 2021]
     Chvrches, "The Mother We Share"
     Chvrches, "Gun"
     Foster the People, "Sit Next to Me"
     Dev Lemons and Whose Rules, "Guessing Games"
 
-    [04/2021]
+    [April 2021]
     Grimes, "Kill V. Maim"
     Paramore, "Pool"
     Paramore, "Told You So"
     Grimes, "Oblivion"
     Olivia Rodrigo, "Deja Vu"
 
-    [03/2021]
+    [March 2021]
     Paramore, "Hard Times"
     Grimes, "Flesh without Blood"
     Linkin Park, "She Couldn't"
 
-    [02/2021]
+    [February 2021]
     Paramore, "Fences"
     Dua Lipa and Angèle, "Fever"
 
-    [12/2020]
+    [December 2020]
     Deltron 3030, "3030"
     Melanie Martinez, "Strawberry Shortcake"
 
-    [11/2020]
+    [November 2020]
     Linkin Park, "In the End"
     MF Doom, "Fancy Clown"
     The Dave Brubeck Quartet, "Maria"
     A Tribe Called Quest, "8 Million Stories"
 
-    [10/2020]
+    [October 2020]
     Melanie Martinez, "Brain & Heart"
     Linkin Park, "Numb"
     Melanie Martinez, "Piggyback"
     Basement Jaxx, "Romeo"
     Linkin Park, "Breaking the Habit"
 
-    [09/2020]
+    [September 2020]
     Melanie Martinez, "Play Date"
     Riton and Kah-Lo, "Fake ID"
     MF Doom, "Raid"
     Aesop Rock, "None Shall Pass"
     A Tribe Called Quest, "Award Tour"
 
-    [08/2020]
+    [August 2020]
     A Tribe Called Quest, "Check the Rhime"
     Blank Banshee, "Ammonia Clouds"
     Nas, "The World Is Yours"
     Reap, "I'm Leaving"
 
-    [07/2020]
+    [July 2020]
     Breakbot, "Be Mine Tonight"
     Mariya Takeuchi, "Plastic Love"
     Kanye West, "Heartless"
     Deadmau5 and Melleefresh, "Hey Baby"
 
-    [06/2020]
+    [June 2020]
     Billie Eilish, "Ocean Eyes"
     Lady Gaga, "Stupid Love"
     Eyedress, "Jealous"
     Kanye West, "Flashing Lights"
 
-    [05/2020]
+    [May 2020]
     Eminem, "It's O.K."
     Zane Alexander, "Nine"
     J. Cole, "False Prophets"
     Philip George, "Wish You Were Mine"
     Eminem, "If I Had"
 
-    [04/2020]
+    [April 2020]
     Eminem, "Tonite"
     Kendrick Lamar, "Alright"
     Kanye West, "Good Morning"
     Michael Sembello, "Maniac"
 
-    [03/2020]
+    [March 2020]
     Eminem, "Backstabber"
     Silk City and Dua Lipa, "Electricity"
     Drake, "One Dance"
     John Pizzarelli, "I Only Want Some"
 
-    [02/2020]
+    [February 2020]
     Doja Cat, "Say So"
     Wu-Tang Clan, "C.R.E.A.M."
     Massive Attack, "Unfinished Sympathy"
     Tame Impala, "The Less I Know the Better"
 
-    [01/2020]
+    [January 2020]
     Ross From Friends, "Crimson"
     Mac Miller, "My Favorite Part"
 
-    [12/2019]
+    [December 2019]
     Deadmau5, "I Remember"
     Eminem, "'97 Bonnie and Clyde"
     Major Lazer, "Lean On"
 
-    [11/2019]
+    [November 2019]
     Drake, "Too Good"
     Drake, "Controlla"
     Billie Eilish, "Everything I Wanted"
@@ -568,82 +567,82 @@ export const posts = [
     Childish Gambino, "Sober"
     Dirty Vegas, "Days Go By"
 
-    [10/2019]
+    [October 2019]
     Estelle, "American Boy"
     The Bangles, "Walk Like an Egyptian"
     Breakbot, "Baby I'm Yours"
     Billy Joel, "The Longest Time"
     Drake, "Nice for What"
 
-    [09/2019]
+    [September 2019]
     Kanye West, "Saint Pablo"
     Billie Eilish, "Bad Guy"
 
-    [08/2019]
+    [August 2019]
     Lorde, "Royals"
     Benny Blanco, Halsey, and Khalid, "Eastside"
 
-    [07/2019]
+    [July 2019]
     Hello Meteor, "Coral Blush"
     Sam Smith and Normani, "Dancing with a Stranger"
     SZA, "Broken Clocks"
     Modjo, "Lady (Hear Me Tonight)"
     Eminem, "313"
 
-    [06/2019]
+    [June 2019]
     Frank Sinatra, "The Way You Look Tonight"
     Eminem, "Without Me"
     Eminem, "The Real Slim Shady"
 
-    [05/2019]
+    [May 2019]
     Syn Cole, "Feel Good"
 
-    [04/2019]
+    [April 2019]
     A.L.I.S.O.N, "Golden Dust"
     Zedd, Maren Morris, and Grey, "The Middle"
     DJ Snake and Justin Bieber, "Let Me Love You"
 
-    [03/2019]
+    [March 2019]
     Wayne Shorter, "Footprints"
     Bobby Darin, "Beyond the Sea"
     Silly Wizard, "Donald McGillavry / O'Neill's Cavalry March"
 
-    [02/2019]
+    [February 2019]
     Home, "Resonance"
     Com Truise, "Brokendate"
 
-    [01/2019]
+    [January 2019]
     Unnamed, "Sundown"
     Bell Biv Devoe, "Poison"
 
-    [12/2018]
+    [December 2018]
     Oliver Nelson Septet, "Stolen Moments"
     John Coltrane, "My Favorite Things"
 
-    [11/2018]
+    [November 2018]
     Superorganism, "Night Time"
     Cosimo Fogg, "Life Is"
 
-    [09/2018]
+    [September 2018]
     Joji, "Worldstar Money (Interlude)"
     Naoto Kubo, "Jump Up, Super Star!"
 
-    [08/2018]
+    [August 2018]
     Drake, "God's Plan"
     Kendrick Lamar and SZA, "All the Stars"
 
-    [07/2018]
+    [July 2018]
     Ariana Grande, "No Tears Left to Cry"
     Calvin Harris and Dua Lipa, "One Kiss"
 
-    [06/2018]
+    [June 2018]
     Khalid and Normani, "Love Lies"
     Marshmello and Anne-Marie, "Friends"
 
-    [05/2018]
+    [May 2018]
     Camilla Cabello and Young Thug, "Havana"
 
-    [04/2017]
+    [April 2017]
     Michael Jackson, "Billie Jean"
     `
   },
