@@ -1,5 +1,4 @@
-import { GeistMono } from 'geist/font/mono';
-import { switzerMedium } from './fonts';
+import { switzerMedium, switzerLight } from './fonts';
 import "./globals.css";
 
 export const metadata = {
@@ -16,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${GeistMono.variable} ${switzerMedium.variable} antialiased`}>
+      <body className={`${switzerMedium.variable} ${switzerLight.variable} antialiased`}>
         {children}
       </body>
     </html>

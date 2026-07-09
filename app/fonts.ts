@@ -5,3 +5,9 @@ export const switzerMedium = localFont({
   weight: '500',
   variable: '--font-switzer-medium',
 });
+
+export const switzerLight = localFont({
+  src: '../public/fonts/switzer/Switzer-Light.woff',
+  weight: '300',
+  variable: '--font-switzer-light',
+});
