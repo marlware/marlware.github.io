@@ -1,27 +1,27 @@
 export const projects = [
   {
-    slug: "bloom-filter",
-    title: "Bloom Filter, Healthcare Lakehouse",
+    slug: "zinnia",
+    title: "Zinnia, an HPC cluster operations dashboard",
     status: "July 2026",
     date: "July 5, 2026",
-    summary: "A Spark Structured Streaming pipeline for healthcare data, backed by Delta Lake and exposed through FastAPI.",
+    summary: "A real-time HPC cluster simulator with live monitoring, job scheduling, and operational analytics powered by ASP.NET Core and SignalR.",
     content: `
-      Bloom Filter is a healthcare lakehouse pipeline built to ingest, clean, and serve HL7 FHIR data at scale.
+      Zinnia is a high-performance computing (HPC) cluster operations dashboard built to simulate cluster workloads and visualize system health in real time.
 
       [solo project]
 
       Key capabilities:
-      - Spark Structured Streaming pipeline ingesting HL7 FHIR resources into Bronze, Silver, and Gold Delta Lake tables
-      - Reusable PySpark transformations with data quality assertions, deduplication, and incremental Delta Lake merges
-      - Healthcare quality and utilization analytics exposed through FastAPI, backed by Delta Lake for sub-second queries
-      - Azure infrastructure provisioned with Terraform, automating testing, deployment, and data validation via GitHub Actions
+      - ASP.NET Core Web API simulating HPC cluster nodes, queued workloads, running jobs, failures, and utilization metrics
+      - Live operational dashboard powered by SignalR, streaming cluster health, queue length, active jobs, and node status updates
+      - Job scheduling workflow modeled with Entity Framework Core and SQL Server, supporting pending, running, completed, and failed state transitions
+      - Dockerized backend and React frontend for one-command local deployment of the complete cluster operations simulator
 
-      Built with: Python, PySpark, Spark SQL, Delta Lake, FastAPI, Azure Blob Storage, Docker, Terraform
+      Built with: C#, ASP.NET Core Web API, Entity Framework Core, SQL Server, SignalR, React, Docker
     `,
-  },
+  },  
   {
     slug: "pollinate",
-    title: "Pollinate, Distributed Event Platform",
+    title: "Pollinate, a distributed clinical event platform",
     status: "July 2026",
     date: "July 5, 2026",
     summary: "A distributed microservices platform simulating medical devices, exchanging HL7 FHIR events through Kafka.",
@@ -60,7 +60,7 @@ export const projects = [
   },
   {
     slug: "flowchain",
-    title: "FlowChain, three-tier donation management app",
+    title: "FlowChain, a three-tier donation management app",
     status: "May 2026",
     date: "May 2026",
     summary: "A donation platform for nonprofits, with donor workflows and campaign tracking.",
@@ -98,7 +98,7 @@ export const projects = [
   },
   {
     slug: "listenade",
-    title: "Listenade, online music magazine",
+    title: "Listenade, an online music magazine",
     status: "Feb 2025",
     date: "Feb 2025",
     summary: "An online music magazine focused on artists, culture, and editorial storytelling.",
