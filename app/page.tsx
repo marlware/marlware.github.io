@@ -1,7 +1,10 @@
 import Link from "next/link";
-import { Instrument_Serif } from 'next/font/google';
+import localFont from 'next/font/local';
 
-const gaegu = Instrument_Serif({ weight: '400', subsets: ['latin'] });
+const switzerMedium = localFont({
+  src: '../public/fonts/switzer/Switzer-Medium.woff',
+  weight: '500',
+});
 
 const links = [
   { label: "blog", href: "/blog"},
@@ -22,7 +25,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center px-6">
       <div className="w-full max-w-md text-left">
-        <h1 className={`text-3xl text-white ${gaegu.className}`}>marl jonson</h1>
+        <h1 className={`text-3xl text-white ${switzerMedium.className}`}>marl jonson</h1>
 
         <p className="mt-2 text-base text-zinc-400">
           <Link
