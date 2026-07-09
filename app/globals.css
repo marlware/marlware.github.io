@@ -13,6 +13,11 @@ body {
   font-family: var(--font-segoe-ui-variable), monospace;
 }
 
+h1 {
+  font-family: var(--font-switzer-medium);
+  font-weight: 500;
+}
+
 /* Hide scrollbar for Chrome, Safari, and Edge */
 ::-webkit-scrollbar {
   display: none;
