@@ -121,6 +121,10 @@ export const posts = [
     8. Jai Paul, "Genevieve (Unfinished)"
     9. Chvrches, "The Mother We Share"
 
+    [July 2026]
+    Beabadoobee, "Sun Has Set"
+    Death Cab for Cutie, "We Looked Like Giants"
+
     [June 2026]
     Caribou, "Second Chance"
     Basement Jaxx, "U Can't Stop Me"
