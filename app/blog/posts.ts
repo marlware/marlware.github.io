@@ -124,6 +124,7 @@ export const posts = [
     [July 2026]
     Beabadoobee, "Sun Has Set"
     Death Cab for Cutie, "We Looked Like Giants"
+    Mac Glocky, "Call Me Maybe"
 
     [June 2026]
     Caribou, "Second Chance"
@@ -477,6 +478,7 @@ export const posts = [
     Olivia Rodrigo, "Deja Vu"
 
     [March 2021]
+    Ava Max, "Torn"
     Paramore, "Hard Times"
     Grimes, "Flesh without Blood"
     Linkin Park, "She Couldn't"
@@ -488,6 +490,7 @@ export const posts = [
     [December 2020]
     Deltron 3030, "3030"
     Melanie Martinez, "Strawberry Shortcake"
+    Ava Max, "Kings & Queens"
 
     [November 2020]
     Linkin Park, "In the End"
