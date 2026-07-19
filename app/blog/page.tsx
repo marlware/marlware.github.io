@@ -25,7 +25,7 @@ export default function BlogPage() {
               </div>
 
               <span
-                className="absolute left-0 bottom-0 h-[1px] w-0 bg-blue-400 transition-all duration-300 group-hover:w-full"
+                className="absolute left-0 bottom-0 h-[1px] w-0 bg-[#222222] transition-all duration-300 group-hover:w-full"
               />
             </Link>
           ))}

@@ -44,6 +44,7 @@ export const posts = [
     content: `1. Yogurtland area manager
     2. Studio Tour guide, Universal Studios Hollywood
     3. Line counter, Harry Potter and the Forbidden Journey, Universal Studios Hollywood
+    4. Caricature artist
     `
   },
   {
@@ -411,6 +412,7 @@ export const posts = [
     [January 2022]
     Phantogram, "Fall in Love"
     Maroon 5, "Makes Me Wonder"
+    Sneaker Pimps, "The Perfect One"
 
     [December 2021]
     The Game, "Wouldn't Get Far"
