@@ -4,22 +4,22 @@ import { projects } from "./data";
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen px-6 bg-black">
+    <main className="min-h-screen px-6">
       <div className="w-full max-w-2xl text-left mx-auto pt-16">
         <GoBackLink href="/">Back to Home</GoBackLink>
-        <h1 className="text-3xl text-white">Projects</h1>
-        <p className="mt-2 text-zinc-400">Click a project to view details.</p>
+        <h1 className="text-3xl">Projects</h1>
+        <p className="mt-2 text-zinc-600">Click a project to view details.</p>
 
         <div className="mt-6 flex flex-col gap-4">
           {projects.map((project) => (
             <Link
               key={project.slug}
               href={`/projects/${project.slug}`}
-              className="group relative py-2 text-zinc-300 hover:text-white"
+              className="group relative py-2 text-zinc-600 hover:text-black"
             >
               <div className="flex justify-between">
-                <span className="font-medium text-white">{project.title}</span>
-                <span className="text-zinc-400">{project.status}</span>
+                <span className="font-medium">{project.title}</span>
+                <span className="text-zinc-600">{project.status}</span>
               </div>
 
               <span

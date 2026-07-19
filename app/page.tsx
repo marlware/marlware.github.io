@@ -19,14 +19,14 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center px-6">
       <div className="w-full max-w-md text-left">
-        <h1 className={`text-3xl text-white`}>marl jonson</h1>
+        <h1 className={`text-3xl`}>marl jonson</h1>
 
         <p className="mt-2 text-base text-zinc-400">
           <Link
             href="https://catalog.sjsu.edu/preview_program.php?catoid=15&poid=9497"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-300 hover:text-white underline-offset-2 hover:underline"
+            className="text-zinc-600 hover:text-black underline-offset-2 hover:underline"
           >
             computer science, b.s.
           </Link>
@@ -35,7 +35,7 @@ export default function Home() {
             href="https://www.sjsu.edu/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-300 hover:text-white underline-offset-2 hover:underline"
+            className="text-zinc-600 hover:text-black underline-offset-2 hover:underline"
           >
             san jose state university
           </Link>
@@ -48,7 +48,7 @@ export default function Home() {
               href={link.href}
               className="
                 group relative py-2
-                text-zinc-300 hover:text-white
+                text-zinc-600 hover:text-black
                 transition-colors
               "
               target={link.href.startsWith("http") ? "_blank" : undefined}
