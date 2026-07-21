@@ -5,7 +5,7 @@ const links = [
   { label: "projects", href: "/projects"},
   { label: "resume", href: "/resume"},
   { label: "linkedin", href: "https://linkedin.com/in/marl-jonson/"},
-  { label: "github", href: "https://github.com/marljonson"}
+  { label: "github", href: "https://github.com/marlware"}
 ];
 
 export const metadata = {

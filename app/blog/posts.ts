@@ -4,25 +4,25 @@ export const posts = [
     title: "Every CS class of my degree",
     date: "July 5, 2026",
     summary: "",
-    content: `Fall 2024
+    content: `FA.2024
     • Introduction to Programming (CS 46A)
 
-    Spring 2025
+    SP.2025
     • Introduction to Data Structures (CS 46B)
     • Technical Writing Workshop (CS 100W)
 
-    Fall 2025
+    FA.2025
     • Programming in C (CS 49C)
     • Data Structures and Algorithms (CS 146)
     • Object-Oriented Design (CS 151)
 
-    Spring 2026
+    SP.2026
     • Introduction to Computer Systems (CS 47)
     • Processing Big Data - Tools and Techniques (CS 131)
     • Introduction to Artificial Intelligence (CS 156)
     • Introduction to Database Management Systems (CS 157A)
 
-    Fall 2026
+    FA.2026
     • Computer Architecture (CS 147)
     • Operating Systems (CS 149)
     • Formal Languages and Computability (CS 154)
@@ -30,7 +30,7 @@ export const posts = [
     • Software Engineering (CS 160)
     • Internship Project (CS 190I)
 
-    Spring 2027
+    SP.2027
     • Programming Paradigms (CS 152)
     • Information Security (CS 166)
     • Take a chill pill...
