@@ -5,35 +5,34 @@ export const posts = [
     date: "July 5, 2026",
     summary: "",
     content: `FA.2024
-    • Introduction to Programming (CS 46A)
+    Introduction to Programming (CS 46A)
 
     SP.2025
-    • Introduction to Data Structures (CS 46B)
-    • Technical Writing Workshop (CS 100W)
+    Introduction to Data Structures (CS 46B)
+    Technical Writing Workshop (CS 100W)
 
     FA.2025
-    • Programming in C (CS 49C)
-    • Data Structures and Algorithms (CS 146)
-    • Object-Oriented Design (CS 151)
+    Programming in C (CS 49C)
+    Data Structures and Algorithms (CS 146)
+    Object-Oriented Design (CS 151)
 
     SP.2026
-    • Introduction to Computer Systems (CS 47)
-    • Processing Big Data - Tools and Techniques (CS 131)
-    • Introduction to Artificial Intelligence (CS 156)
-    • Introduction to Database Management Systems (CS 157A)
+    Introduction to Computer Systems (CS 47)
+    Processing Big Data - Tools and Techniques (CS 131)
+    Introduction to Artificial Intelligence (CS 156)
+    Introduction to Database Management Systems (CS 157A)
 
     FA.2026
-    • Computer Architecture (CS 147)
-    • Operating Systems (CS 149)
-    • Formal Languages and Computability (CS 154)
-    • Computer Networks (CS 158A)
-    • Software Engineering (CS 160)
-    • Internship Project (CS 190I)
+    Computer Architecture (CS 147)
+    Operating Systems (CS 149)
+    Formal Languages and Computability (CS 154)
+    Computer Networks (CS 158A)
+    Software Engineering (CS 160)
+    Internship Project (CS 190I)
 
     SP.2027
-    • Programming Paradigms (CS 152)
-    • Information Security (CS 166)
-    • Take a chill pill...
+    Programming Paradigms (CS 152)
+    Information Security (CS 166)
     `
   },
   {
