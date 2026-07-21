@@ -112,20 +112,22 @@ export const posts = [
     content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself between the ages of 13 and 19.
 
     [Favorites]
-    1. C418, "Aria Math"
-    2. Dave Brubeck, "Maria"
-    3. Underscores, "The Peace"
-    4. Haim, "If I Could Change Your Mind"
-    5. Kate Bush, "Army Dreamers"
-    6. Boygenius, "$20"
-    7. Jason Tai, "Vale of Tears"
-    8. Jai Paul, "Genevieve (Unfinished)"
-    9. Chvrches, "The Mother We Share"
+    01. C418, "Aria Math"
+    02. Dave Brubeck, "Maria"
+    03. Underscores, "The Peace"
+    04. Haim, "If I Could Change Your Mind"
+    05. Kate Bush, "Army Dreamers"
+    06. Boygenius, "$20"
+    07. Jason Tai, "Vale of Tears"
+    08. Jai Paul, "Genevieve (Unfinished)"
+    09. Chvrches, "The Mother We Share"
+    10. Chairlift, "Met Before"
 
     [July 2026]
     Beabadoobee, "Sun Has Set"
     Death Cab for Cutie, "We Looked Like Giants"
     Mac Glocky, "Call Me Maybe"
+    Com Truise, "She Melts"
 
     [June 2026]
     Caribou, "Second Chance"
