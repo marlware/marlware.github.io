@@ -3,7 +3,6 @@ export const posts = [
     slug: "roadmap",
     title: "Every CS class of my degree",
     date: "July 5, 2026",
-    summary: "",
     content: `FA.2024
     Introduction to Programming (CS 46A)
 
@@ -39,7 +38,6 @@ export const posts = [
     slug: "dream-jobs",
     title: "Dream jobs",
     date: "June 26, 2026",
-    summary: "Tips and tricks to remain vigilant",
     content: `1. Yogurtland area manager
     2. Studio Tour guide, Universal Studios Hollywood
     3. Line counter, Harry Potter and the Forbidden Journey, Universal Studios Hollywood
@@ -50,7 +48,6 @@ export const posts = [
     slug: "ai-writing",
     title: "Proof AI wrote it",
     date: "June 21, 2026",
-    summary: "Tips and tricks to remain vigilant",
     content: `I come across a lot of AI-written content on LinkedIn:
     
     It's not X. It's Y.
@@ -75,7 +72,6 @@ export const posts = [
     slug: "motivation",
     title: "\"Motivational statements don\'t work\"",
     date: "June 21, 2026",
-    summary: "Summary",
     content: `I used to save hundreds of screenshots of motivational quotes from Instagram, TikTok, and Reddit. I'd turn on the captions when a content creator said a phrase that sounded worthwhile. But then I'd have a trove of unread screenshots.
   
     Aphorism:
@@ -107,7 +103,6 @@ export const posts = [
     slug: "songs",
     title: "Songs by month",
     date: "June 19, 2026",
-    summary: "Favorite songs by month",
     content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself between the ages of 13 and 19.
 
     Favorites
@@ -663,7 +658,6 @@ export const posts = [
     slug: "cranes",
     title: "To fold 1,000 paper cranes",
     date: "May 4, 2026",
-    summary: "Summary",
     content: `Samurai Matcha is a YouTuber who makes videos about minimalism. Minimalism the idea of living with less stuff. In a video, he told an anecdote about folding 1,000 paper cranes. I thought the anecdote was interesting; I saw its parallels to my own doubts about my career. Common patterns of thinking:
 
     "Other people have already folded 500 cranes."
@@ -695,7 +689,6 @@ export const posts = [
     slug: "things",
     title: "Liking things",
     date: "April 27, 2026",
-    summary: "Why do I like these things?",
     content: `The Japanese shipping company Ocean Network Express boasts vibrant pink containers. For reference, almost all shipping containers are drab and rust-colored. ONE containers are pink to honor the chery blossom.
 
       Cookies and cream–flavored anything.
@@ -718,7 +711,6 @@ export const posts = [
     slug: "daily-routine",
     title: "Daily routine",
     date: "April 25, 2026",
-    summary: "A simple daily routine for summer 2026",
     content: `Days after I got the schedule for my summer internship, I imagined the daunting feeling of working from 6:30 AM to 5:00 PM. That was quite early. Usually I rolled out of bed at 8:00 AM for class and fell asleep at 11:00 PM scrolling on my phone.
     
     I realized it could be a good challenge to optimize the times I slept and the food I ate. Doing this would minimize the time I spent thinking about them. I felt this way because it meant more time thinking about my duties at work and other areas of personal growth.
@@ -753,7 +745,6 @@ export const posts = [
     slug: "wander",
     title: "Wander around school",
     date: "April 21, 2026",
-    summary: "Wandering around campus is a joyful experience.",
     content: `One day I'll put these lists on a map using ArcGIS Online.
 
       ...
@@ -796,7 +787,6 @@ export const posts = [
     slug: "pixar-advice",
     title: "Pixar advice",
     date: "April 18, 2026",
-    summary: "Exploring the creative roles at Pixar that shape storytelling and music.",
     content: `
       I find the film studio Pixar fascinating. Pixar is built like a software company with a variety of specialized roles in technology, art, and business that contribute to their products (the movies). Pixar's history is rooted in computer science and sprouted from a desire to generate a film using a computer.
       

@@ -23,7 +23,6 @@ export default async function PostPage({
 
         <h1 className="text-3xl">{post.title}</h1>
         <p className="mt-1 text-zinc-600">{post.date}</p>
-        <p className="mt-2 text-zinc-600">{post.summary}</p>
 
         <div className="mt-6 whitespace-pre-line">
           {post.content}
