@@ -110,7 +110,7 @@ export const posts = [
     summary: "Favorite songs by month",
     content: `Many of these songs I associate with vacations. Others bring back memories of being in school, at home, or exploring other places with family or by myself between the ages of 13 and 19.
 
-    [Favorites]
+    Favorites
     01. C418, "Aria Math"
     02. Dave Brubeck, "Maria"
     03. Underscores, "The Peace"
@@ -127,6 +127,7 @@ export const posts = [
     Death Cab for Cutie, "We Looked Like Giants"
     Mac Glocky, "Call Me Maybe"
     Com Truise, "She Melts"
+    Bengala, "Miente"
 
     06.2026
     Caribou, "Second Chance"
@@ -352,6 +353,7 @@ export const posts = [
     09.2022
     Paramore, "Now"
     Nine Inch Nails, "Kinda I Want To"
+    Clams Casino, "Thanks to You"
 
     08.2022
     Kate Bush, "Running Up That Hill"
@@ -561,8 +563,10 @@ export const posts = [
     01.2020
     Ross From Friends, "Crimson"
     Mac Miller, "My Favorite Part"
+    Eminem, "Stan"
 
     12.2019
+    Childish Gambino, "Sober"
     Deadmau5, "I Remember"
     Eminem, "'97 Bonnie and Clyde"
     Major Lazer, "Lean On"
@@ -574,7 +578,6 @@ export const posts = [
     XXXTentacion, "Riot"
     Krono, "Dancin"
     Montell Jordan, "This is How We Do It"
-    Childish Gambino, "Sober"
     Dirty Vegas, "Days Go By"
 
     10.2019
