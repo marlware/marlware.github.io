@@ -116,6 +116,7 @@ export const posts = [
     08. Jai Paul, "Genevieve (Unfinished)"
     09. Chvrches, "The Mother We Share"
     10. Chairlift, "Met Before"
+    11. Caroline Polachek, "So Hot You're Hurting My Feelings"
 
     07.2026
     Beabadoobee, "Sun Has Set"
@@ -123,6 +124,7 @@ export const posts = [
     Mac Glocky, "Call Me Maybe"
     Com Truise, "She Melts"
     Bengala, "Miente"
+    Four Tet, "Sing"
 
     06.2026
     Caribou, "Second Chance"
@@ -294,6 +296,7 @@ export const posts = [
     Flume, "Never Be Like You"
     Dua Lipa, "Pretty Please"
     This Town Needs Guns, "Pig"
+    The Cramps, "Goo Goo Muck"
 
     09.2023
     Sampha, "Plastic 100°C"
@@ -399,6 +402,7 @@ export const posts = [
     Lupe Fiasco, "Hello/Goodbye (Uncool)"
     Foster the People, "Helena Beat"
     JPEGMafia, "1539 N. Calvert"
+    Paramore, "Renegade"
 
     02.2022
     Santigold, "Disparate Youth"
@@ -432,6 +436,7 @@ export const posts = [
 
     10.2021
     Bôa, "Little Miss"
+    Paramore, "Part II"
     PinkPantheress, "Last Valentines"
     PinkPantheress, "Noticed I Cried"
     Massive Attack, "Group Four"
