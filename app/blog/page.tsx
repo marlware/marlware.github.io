@@ -5,12 +5,9 @@ import { posts } from "./posts";
 export default function BlogPage() {
   return (
     <main className="min-h-screen px-6">
-      <div className="w-full max-w-md text-left mx-auto pt-16">
-        <GoBackLink href="/">Back to Home</GoBackLink>
+      <div className="w-full max-w-md text-left mx-auto pt-64 pb-16">
+        <GoBackLink href="/">return</GoBackLink>
         <h1 className="text-base">Blog</h1>
-        <p className="mt-2 text-gray-400">
-          Click a post to read.
-        </p>
 
         <div className="mt-6 flex flex-col gap-4">
           {posts.map((post) => (

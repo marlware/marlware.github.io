@@ -5,10 +5,9 @@ import { projects } from "./data";
 export default function ProjectsPage() {
   return (
     <main className="min-h-screen px-6">
-      <div className="w-full max-w-md text-left mx-auto pt-16">
-        <GoBackLink href="/">Back to Home</GoBackLink>
+      <div className="w-full max-w-md text-left mx-auto pt-64 pb-16">
+        <GoBackLink href="/">return</GoBackLink>
         <h1 className="text-base">Projects</h1>
-        <p className="mt-2 text-gray-400">Click a project to view details.</p>
 
         <div className="mt-6 flex flex-col gap-4">
           {projects.map((project) => (

@@ -8,7 +8,7 @@ type GoBackLinkProps = {
 
 export default function GoBackLink({ href, children }: GoBackLinkProps) {
   return (
-    <Link href={href} className="text-white hover:text-gray-300 mb-6 inline-block">
+    <Link href={href} className="text-gray-400 hover:text-gray-300 mb-6 inline-block">
       ← {children}
     </Link>
   );
