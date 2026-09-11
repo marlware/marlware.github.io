@@ -3,7 +3,6 @@ import Link from "next/link";
 const links = [
   { label: "blog", href: "/blog"},
   { label: "projects", href: "/projects"},
-  { label: "resume", href: "/resume"},
   { label: "linkedin", href: "https://linkedin.com/in/marl-jonson/"},
   { label: "github", href: "https://github.com/marlware"}
 ];
