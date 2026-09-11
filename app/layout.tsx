@@ -1,4 +1,3 @@
-import { switzerMedium, switzerLight } from './fonts';
 import "./globals.css";
 
 export const metadata = {
@@ -15,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${switzerMedium.variable} ${switzerLight.variable} antialiased`}>
+      <body className="antialiased">
         {children}
       </body>
     </html>

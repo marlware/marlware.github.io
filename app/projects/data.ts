@@ -1,7 +1,133 @@
 export const projects = [
   {
+    slug: "sunnyside",
+    title: "Sunnyside – Healthcare Event Processing",
+    status: "2026",
+    date: "2026",
+    summary: "A healthcare event processing platform that ingests and validates HL7 FHIR data.",
+    content: `
+      Sunnyside is a healthcare data platform built to handle ingestion and validation of HL7 FHIR messages.
+
+      Key capabilities:
+      - HL7 FHIR message parsing and validation
+      - Healthcare data normalization
+      - Event processing pipeline
+      - Data quality monitoring
+
+      Built with: Healthcare Standards, HL7 FHIR, Event Processing
+    `,
+  },
+  {
+    slug: "parabench",
+    title: "Parabench – Multi-threaded Performance Tool",
+    status: "2026",
+    date: "2026",
+    summary: "A C++ and OpenMP tool that measures and visualizes multi-threaded CPU performance.",
+    content: `
+      Parabench is a performance measurement and visualization tool for analyzing multi-threaded CPU workloads.
+
+      Capabilities:
+      - Parallel matrix math benchmarking
+      - Thread performance profiling
+      - Real-time performance visualization
+      - Scaling analysis across thread counts
+
+      Built with: C++, OpenMP, Performance Analysis
+    `,
+  },
+  {
+    slug: "teatime",
+    title: "Teatime – HPC Cluster Observability",
+    status: "2026",
+    date: "2026",
+    summary: "An observability stack that visualizes Slurm cluster health and operational metrics.",
+    content: `
+      Teatime provides comprehensive observability for high-performance computing clusters using Slurm.
+
+      Features:
+      - Real-time cluster health visualization
+      - Node and job monitoring
+      - Performance metrics and alerts
+      - Historical trend analysis
+
+      Built with: Observability Stack, Slurm Monitoring
+    `,
+  },
+  {
+    slug: "axiom",
+    title: "Axiom – Video Streaming Platform",
+    status: "2026",
+    date: "2026",
+    summary: "A distributed streaming platform for reliable, low-latency video playback at scale.",
+    content: `
+      Axiom is a distributed video streaming platform engineered for high reliability and low latency at scale.
+
+      Key components:
+      - Distributed video ingestion and delivery
+      - Event-driven service architecture
+      - Caching layer for reduced latency
+      - Fault-tolerant playback handling
+
+      Built with: Java, AWS, Redis, Apache Kafka, Event-Driven Architecture
+    `,
+  },
+  {
+    slug: "theclaw",
+    title: "TheClaw – Media Event Pipeline",
+    status: "2026",
+    date: "2026",
+    summary: "A concurrent media event pipeline using Scala 3 and Cats Effect for bounded concurrency and backpressure.",
+    content: `
+      TheClaw is a high-performance media event processing pipeline built with functional programming principles.
+
+      Architecture:
+      - Bounded concurrency for controlled resource usage
+      - Backpressure handling to prevent queue overflow
+      - Functional event composition with Cats Effect
+      - Type-safe pipeline construction
+
+      Built with: Scala 3, Cats Effect, Functional Programming
+    `,
+  },
+  {
+    slug: "starcommand",
+    title: "StarCommand – Distributed Task Scheduler",
+    status: "2026",
+    date: "2026",
+    summary: "A failure-aware distributed DAG scheduler using Java 21 and gRPC for deadline-constrained tasks.",
+    content: `
+      StarCommand is a distributed scheduler designed to handle deadline-constrained task execution with built-in failure recovery.
+
+      Core capabilities:
+      - Directed acyclic graph (DAG) task scheduling
+      - Failure detection and automatic recovery
+      - Deadline-aware task prioritization
+      - Distributed coordination using gRPC
+
+      Built with: Java 21, gRPC, Protocol Buffers
+    `,
+  },
+  {
+    slug: "hamm",
+    title: "Hamm – Secure Financial Ledger",
+    status: "2026",
+    date: "2026",
+    summary: "A secure financial ledger API using Spring Boot to handle transactional CRUD workflows with strict role-based access.",
+    content: `
+      Hamm is a financial ledger API built with Spring Boot for secure transaction management and access control.
+
+      Key features:
+      - Transactional CRUD operations for financial records
+      - Strict role-based access control (RBAC)
+      - Secure API design with authentication and authorization
+      - Persistent storage with relational database
+
+      Built with: Java, Spring Boot, Spring Security, PostgreSQL
+    `,
+  },
+  {
     slug: "zinnia",
-    title: "Zinnia (Cluster Operations Dashboard)",
+    title: "Zinnia – Cluster Operations Dashboard",
     status: "July 2026",
     date: "July 5, 2026",
     summary: "A real-time HPC cluster simulator with live monitoring, job scheduling, and operational analytics powered by ASP.NET Core and SignalR.",
@@ -18,10 +144,10 @@ export const projects = [
 
       Built with: C#, ASP.NET Core Web API, Entity Framework Core, SQL Server, SignalR, React, Docker
     `,
-  },  
+  },
   {
     slug: "pollinate",
-    title: "Pollinate (Distributed Clinical Event Platform)",
+    title: "Pollinate – Distributed Clinical Event Platform",
     status: "July 2026",
     date: "July 5, 2026",
     summary: "A distributed microservices platform simulating medical devices, exchanging HL7 FHIR events through Kafka.",
@@ -41,13 +167,13 @@ export const projects = [
   },
   {
     slug: "crashes",
-    title: "Crashes (California Car Crash Analysis)",
+    title: "Crashes – California Car Crash Analysis",
     status: "May 2026",
     date: "May 2026",
     summary: "A data analysis project that explores crash trends across California in 2025.",
     content: `
       [ with: Gokul Anand, Sajid Kaiser, Fellip Oklas ]
-      
+
       This project analyzes 2025 California car crash data to identify patterns in timing, severity, and contributing factors. The work focuses on transforming raw records into actionable insights for safer planning.
 
       Research focus:
@@ -60,7 +186,7 @@ export const projects = [
   },
   {
     slug: "flowchain",
-    title: "FlowChain (Donation Management Platform)",
+    title: "FlowChain – Donation Management Platform",
     status: "May 2026",
     date: "May 2026",
     summary: "A donation platform for nonprofits, with donor workflows and campaign tracking.",
@@ -79,7 +205,7 @@ export const projects = [
   },
   {
     slug: "kuhar",
-    title: "KU-HAR (Activity Recognition ML)",
+    title: "KU-HAR – Activity Recognition ML",
     status: "May 2026",
     date: "May 2026",
     summary: "Applying machine learning to the KU-HAR dataset for sensor-based activity recognition.",
@@ -98,7 +224,7 @@ export const projects = [
   },
   {
     slug: "listenade",
-    title: "Listenade (Online Music Magazine)",
+    title: "Listenade – Online Music Magazine",
     status: "Feb 2025",
     date: "Feb 2025",
     summary: "An online music magazine focused on artists, culture, and editorial storytelling.",

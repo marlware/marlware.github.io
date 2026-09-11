@@ -10,12 +10,8 @@ body {
 body {
   background: #0a0a0a;
   color: #ffffff;
-  font-family: var(--font-switzer-light);
-}
-
-h1 {
-  font-family: var(--font-switzer-medium);
-  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
 }
 
 /* Hide scrollbar for Chrome, Safari, and Edge */
