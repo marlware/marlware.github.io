@@ -3,9 +3,6 @@ import Link from "next/link";
 const mainLinks = [
   { label: "blog", href: "/blog"},
   { label: "projects", href: "/projects"},
-];
-
-const socialLinks = [
   { label: "github", href: "https://github.com/marlware"},
   { label: "linkedin", href: "https://linkedin.com/in/marl-jonson/"},
 ];
@@ -27,7 +24,7 @@ export default function Home() {
           san francisco bay area
         </p>
 
-        <nav className="mt-8 flex flex-col gap-3">
+        <nav className="mt-8 flex flex-col gap-2">
           {mainLinks.map((link) => (
             <Link
               key={link.label}
@@ -53,22 +50,6 @@ export default function Home() {
             </Link>
           ))}
         </nav>
-
-        <div className="mt-12 pt-6 border-t border-gray-800">
-          <div className="flex flex-wrap gap-2">
-            {socialLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className="text-white hover:text-gray-300 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
-        </div>
       </div>
     </main>
   );

@@ -1,7 +1,7 @@
 export const projects = [
   {
     slug: "zinnia",
-    title: "Zinnia, an HPC cluster operations dashboard",
+    title: "Zinnia (Cluster Operations Dashboard)",
     status: "July 2026",
     date: "July 5, 2026",
     summary: "A real-time HPC cluster simulator with live monitoring, job scheduling, and operational analytics powered by ASP.NET Core and SignalR.",
@@ -21,7 +21,7 @@ export const projects = [
   },  
   {
     slug: "pollinate",
-    title: "Pollinate, a distributed clinical event platform",
+    title: "Pollinate (Distributed Clinical Event Platform)",
     status: "July 2026",
     date: "July 5, 2026",
     summary: "A distributed microservices platform simulating medical devices, exchanging HL7 FHIR events through Kafka.",
@@ -41,7 +41,7 @@ export const projects = [
   },
   {
     slug: "crashes",
-    title: "Big data analysis of 2025 California car crashes",
+    title: "Crashes (California Car Crash Analysis)",
     status: "May 2026",
     date: "May 2026",
     summary: "A data analysis project that explores crash trends across California in 2025.",
@@ -60,7 +60,7 @@ export const projects = [
   },
   {
     slug: "flowchain",
-    title: "FlowChain, a three-tier donation management app",
+    title: "FlowChain (Donation Management Platform)",
     status: "May 2026",
     date: "May 2026",
     summary: "A donation platform for nonprofits, with donor workflows and campaign tracking.",
@@ -79,7 +79,7 @@ export const projects = [
   },
   {
     slug: "kuhar",
-    title: "AI analysis of KU-HAR human activity recognition data",
+    title: "KU-HAR (Activity Recognition ML)",
     status: "May 2026",
     date: "May 2026",
     summary: "Applying machine learning to the KU-HAR dataset for sensor-based activity recognition.",
@@ -98,7 +98,7 @@ export const projects = [
   },
   {
     slug: "listenade",
-    title: "Listenade, an online music magazine",
+    title: "Listenade (Online Music Magazine)",
     status: "Feb 2025",
     date: "Feb 2025",
     summary: "An online music magazine focused on artists, culture, and editorial storytelling.",

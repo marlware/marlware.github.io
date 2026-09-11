@@ -15,11 +15,10 @@ export default function ProjectsPage() {
             <Link
               key={project.slug}
               href={`/projects/${project.slug}`}
-              className="group relative py-2 text-white hover:text-gray-300"
+              className="group relative py-2 text-gray-400 hover:text-gray-300"
             >
-              <div className="flex justify-between">
+              <div>
                 <span>{project.title}</span>
-                <span className="text-gray-400">{project.status}</span>
               </div>
 
               <span
