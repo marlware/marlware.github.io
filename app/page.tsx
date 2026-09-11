@@ -1,10 +1,13 @@
 import Link from "next/link";
 
-const links = [
+const mainLinks = [
   { label: "blog", href: "/blog"},
   { label: "projects", href: "/projects"},
+];
+
+const socialLinks = [
+  { label: "github", href: "https://github.com/marlware"},
   { label: "linkedin", href: "https://linkedin.com/in/marl-jonson/"},
-  { label: "github", href: "https://github.com/marlware"}
 ];
 
 export const metadata = {
@@ -18,48 +21,27 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center px-6">
       <div className="w-full max-w-md text-left">
-        <h1 className={`text-3xl`}>marl jonson</h1>
+        <h1 className={`text-base`}>marl jonson</h1>
 
         <p className="mt-2 text-base text-gray-400">
-          <Link
-            href="https://catalog.sjsu.edu/preview_program.php?catoid=15&poid=9497"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan-400 hover:text-cyan-300 underline-offset-2 hover:underline"
-          >
-            computer science, b.s.
-          </Link>
-          &nbsp;♠&nbsp;
-          <Link
-            href="https://www.sjsu.edu/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan-400 hover:text-cyan-300 underline-offset-2 hover:underline"
-          >
-            san jose state university
-          </Link>
+          san francisco bay area
         </p>
 
         <nav className="mt-8 flex flex-col gap-3">
-          {links.map((link) => (
+          {mainLinks.map((link) => (
             <Link
               key={link.label}
               href={link.href}
               className="
                 group relative py-2
-                text-white hover:text-gray-300
+                text-gray-400 hover:text-gray-300
                 transition-colors
               "
               target={link.href.startsWith("http") ? "_blank" : undefined}
-              rel={
-                link.href.startsWith("http")
-                  ? "noopener noreferrer"
-                  : undefined
-              }
+              rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
             >
               {link.label}
 
-              {/* hover line */}
               <span
                 className="
                   absolute left-0 bottom-0 h-px w-0
@@ -71,6 +53,22 @@ export default function Home() {
             </Link>
           ))}
         </nav>
+
+        <div className="mt-12 pt-6 border-t border-gray-800">
+          <div className="flex flex-wrap gap-2">
+            {socialLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="text-white hover:text-gray-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
       </div>
     </main>
   );

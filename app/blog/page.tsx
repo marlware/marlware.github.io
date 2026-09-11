@@ -5,9 +5,9 @@ import { posts } from "./posts";
 export default function BlogPage() {
   return (
     <main className="min-h-screen px-6">
-      <div className="w-full max-w-2xl text-left mx-auto pt-16">
+      <div className="w-full max-w-md text-left mx-auto pt-16">
         <GoBackLink href="/">Back to Home</GoBackLink>
-        <h1 className="text-3xl">Blog</h1>
+        <h1 className="text-base">Blog</h1>
         <p className="mt-2 text-gray-400">
           Click a post to read.
         </p>
@@ -20,7 +20,7 @@ export default function BlogPage() {
               className="group relative py-2 text-white hover:text-gray-300"
             >
               <div className="flex justify-between">
-                <span className="font-medium">{post.title}</span>
+                <span>{post.title}</span>
                 <span className="text-gray-400">{post.date}</span>
               </div>
 

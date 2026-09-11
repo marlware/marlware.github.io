@@ -18,10 +18,10 @@ export default async function ProjectPage({
 
   return (
     <main className="min-h-screen px-6">
-      <div className="w-full max-w-2xl text-left mx-auto pt-16 pb-16">
+      <div className="w-full max-w-md text-left mx-auto pt-16 pb-16">
         <GoBackLink href="/projects">Back to Projects</GoBackLink>
 
-        <h1 className="text-3xl">{project.title}</h1>
+        <h1 className="text-base">{project.title}</h1>
         <p className="mt-1 text-gray-400">{project.date}</p>
         <p className="mt-2 text-gray-400">{project.summary}</p>
 

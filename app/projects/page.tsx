@@ -5,9 +5,9 @@ import { projects } from "./data";
 export default function ProjectsPage() {
   return (
     <main className="min-h-screen px-6">
-      <div className="w-full max-w-2xl text-left mx-auto pt-16">
+      <div className="w-full max-w-md text-left mx-auto pt-16">
         <GoBackLink href="/">Back to Home</GoBackLink>
-        <h1 className="text-3xl">Projects</h1>
+        <h1 className="text-base">Projects</h1>
         <p className="mt-2 text-gray-400">Click a project to view details.</p>
 
         <div className="mt-6 flex flex-col gap-4">
@@ -18,7 +18,7 @@ export default function ProjectsPage() {
               className="group relative py-2 text-white hover:text-gray-300"
             >
               <div className="flex justify-between">
-                <span className="font-medium">{project.title}</span>
+                <span>{project.title}</span>
                 <span className="text-gray-400">{project.status}</span>
               </div>
 
