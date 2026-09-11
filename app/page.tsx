@@ -22,12 +22,12 @@ export default function Home() {
       <div className="w-full max-w-md text-left">
         <h1 className={`text-3xl`}>marl jonson</h1>
 
-        <p className="mt-2 text-base text-zinc-400">
+        <p className="mt-2 text-base text-gray-400">
           <Link
             href="https://catalog.sjsu.edu/preview_program.php?catoid=15&poid=9497"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-600 hover:text-black underline-offset-2 hover:underline"
+            className="text-cyan-400 hover:text-cyan-300 underline-offset-2 hover:underline"
           >
             computer science, b.s.
           </Link>
@@ -36,7 +36,7 @@ export default function Home() {
             href="https://www.sjsu.edu/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-zinc-600 hover:text-black underline-offset-2 hover:underline"
+            className="text-cyan-400 hover:text-cyan-300 underline-offset-2 hover:underline"
           >
             san jose state university
           </Link>
@@ -49,7 +49,7 @@ export default function Home() {
               href={link.href}
               className="
                 group relative py-2
-                text-zinc-600 hover:text-black
+                text-white hover:text-gray-300
                 transition-colors
               "
               target={link.href.startsWith("http") ? "_blank" : undefined}
@@ -65,7 +65,7 @@ export default function Home() {
               <span
                 className="
                   absolute left-0 bottom-0 h-px w-0
-                  bg-blue-400
+                  bg-white
                   transition-all duration-300
                   group-hover:w-full
                 "

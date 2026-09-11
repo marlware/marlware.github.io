@@ -17,15 +17,15 @@ export default function ResumePage() {
         <GoBackLink href="/">Back to Home</GoBackLink>
 
         <h1 className="text-3xl">Resume</h1>
-        <p className="mt-2 text-zinc-600">
+        <p className="mt-2 text-gray-400">
           Last updated: {lastUpdated}
         </p>
 
-        <div className="mt-6 rounded-lg border border-zinc-400 bg-zinc-300/40 p-4">
+        <div className="mt-6 rounded-lg border border-gray-700 bg-gray-900/40 p-4">
           <a
             href="/Marl-Jonson-Resume.pdf"
             download
-            className="text-blue-700 hover:text-black"
+            className="text-cyan-400 hover:text-cyan-300"
           >
             Download
           </a>

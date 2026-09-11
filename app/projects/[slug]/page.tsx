@@ -22,8 +22,8 @@ export default async function ProjectPage({
         <GoBackLink href="/projects">Back to Projects</GoBackLink>
 
         <h1 className="text-3xl">{project.title}</h1>
-        <p className="mt-1 text-zinc-600">{project.date}</p>
-        <p className="mt-2 text-zinc-600">{project.summary}</p>
+        <p className="mt-1 text-gray-400">{project.date}</p>
+        <p className="mt-2 text-gray-400">{project.summary}</p>
 
         <div className="mt-6 whitespace-pre-line">
           {project.content}

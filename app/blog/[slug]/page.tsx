@@ -22,7 +22,7 @@ export default async function PostPage({
         <GoBackLink href="/blog">Back to Blog</GoBackLink>
 
         <h1 className="text-3xl">{post.title}</h1>
-        <p className="mt-1 text-zinc-600">{post.date}</p>
+        <p className="mt-1 text-gray-400">{post.date}</p>
 
         <div className="mt-6 whitespace-pre-line">
           {post.content}

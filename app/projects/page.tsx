@@ -8,22 +8,22 @@ export default function ProjectsPage() {
       <div className="w-full max-w-2xl text-left mx-auto pt-16">
         <GoBackLink href="/">Back to Home</GoBackLink>
         <h1 className="text-3xl">Projects</h1>
-        <p className="mt-2 text-zinc-600">Click a project to view details.</p>
+        <p className="mt-2 text-gray-400">Click a project to view details.</p>
 
         <div className="mt-6 flex flex-col gap-4">
           {projects.map((project) => (
             <Link
               key={project.slug}
               href={`/projects/${project.slug}`}
-              className="group relative py-2 text-zinc-600 hover:text-black"
+              className="group relative py-2 text-white hover:text-gray-300"
             >
               <div className="flex justify-between">
                 <span className="font-medium">{project.title}</span>
-                <span className="text-zinc-600">{project.status}</span>
+                <span className="text-gray-400">{project.status}</span>
               </div>
 
               <span
-                className="absolute left-0 bottom-0 h-[1px] w-0 bg-[#222222] transition-all duration-300 group-hover:w-full"
+                className="absolute left-0 bottom-0 h-[1px] w-0 bg-white transition-all duration-300 group-hover:w-full"
               />
             </Link>
           ))}
