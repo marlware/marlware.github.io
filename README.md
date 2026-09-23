@@ -1,13 +1,6 @@
 # marl.dev
-
-### who i am
-- b.s. from san jose state university
-- m.s. from georgia tech, hopefully!
-
-### interests 🍓 ୨♡୧
-- distributed systems
-- product software engineering
-- multi-platform client infrastructure
+- b.s. from san jose state university + m.s. from georgia tech, hopefully!
+- interests: distributed systems, product software engineering, multi-platform client infrastructure
 
 ## tech stack
 
