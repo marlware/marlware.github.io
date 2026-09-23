@@ -1,5 +1,5 @@
 # marl.dev
-- b.s. from san jose state university + m.s. from georgia tech, hopefully!
+- education: san jose state university (bscs) + georgia tech (mscs), hopefully!
 - interests: distributed systems, product software engineering, multi-platform client infrastructure
 
 ## tech stack
@@ -20,4 +20,4 @@
 - cross-platform homelab media player [riley](https://github.com/marlware/riley)
 - distributed notification hub [etch](https://github.com/marlware/etch)
 - asset management platform [zinnia](https://github.com/marlware/zinnia)
-- lost-and-found mobile app [findit](https://github.com/Yug-More/find-it)
+- lost-and-found mobile app [find it](https://github.com/Yug-More/find-it)
