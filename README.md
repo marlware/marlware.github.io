@@ -1,6 +1,11 @@
-# marl.dev
-- education: san jose state university (bscs) + georgia tech (mscs), hopefully!
-- interests: distributed systems, product software engineering, multi-platform client infrastructure
+## education
+- san jose state university (bscs
+- georgia tech (mscs), hopefully!
+
+## interests 🍓 ୨♡୧
+- distributed systems
+- product software engineering
+- multi-platform client infrastructure
 
 ## tech stack
 
