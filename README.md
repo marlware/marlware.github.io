@@ -1,24 +1,30 @@
 # marl.dev
 
-- minimalist personal website
-- built with Next.js
-- inspired by t3.gg
+### who i am
+- b.s. from san jose state university
+- m.s. from georgia tech, hopefully!
 
-## Website sections
+### interests 🍓 ୨♡୧
+- distributed systems
+- product software engineering
+- multi-platform client infrastructure
 
-- Blog
-- Projects
+## tech stack
 
-## Navigation
+### backend & frontend 🍓 ୨♡୧
+- languages: Java, Go, Python, C/C++, SQL
+- technologies: React, Node.js, Spring Boot, Kafka, gRPC, Redis, PostgreSQL, DynamoDB
+- cloud/tools: AWS, Git, GitHub Actions, IntelliJ IDEA, VS Code
 
-- `blog` — Personal writing and thoughts
-- `projects` — Technical projects with descriptions
-- `github` — GitHub profile
-- `linkedin` — LinkedIn profile
+### client & platform 🍓 ୨♡୧
+- languages: Swift, Kotlin, BrightScript
+- platforms: iOS, Android, Roku
+- tools: XCode, Android Studio, VS Code
 
-## Stack
+## projects
 
-- Next.js
-- TypeScript
-- Tailwind CSS
-- React
+### current 🥥 ୨♡୧
+- cross-platform homelab media player [riley](https://github.com/marlware/riley)
+- distributed notification hub [etch](https://github.com/marlware/etch)
+- asset management platform [zinnia](https://github.com/marlware/zinnia)
+- lost-and-found mobile app [findit](https://github.com/Yug-More/find-it)
