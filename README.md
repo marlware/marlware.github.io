@@ -1,7 +1,3 @@
-## education
-- san jose state university (bscs
-- georgia tech (mscs), hopefully!
-
 ## interests 🍓 ୨♡୧
 - distributed systems
 - product software engineering
@@ -26,3 +22,7 @@
 - distributed notification hub [etch](https://github.com/marlware/etch)
 - asset management platform [zinnia](https://github.com/marlware/zinnia)
 - lost-and-found mobile app [find it](https://github.com/Yug-More/find-it)
+
+## education
+- san jose state university (bscs)
+- georgia tech (mscs), hopefully!
