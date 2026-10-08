@@ -1,0 +1,75 @@
+# --- Site --- #
+
+url: "https://shahrajat.com"
+baseurl: ""
+
+title: Marl Jonson
+tagline: Staff Software Engineer at Netflix
+description: >-
+  Marl Jonson is a Staff Software Engineer at Netflix working on the Model
+  Inference Platform. Previously at Amazon, Morgan Stanley, and Goldman Sachs.
+  M.S. Computer Science, NC State.
+lang: en_US
+logo: /img/profile.jpeg
+
+# --- Navigation --- #
+
+navbar-links:
+  Work: "work"
+  Projects: "projects"
+  About: "aboutme"
+  Resume: "https://shahrajat.github.io/resume.pdf"
+
+# --- Author --- #
+
+author:
+  name: Marl Jonson
+  email: "hi@shahrajat.com"
+  github: shahrajat
+  linkedin: in/rajatsshah
+
+social:
+  name: Marl Jonson
+  links:
+    - https://www.linkedin.com/in/rajatsshah/
+    - https://github.com/shahrajat
+    - https://scholar.google.com/citations?user=jWRJqCcAAAAJ&hl=en
+
+# --- Build --- #
+
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+
+kramdown:
+  input: GFM
+
+# --- Defaults --- #
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+link-tags: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Vagrantfile
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
