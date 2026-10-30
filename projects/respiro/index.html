@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/favicon.ico">
+  <title>Respiro – Pulmonary Health Monitoring · Marl Jonson</title>
+</head>
+<body>
+<div id="menu">
+<span class="title"><a href="/">marl jonson 🍓</a></span>
+<ul>
+  <li><a href="/blog/">blog</a></li>
+  <li><a href="/projects/">projects</a></li>
+  <li><a href="https://github.com/marlware">github</a></li>
+  <li><a href="https://linkedin.com/in/marl-jonson/">linkedin</a></li>
+</ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+<h1>Respiro – Pulmonary Health Monitoring</h1>
+<p class="byline">Sep 2026</p>
+
+<p>Pulmonary health data made accessible through simple, real-time FHIR monitoring on iOS.</p>
+
+<p>Respiro is an iPhone app that shows oxygen level and pulse in real time. It keeps the data in HL7 FHIR, the standard format healthcare systems use, so other health tools can understand it. Everything runs on simulated readings.</p>
+
+<p>Key ideas:</p>
+<ul>
+<li>A Spring Boot backend makes a simulated SpO2 and pulse reading every 3 seconds</li>
+<li>Readings are served as FHIR Observations using HAPI FHIR</li>
+<li>New readings stream to the app with Server-Sent Events</li>
+<li>A SwiftUI dashboard with a fast UIKit graph</li>
+<li>Flags oxygen below 90% and supports VoiceOver</li>
+</ul>
+
+<p><b>Built with:</b> Java, Spring Boot, HAPI FHIR, Swift, SwiftUI, UIKit, Docker, GitHub Actions</p>
+
+<p>Code: <a href="https://github.com/marlware/respiro">github.com/marlware/respiro</a></p>
+</div>
+</body>
+</html>

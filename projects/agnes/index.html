@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/favicon.ico">
+  <title>Agnes – HLS Playback Service · Marl Jonson</title>
+</head>
+<body>
+<div id="menu">
+<span class="title"><a href="/">marl jonson 🍓</a></span>
+<ul>
+  <li><a href="/blog/">blog</a></li>
+  <li><a href="/projects/">projects</a></li>
+  <li><a href="https://github.com/marlware">github</a></li>
+  <li><a href="https://linkedin.com/in/marl-jonson/">linkedin</a></li>
+</ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+<h1>Agnes – HLS Playback Service</h1>
+<p class="byline">Oct 2026</p>
+
+<p>A playback service that streams approved HLS videos, fetches ads from Edith, and reports every ad view.</p>
+
+<p>Agnes stands for Adaptive Gateway for Networked Edge Streaming. It's the part of the simulated streaming service that viewers actually talk to.</p>
+
+<p>What it does:</p>
+<ul>
+<li>Streams real HLS video, made with ffmpeg</li>
+<li>Only serves videos that Margo approved</li>
+<li>Asks Edith for an ad before each video</li>
+<li>Reports finished ads to Kafka, so Edith can count them</li>
+<li>Includes an Android app that plays the ad, then the video</li>
+</ul>
+
+<p><b>Built with:</b> Go, Kotlin, Media3, HLS, Apache Kafka, ffmpeg</p>
+
+<p>Code: <a href="https://github.com/marlware/agnes">github.com/marlware/agnes</a></p>
+</div>
+</body>
+</html>

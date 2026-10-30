@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/favicon.ico">
+  <title>Harbor – Healthcare Messaging Platform · Marl Jonson</title>
+</head>
+<body>
+<div id="menu">
+<span class="title"><a href="/">marl jonson 🍓</a></span>
+<ul>
+  <li><a href="/blog/">blog</a></li>
+  <li><a href="/projects/">projects</a></li>
+  <li><a href="https://github.com/marlware">github</a></li>
+  <li><a href="https://linkedin.com/in/marl-jonson/">linkedin</a></li>
+</ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+<h1>Harbor – Healthcare Messaging Platform</h1>
+<p class="byline">Aug 2026</p>
+
+<p>An event-driven platform using Spring Boot and Apache Kafka for exchanging HL7 FHIR messages between healthcare services.</p>
+
+<p>Harbor is the plumbing behind an imaginary hospital. Separate systems for patients, devices, and vital signs share messages, so a heart rate reading can turn into an alert without anyone copying data by hand. It runs on made-up data only.</p>
+
+<p>Key ideas:</p>
+<ul>
+<li>Four services for patients, devices, observations, and notifications</li>
+<li>Services share events over Kafka, shaped like HL7 FHIR</li>
+<li>Abnormal heart rate, blood pressure, temperature, or oxygen creates an alert</li>
+<li>Idempotent consumers with retries and dead-letter topics</li>
+<li>JWT roles and an audit log</li>
+<li>Docker, Kubernetes manifests, and GitHub Actions CI</li>
+</ul>
+
+<p><b>Built with:</b> Java, Spring Boot, Apache Kafka, PostgreSQL, Redis, Docker, Kubernetes, GitHub Actions, HL7 FHIR</p>
+
+<p>Code: <a href="https://github.com/marlware/harbor">github.com/marlware/harbor</a></p>
+</div>
+</body>
+</html>

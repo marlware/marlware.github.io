@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/favicon.ico">
+  <title>Celia – Multi-threaded Performance Tool · Marl Jonson</title>
+</head>
+<body>
+<div id="menu">
+<span class="title"><a href="/">marl jonson 🍓</a></span>
+<ul>
+  <li><a href="/blog/">blog</a></li>
+  <li><a href="/projects/">projects</a></li>
+  <li><a href="https://github.com/marlware">github</a></li>
+  <li><a href="https://linkedin.com/in/marl-jonson/">linkedin</a></li>
+</ul>
+</div>
+<div id="left">&nbsp;</div>
+<div id="content">
+<h1>Celia – Multi-threaded Performance Tool</h1>
+<p class="byline">Oct 2026</p>
+
+<p>A C++ and OpenMP tool that measures and visualizes multi-threaded CPU performance using parallel matrix math.</p>
+
+<p>Celia measures how much faster a program gets when it uses more CPU cores. It multiplies large matrices with different thread counts, times every run, and charts the results.</p>
+
+<p>Capabilities:</p>
+<ul>
+<li>Parallel matrix multiplication, with the outer loop split across threads by OpenMP</li>
+<li>Sweeps matrix sizes and thread counts</li>
+<li>Reports time and GFLOPS, keeping the fastest of several runs</li>
+<li>Checks the parallel answer against the serial one before timing anything</li>
+<li>Saves results to CSV and plots them with Python and Matplotlib</li>
+</ul>
+
+<p><b>Built with:</b> C++17, OpenMP, CMake, Python, Matplotlib</p>
+
+<p>Code: <a href="https://github.com/marlware/celia">github.com/marlware/celia</a></p>
+</div>
+</body>
+</html>
