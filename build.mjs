@@ -37,11 +37,16 @@ function anchor([label, href]) {
     : `<a href="${href}">${label}</a>`;
 }
 
+// The top links wear brackets instead of an underline: [home] [blog] [projects]
+function navAnchor([label, href]) {
+  return anchor([`[${label}]`, href]);
+}
+
 function page({ title, description, path, body, home = false }) {
   const nav = home
     ? ""
     : `<nav>
-  <a href="/">marl jonson 🍓</a> · ${links.map(anchor).join(" · ")}
+  ${[["home", "/"], ...links].map(navAnchor).join("\n  ")}
 </nav>
 
 `;
@@ -132,9 +137,9 @@ write(
     description: "Marl Jonson's blog and projects.",
     path: "/",
     home: true,
-    body: `<h1>marl jonson 🍓</h1>
+    body: `<h1>home</h1>
 
-<p class="lead">san francisco bay area 💨</p>
+<p class="lead">san francisco bay area</p>
 
 <ul>
 ${links.map((l) => `  <li>${anchor(l)}</li>`).join("\n")}

@@ -52,8 +52,10 @@ nav {
   color: var(--muted-foreground);
 }
 
+/* Brackets mark these as links, so no underline */
 nav a {
   color: inherit;
+  text-decoration: none;
 }
 
 /* Headings */
