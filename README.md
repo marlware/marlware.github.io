@@ -43,6 +43,6 @@ Then do these steps.
 - The words come from the marl.dev repo, so copy any changes over to the files in `data/`
 - `style.css` holds the whole look, and it's about 100 lines
 - The site lives at https://marlware.github.io
-- GitHub Pages has to be turned on once, under Settings, then Pages, then Deploy from a branch, using `main` and the root folder
+- GitHub Pages serves the `main` branch, from the root folder
 - The empty `.nojekyll` file tells GitHub not to run Jekyll on these pages
 - The old contents of this repo are still in the git history
