@@ -3,30 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="icon" href="/favicon.ico">
   <title>Hamm – Secure Financial Ledger · Marl Jonson</title>
+  <meta name="description" content="A secure financial ledger API using Spring Boot to handle transactional CRUD workflows with strict role-based access.">
+  <link rel="canonical" href="https://marlware.github.io/projects/hamm/">
+  <meta property="og:title" content="Hamm – Secure Financial Ledger · Marl Jonson">
+  <meta property="og:description" content="A secure financial ledger API using Spring Boot to handle transactional CRUD workflows with strict role-based access.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marlware.github.io/projects/hamm/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div id="menu">
-<span class="title"><a href="/">marl jonson 🍓</a></span>
-<ul>
-  <li><a href="/blog/">blog</a></li>
-  <li><a href="/projects/">projects</a></li>
-  <li><a href="https://github.com/marlware">github</a></li>
-  <li><a href="https://linkedin.com/in/marl-jonson/">linkedin</a></li>
-</ul>
-</div>
-<div id="left">&nbsp;</div>
-<div id="content">
-<h1>Hamm – Secure Financial Ledger</h1>
-<p class="byline">Sep 2026</p>
+<main>
+<article>
+<nav>
+  <a href="/">marl jonson 🍓</a> · <a href="/blog/">blog</a> · <a href="/projects/">projects</a> · <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">github</a> · <a href="https://linkedin.com/in/marl-jonson/" target="_blank" rel="noopener noreferrer">linkedin</a>
+</nav>
 
-<p>A secure financial ledger API using Spring Boot to handle transactional CRUD workflows with strict role-based access.</p>
+<h1 class="tight">Hamm – Secure Financial Ledger</h1>
+<p class="meta">Sep 2026</p>
 
+<p class="lead">A secure financial ledger API using Spring Boot to handle transactional CRUD workflows with strict role-based access.</p>
+
+<div class="flow">
 <p>Hamm is the money-tracking part of a banking app. It keeps accounts, moves money between them, and records every move with double-entry bookkeeping. It runs on test data only.</p>
 
-<p>Key features:</p>
+<h2>Key features</h2>
+
 <ul>
 <li>A double-entry ledger, where every transfer is a debit and a credit</li>
 <li>Atomic transfers with account locking, so balances stay consistent</li>
@@ -34,9 +37,11 @@
 <li>Swagger docs, plus tests against a real PostgreSQL with Testcontainers</li>
 </ul>
 
-<p><b>Built with:</b> Java, Spring Boot, Spring Security, JWT, Spring Data JPA, PostgreSQL, Docker, GitHub Actions</p>
+<p><strong>Built with:</strong> Java, Spring Boot, Spring Security, JWT, Spring Data JPA, PostgreSQL, Docker, GitHub Actions</p>
 
-<p>Code: <a href="https://github.com/marlware/hamm">github.com/marlware/hamm</a></p>
+<p><strong>Code:</strong> <a href="https://github.com/marlware/hamm" target="_blank" rel="noopener noreferrer">github.com/marlware/hamm</a></p>
 </div>
+</article>
+</main>
 </body>
 </html>

@@ -8,47 +8,65 @@ import { projects } from "./data/projects.mjs";
 import { posts } from "./data/posts.mjs";
 
 const SITE = "Marl Jonson";
+const ORIGIN = "https://marlware.github.io";
 
-const menu = [
+const links = [
   ["blog", "/blog/"],
   ["projects", "/projects/"],
   ["github", "https://github.com/marlware"],
   ["linkedin", "https://linkedin.com/in/marl-jonson/"],
 ];
 
+// These three projects get the whole-system picture as their figure.
+const withDiagram = new Set(["margo", "edith", "agnes"]);
+
 const esc = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+const attr = (s) => esc(s).replace(/"/g, "&quot;");
 
 function write(path, html) {
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, html);
 }
 
-function page(title, body) {
-  const links = menu
-    .map(([label, href]) => `  <li><a href="${href}">${label}</a></li>`)
-    .join("\n");
+function anchor([label, href]) {
+  const external = href.startsWith("http");
+  return external
+    ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`
+    : `<a href="${href}">${label}</a>`;
+}
+
+function page({ title, description, path, body, home = false }) {
+  const nav = home
+    ? ""
+    : `<nav>
+  <a href="/">marl jonson 🍓</a> · ${links.map(anchor).join(" · ")}
+</nav>
+
+`;
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="icon" href="/favicon.ico">
   <title>${esc(title)}</title>
+  <meta name="description" content="${attr(description)}">
+  <link rel="canonical" href="${ORIGIN}${path}">
+  <meta property="og:title" content="${attr(title)}">
+  <meta property="og:description" content="${attr(description)}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${ORIGIN}${path}">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div id="menu">
-<span class="title"><a href="/">marl jonson 🍓</a></span>
-<ul>
-${links}
-</ul>
-</div>
-<div id="left">&nbsp;</div>
-<div id="content">
-${body}
-</div>
+<main>
+<article>
+${nav}${body}
+</article>
+</main>
 </body>
 </html>
 `;
@@ -74,7 +92,7 @@ function renderText(text) {
       // "Key ideas:" followed by "- item" lines
       if (first.endsWith(":") && rest.length && rest.every((l) => l.startsWith("- "))) {
         const items = rest.map((l) => `<li>${esc(l.slice(2))}</li>`).join("\n");
-        return `<p>${esc(first)}</p>\n<ul>\n${items}\n</ul>`;
+        return `<h2>${esc(first.slice(0, -1))}</h2>\n\n<ul>\n${items}\n</ul>`;
       }
 
       // "1. First", "2. Second"
@@ -88,12 +106,12 @@ function renderText(text) {
       // "FA.2024" followed by a list of classes
       if (/^[A-Z]{2}\.\d{4}$/.test(first) && rest.length) {
         const items = rest.map((l) => `<li>${esc(l)}</li>`).join("\n");
-        return `<h3>${esc(first)}</h3>\n<ul>\n${items}\n</ul>`;
+        return `<h2>${esc(first)}</h2>\n\n<ul>\n${items}\n</ul>`;
       }
 
       // "Built with: ..."
       if (lines.length === 1 && first.startsWith("Built with:")) {
-        return `<p><b>Built with:</b>${esc(first.slice("Built with:".length))}</p>`;
+        return `<p><strong>Built with:</strong>${esc(first.slice("Built with:".length))}</p>`;
       }
 
       return `<p>${esc(lines.join(" "))}</p>`;
@@ -101,92 +119,132 @@ function renderText(text) {
     .join("\n\n");
 }
 
+const figure = `<figure>
+  <img src="/assets/system.svg" alt="How Margo, Agnes, and Edith connect through Kafka, with the technologies each one uses" width="874" height="1581">
+  <figcaption>Margo, Edith, and Agnes, and how they fit together</figcaption>
+</figure>`;
+
 // Home
 write(
   "index.html",
-  page(
-    `Home · ${SITE}`,
-    `<p>san francisco bay area 💨</p>`,
-  ),
+  page({
+    title: SITE,
+    description: "Marl Jonson's blog and projects.",
+    path: "/",
+    home: true,
+    body: `<h1>marl jonson 🍓</h1>
+
+<p class="lead">san francisco bay area 💨</p>
+
+<ul>
+${links.map((l) => `  <li>${anchor(l)}</li>`).join("\n")}
+</ul>`,
+  }),
 );
 
 // Blog
 write(
   "blog/index.html",
-  page(
-    `Blog · ${SITE}`,
-    `<h1>Blog</h1>
+  page({
+    title: `Blog · ${SITE}`,
+    description: "Short posts by Marl Jonson.",
+    path: "/blog/",
+    body: `<h1>Blog</h1>
 
 <ul>
 ${posts
   .map(
     (p) =>
-      `  <li><a href="/blog/${p.slug}/">${esc(p.title)}</a><span class="byline">${esc(p.date)}</span></li>`,
+      `  <li><a href="/blog/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></li>`,
   )
   .join("\n")}
 </ul>`,
-  ),
+  }),
 );
 
 for (const post of posts) {
   write(
     `blog/${post.slug}/index.html`,
-    page(
-      `${post.title} · ${SITE}`,
-      `<h1>${esc(post.title)}</h1>
-<p class="byline">${esc(post.date)}</p>
+    page({
+      title: `${post.title} · ${SITE}`,
+      description: post.title,
+      path: `/blog/${post.slug}/`,
+      body: `<h1 class="tight">${esc(post.title)}</h1>
+<p class="meta">${esc(post.date)}</p>
 
-${renderText(post.content)}`,
-    ),
+<div class="flow">
+${renderText(post.content)}
+</div>`,
+    }),
   );
 }
 
 // Projects
 write(
   "projects/index.html",
-  page(
-    `Projects · ${SITE}`,
-    `<h1>Projects</h1>
+  page({
+    title: `Projects · ${SITE}`,
+    description: "Projects by Marl Jonson.",
+    path: "/projects/",
+    body: `<h1>Projects</h1>
 
 <ul>
 ${projects
   .map(
     (p) =>
-      `  <li><a href="/projects/${p.slug}/">${esc(p.title)}</a><span class="byline">${esc(p.date)}</span></li>`,
+      `  <li><a href="/projects/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></li>`,
   )
   .join("\n")}
 </ul>`,
-  ),
+  }),
 );
 
 for (const project of projects) {
   const code = project.github
-    ? `\n\n<p>Code: <a href="${project.github}">${esc(project.github.replace("https://", ""))}</a></p>`
+    ? `\n\n<p><strong>Code:</strong> <a href="${project.github}" target="_blank" rel="noopener noreferrer">${esc(project.github.replace("https://", ""))}</a></p>`
     : "";
 
   write(
     `projects/${project.slug}/index.html`,
-    page(
-      `${project.title} · ${SITE}`,
-      `<h1>${esc(project.title)}</h1>
-<p class="byline">${esc(project.date)}</p>
+    page({
+      title: `${project.title} · ${SITE}`,
+      description: project.summary,
+      path: `/projects/${project.slug}/`,
+      body: `<h1 class="tight">${esc(project.title)}</h1>
+<p class="meta">${esc(project.date)}</p>
 
-<p>${esc(project.summary)}</p>
+<p class="lead">${esc(project.summary)}</p>
 
-${renderText(project.content)}${code}`,
-    ),
+${withDiagram.has(project.slug) ? figure + "\n\n" : ""}<div class="flow">
+${renderText(project.content)}${code}
+</div>`,
+    }),
   );
 }
 
 // Not found
 write(
   "404.html",
-  page(
-    `Not found · ${SITE}`,
-    `<h1>Not found</h1>
-
-<p>That page doesn't exist. Try the menu on the right.</p>`,
-  ),
+  `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found · ${SITE}</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="notfound">
+  <div>
+    <h1>404</h1>
+    <p>That page doesn't exist.</p>
+    <p><a href="/">Go home</a></p>
+  </div>
+</main>
+</body>
+</html>
+`,
 );
 
 console.log(`Built ${projects.length} projects and ${posts.length} posts.`);

@@ -4,12 +4,13 @@ Minimalist Personal Website
 
 ## What's going on here
 
-This is my personal website, built to look like Patrick Collison's. It's a plain white page with small Helvetica text, a short blue menu on the right, and one narrow column of writing. There's no JavaScript, no dark mode, and no framework. It holds the same blog and projects as marl.dev, as simple HTML pages.
+This is my personal website, built to look like [newaesthetics.art](https://newaesthetics.art/). It's a plain white page with one centered column of text, the system font, pink headings, and underlined links. There's no JavaScript, no dark mode, and no framework. It holds the same blog and projects as marl.dev, as simple HTML pages.
 
-- A home page with just a name and a place
+- A home page with a name, a place, and four links
 - A blog with three short posts
 - A projects list with a page for each project
-- A small phone layout that moves the menu to the top
+- A small line of links at the top of every other page
+- The Margo, Edith, and Agnes pages show a diagram of how all three fit together
 
 ## Why these technologies
 
@@ -41,7 +42,8 @@ Then do these steps.
 ## Good to know
 
 - The words come from the marl.dev repo, so copy any changes over to the files in `data/`
-- `style.css` holds the whole look, and it's about 100 lines
+- `style.css` holds the whole look, and it's under 200 lines
+- `assets/system.svg` is a copy of the diagram in the margo repo, so update it here if that one changes
 - The site lives at https://marlware.github.io
 - GitHub Pages serves the `main` branch, from the root folder
 - The empty `.nojekyll` file tells GitHub not to run Jekyll on these pages

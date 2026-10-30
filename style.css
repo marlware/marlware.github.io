@@ -1,111 +1,182 @@
-/* Plain pages in the spirit of patrickcollison.com: white page, small Helvetica,
-   a right-aligned menu, and one narrow column of text. */
+/* Plain pages in the spirit of newaesthetics.art: one centered column of text,
+   the system font, a single pink accent for headings, and underlined links.
+   No JavaScript, no framework. */
+
+:root {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(0 0% 10%);
+  --muted: hsl(0 0% 96%);
+  --muted-foreground: hsl(0 0% 45%);
+  --heading: hsl(332.6 84.5% 43.1%);
+  --rule: hsl(0 0% 10% / 0.2);
+  --sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  font-family: var(--sans);
+}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-size: 16px;
+  line-height: inherit;
 }
 
-#menu {
-  float: right;
-  margin-top: 30px;
-  margin-right: 20px;
-  text-align: right;
-  width: 150px;
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+main {
+  min-height: 100vh;
 }
 
-#menu .title a {
+article {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 1.5rem;
+}
+
+/* The small line of links at the top of every page except home */
+nav {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--muted-foreground);
+}
+
+nav a {
   color: inherit;
-  text-decoration: none;
 }
 
-#menu ul {
-  list-style-type: none;
+/* Headings */
+h1 {
+  margin: 0 0 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: var(--heading);
+}
+
+h1.tight {
+  margin-bottom: 0.25rem;
+}
+
+h2 {
   margin: 0;
-  padding: 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--heading);
 }
 
-#menu li a {
-  display: inline-block;
-  color: #0864c7;
+p {
+  margin: 0;
 }
 
-#left {
-  height: 1px;
-  float: left;
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* A short gray line, like a date */
+.meta {
+  margin: 0 0 2rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--muted-foreground);
+}
+
+li .meta {
+  display: inline;
+  margin: 0 0 0 0.5rem;
+}
+
+/* The opening paragraph above the figure */
+.lead {
+  margin-bottom: 2rem;
+}
+
+/* Figure */
+figure {
+  margin: 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure img {
   display: block;
-  min-width: 0;
-  overflow: hidden;
-  width: 200px;
+  width: 75%;
+  height: auto;
+  max-width: 100%;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--muted-foreground);
+}
+
+/* Vertical rhythm: every block in the body is 1.5rem apart. */
+.flow > * + * {
+  margin-top: 1.5rem;
+}
+
+/* Lists */
+ul,
+ol {
   margin: 0;
-  padding: 0;
+  padding-left: 1.5rem;
 }
 
-#content {
-  margin-top: 15px;
-  float: left;
-  width: 500px;
+ul {
+  list-style: disc;
 }
 
-#content h1,
-#content h2,
-#content h3 {
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+ol {
+  list-style: decimal;
 }
 
-#content h2,
-#content h3 {
-  margin-top: 2em;
+li + li {
+  margin-top: 0.5rem;
 }
 
-#content a,
-#content a:visited {
-  color: #0864c7;
+/* 404 */
+.notfound {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--muted);
+  text-align: center;
 }
 
-#content p,
-#content ul,
-#content ol {
-  color: #333;
-  line-height: 18px;
+.notfound h1 {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: var(--foreground);
 }
 
-#content li {
-  margin-bottom: 0.7em;
-}
-
-#content .byline {
-  font-size: 10px;
-  color: #aaa;
-  margin-top: 0.3em;
-}
-
-#content li .byline {
-  margin-left: 0.5em;
-}
-
-/* Phones: the menu goes on top, and the text uses the whole width. */
-@media (max-width: 760px) {
-  body {
-    margin: 16px;
-  }
-
-  #menu {
-    float: none;
-    margin: 0 0 20px;
-    width: auto;
-    text-align: left;
-  }
-
-  #left {
-    display: none;
-  }
-
-  #content {
-    float: none;
-    width: auto;
-    margin-top: 0;
-  }
+.notfound p {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--muted-foreground);
 }

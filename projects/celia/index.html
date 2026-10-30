@@ -3,30 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="icon" href="/favicon.ico">
   <title>Celia – Multi-threaded Performance Tool · Marl Jonson</title>
+  <meta name="description" content="A C++ and OpenMP tool that measures and visualizes multi-threaded CPU performance using parallel matrix math.">
+  <link rel="canonical" href="https://marlware.github.io/projects/celia/">
+  <meta property="og:title" content="Celia – Multi-threaded Performance Tool · Marl Jonson">
+  <meta property="og:description" content="A C++ and OpenMP tool that measures and visualizes multi-threaded CPU performance using parallel matrix math.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marlware.github.io/projects/celia/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div id="menu">
-<span class="title"><a href="/">marl jonson 🍓</a></span>
-<ul>
-  <li><a href="/blog/">blog</a></li>
-  <li><a href="/projects/">projects</a></li>
-  <li><a href="https://github.com/marlware">github</a></li>
-  <li><a href="https://linkedin.com/in/marl-jonson/">linkedin</a></li>
-</ul>
-</div>
-<div id="left">&nbsp;</div>
-<div id="content">
-<h1>Celia – Multi-threaded Performance Tool</h1>
-<p class="byline">Oct 2026</p>
+<main>
+<article>
+<nav>
+  <a href="/">marl jonson 🍓</a> · <a href="/blog/">blog</a> · <a href="/projects/">projects</a> · <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">github</a> · <a href="https://linkedin.com/in/marl-jonson/" target="_blank" rel="noopener noreferrer">linkedin</a>
+</nav>
 
-<p>A C++ and OpenMP tool that measures and visualizes multi-threaded CPU performance using parallel matrix math.</p>
+<h1 class="tight">Celia – Multi-threaded Performance Tool</h1>
+<p class="meta">Oct 2026</p>
 
+<p class="lead">A C++ and OpenMP tool that measures and visualizes multi-threaded CPU performance using parallel matrix math.</p>
+
+<div class="flow">
 <p>Celia measures how much faster a program gets when it uses more CPU cores. It multiplies large matrices with different thread counts, times every run, and charts the results.</p>
 
-<p>Capabilities:</p>
+<h2>Capabilities</h2>
+
 <ul>
 <li>Parallel matrix multiplication, with the outer loop split across threads by OpenMP</li>
 <li>Sweeps matrix sizes and thread counts</li>
@@ -35,9 +38,11 @@
 <li>Saves results to CSV and plots them with Python and Matplotlib</li>
 </ul>
 
-<p><b>Built with:</b> C++17, OpenMP, CMake, Python, Matplotlib</p>
+<p><strong>Built with:</strong> C++17, OpenMP, CMake, Python, Matplotlib</p>
 
-<p>Code: <a href="https://github.com/marlware/celia">github.com/marlware/celia</a></p>
+<p><strong>Code:</strong> <a href="https://github.com/marlware/celia" target="_blank" rel="noopener noreferrer">github.com/marlware/celia</a></p>
 </div>
+</article>
+</main>
 </body>
 </html>
