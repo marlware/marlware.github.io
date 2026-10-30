@@ -42,10 +42,8 @@ function navAnchor([label, href]) {
   return anchor([`[${label}]`, href]);
 }
 
-function page({ title, description, path, body, home = false }) {
-  const nav = home
-    ? ""
-    : `<nav>
+function page({ title, description, path, body }) {
+  const nav = `<nav>
   ${[["home", "/"], ...links].map(navAnchor).join("\n  ")}
 </nav>
 
@@ -133,17 +131,31 @@ const figure = `<figure>
 write(
   "index.html",
   page({
-    title: SITE,
-    description: "Marl Jonson's blog and projects.",
+    title: `Home · ${SITE}`,
+    description:
+      "Marl Jonson studies computer science at San Jose State University and builds backend systems.",
     path: "/",
-    home: true,
     body: `<h1>home</h1>
 
-<p class="lead">san francisco bay area</p>
+<div class="flow">
+<p>I live in the San Francisco Bay Area and study computer science at San Jose State University. I'm due to finish in the spring of 2027. Most of what I build is backend systems, and I like making small but complete versions of real ones to see how they hold up. Everything is on <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+
+<p>Things I'm interested in:</p>
 
 <ul>
-${links.map((l) => `  <li>${anchor(l)}</li>`).join("\n")}
-</ul>`,
+  <li><strong>Event-driven systems.</strong> Putting a queue like Kafka between the fast part of a system and the slow, unreliable part. <a href="/projects/etch/">Etch</a> is a notification hub built around that idea.</li>
+  <li><strong>Streaming video.</strong> <a href="/projects/margo/">Margo</a>, <a href="/projects/edith/">Edith</a>, and <a href="/projects/agnes/">Agnes</a> together pretend to be a small streaming service, from checking videos to playing ads.</li>
+  <li><strong>Healthcare data.</strong> <a href="/projects/harbor/">Harbor</a> and <a href="/projects/respiro/">Respiro</a> move vital signs around in HL7 FHIR, the standard healthcare systems use.</li>
+  <li><strong>Careful code.</strong> <a href="/projects/hamm/">Hamm</a> is a ledger where a transfer either fully happens or doesn't happen at all.</li>
+  <li><strong>Performance.</strong> <a href="/projects/celia/">Celia</a> measures how much faster a program gets when it uses more CPU cores.</li>
+  <li><strong>Pixar.</strong> I find the studio fascinating, and I wrote down some <a href="/blog/pixar-advice/">advice from people who work there</a>.</li>
+  <li><strong>Pop music.</strong> I made <a href="/projects/listenade/">a music zine</a> with my pop opinions. <a href="/projects/zinnia/">Zinnia</a> and <a href="/projects/harbor/">Harbor</a> are named after tracks on Clairo's album <i>Sling</i>.</li>
+</ul>
+
+<h2>Elsewhere</h2>
+
+<p><a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">marlware</a> on GitHub; <a href="https://linkedin.com/in/marl-jonson/" target="_blank" rel="noopener noreferrer">marl-jonson</a> on LinkedIn.</p>
+</div>`,
   }),
 );
 
