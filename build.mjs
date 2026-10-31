@@ -159,7 +159,7 @@ write(
   <li><strong>Event-driven systems.</strong> Putting a queue like Kafka between the fast part of a system and the slow, unreliable part. <a href="/projects/etch/">Etch</a> is a notification hub built around that idea.</li>
   <li><strong>Streaming video.</strong> <a href="/projects/margo/">Margo</a>, <a href="/projects/edith/">Edith</a>, and <a href="/projects/agnes/">Agnes</a> together pretend to be a small streaming service, from checking videos to playing ads.</li>
   <li><strong>Media companies.</strong> The big streaming platforms and the conglomerates behind them, like Netflix, Disney+, Paramount+, and NBCUniversal, and the systems that get their shows to millions of people at once.</li>
-  <li><strong>Stateful stream processing.</strong> Handling a never-ending flow of events while remembering what came before, on the JVM with tools like Kafka Streams and Flink, and the hard parts like ordering, failures, and exactly-once results.</li>
+  <li><strong>Stateful stream processing.</strong> Programs that read a nonstop flow of events and remember what came before. I'm interested in building them on the JVM with Kafka Streams or Flink, and in handling events that show up late.</li>
 </ul>
 
 <h2>elsewhere</h2>
