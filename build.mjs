@@ -129,12 +129,12 @@ write(
   page({
     title: `Home · ${SITE}`,
     description:
-      "Marl Jonson studies computer science at San Jose State University and builds backend systems.",
+      "Marl Jonson studies computer science and builds backend systems.",
     path: "/",
     body: `<h1>home</h1>
 
 <div class="flow">
-<p>I live in the San Francisco Bay Area and study computer science at San Jose State University. I'm due to finish in the spring of 2027. Most of what I build is backend systems, and I like making small but complete versions of real ones to see how they hold up. Everything is on <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<p>I live in the San Francisco Bay Area and study computer science. Most of what I build is backend systems. I like making small but complete versions of real ones to see how they hold up. Everything is on <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
 
 <p>Things I'm interested in:</p>
 
