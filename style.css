@@ -135,6 +135,13 @@ li > .meta {
   margin-bottom: 2rem;
 }
 
+/* A small picture on the home page */
+.mascot {
+  display: block;
+  width: 2.5rem;
+  height: auto;
+}
+
 /* Figure */
 figure {
   margin: 0 0 2rem;
@@ -177,6 +184,12 @@ ul {
 
 ol {
   list-style: decimal;
+}
+
+/* Lists of posts and projects have no bullets. */
+ul.plain {
+  padding-left: 0;
+  list-style: none;
 }
 
 li + li {

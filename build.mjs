@@ -151,7 +151,9 @@ write(
     body: `<h1>home</h1>
 
 <div class="flow">
-<p>I live in the San Francisco Bay Area and study computer science. Most of what I build is backend systems. I like making small but complete versions of real ones to see how they hold up. Everything is on <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<p>I study computer science in the San Francisco Bay Area. Most of what I build is backend systems. I like making small but complete versions of real ones to see how they hold up. Everything is on <a href="https://github.com/marlware" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+
+<img class="mascot" src="/assets/bugdroid.png" alt="" width="40" height="40">
 
 <p>Things I'm interested in:</p>
 
@@ -159,7 +161,7 @@ write(
   <li><strong>Event-driven systems.</strong> Putting a queue like Kafka between the fast part of a system and the slow, unreliable part. <a href="/projects/etch/">Etch</a> is a notification hub built around that idea.</li>
   <li><strong>Streaming video.</strong> <a href="/projects/margo/">Margo</a>, <a href="/projects/edith/">Edith</a>, and <a href="/projects/agnes/">Agnes</a> together pretend to be a small streaming service, from checking videos to playing ads.</li>
   <li><strong>Media companies.</strong> The big streaming platforms and the conglomerates behind them, like Netflix, Disney+, Paramount+, and NBCUniversal, and the systems that get their shows to millions of people at once.</li>
-  <li><strong>Pop music.</strong> My favorite musician is Jai Paul. I made <a href="/projects/listenade/">a music zine</a> with my pop opinions. <a href="/projects/zinnia/">Zinnia</a> and <a href="/projects/harbor/">Harbor</a> are named after tracks on Clairo's album <i>Sling</i>.</li>
+  <li><strong>Music business.</strong> I play piano. I'm curious about the streaming services and labels behind the music industry, like Spotify, Apple Music, and Universal Music Group, and the software that gets songs and royalties to the right places.</li>
 </ul>
 
 <h2>Elsewhere</h2>
@@ -178,7 +180,7 @@ write(
     path: "/blog/",
     body: `<h1>blog</h1>
 
-<ul>
+<ul class="plain">
 ${posts
   .map(
     (p) =>
@@ -215,7 +217,7 @@ write(
     path: "/projects/",
     body: `<h1>projects</h1>
 
-<ul>
+<ul class="plain">
 ${projects
   .map(
     (p) =>
