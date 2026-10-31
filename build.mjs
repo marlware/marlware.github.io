@@ -28,6 +28,35 @@ const attr = (s) => esc(s).replace(/"/g, "&quot;");
 // For the projects list: "A media service." becomes "Media service."
 const dropArticle = (s) => s.replace(/^An? (\S)/, (_, c) => c.toUpperCase());
 
+// In the projects list, the blue link is only the project's name. The black words
+// after it begin with the rest of the title (for "Margo – Media Ingest Service",
+// that's "Media ingest service ..."). Most summaries already start that way. These
+// seven don't, so they're reworded here with the same facts.
+const listText = {
+  agnes:
+    "HLS playback service that streams approved videos, fetches ads from Edith, and reports every ad view.",
+  celia:
+    "Multi-threaded performance tool that measures and visualizes CPU performance using C++, OpenMP, and parallel matrix math.",
+  respiro:
+    "Pulmonary health monitoring made accessible through simple, real-time FHIR on iOS.",
+  harbor:
+    "Healthcare messaging platform that's event-driven, using Spring Boot and Apache Kafka to exchange HL7 FHIR messages between services.",
+  dotty: "Dot product calculator, kept tiny.",
+  fxcade: "JavaFX arcade project built for CS 151.",
+  pps: "Inventory manager for a store, console-based and built with Java.",
+};
+
+function projectRow(p) {
+  const [name, rest] = p.title.split(" – ");
+  const text = listText[p.slug] ?? dropArticle(p.summary);
+
+  if (!text.toLowerCase().startsWith(rest.toLowerCase())) {
+    throw new Error(`"${p.slug}": the text should begin with "${rest}", but it begins "${text.slice(0, 40)}"`);
+  }
+
+  return `  <li><span class="meta">${esc(p.date)}</span><strong><a href="/projects/${p.slug}/">${esc(name)}</a>.</strong> ${esc(text)}</li>`;
+}
+
 function write(path, html) {
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, html);
@@ -205,7 +234,7 @@ write(
 ${projects
   .map(
     (p) =>
-      `  <li><span class="meta">${esc(p.date)}</span><strong><a href="/projects/${p.slug}/">${esc(p.title)}</a>.</strong> ${esc(dropArticle(p.summary))}</li>`,
+      projectRow(p),
   )
   .join("\n")}
 </ul>`,
