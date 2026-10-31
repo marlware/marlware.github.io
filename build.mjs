@@ -25,36 +25,21 @@ const esc = (s) =>
 
 const attr = (s) => esc(s).replace(/"/g, "&quot;");
 
-// For the projects list: "A media service." becomes "Media service."
-const dropArticle = (s) => s.replace(/^An? (\S)/, (_, c) => c.toUpperCase());
+// In the projects list, the blue link is only the project's name, and the black
+// words after it are the rest of the title in sentence case. So
+// "Margo – Media Ingest Service" becomes "Margo. Media ingest service."
+const keepCase = new Set(["HLS", "Docker", "JavaFX"]);
 
-// In the projects list, the blue link is only the project's name. The black words
-// after it begin with the rest of the title (for "Margo – Media Ingest Service",
-// that's "Media ingest service ..."). Most summaries already start that way. These
-// seven don't, so they're reworded here with the same facts.
-const listText = {
-  agnes:
-    "HLS playback service that streams approved videos, fetches ads from Edith, and reports every ad view.",
-  celia:
-    "Multi-threaded performance tool that measures and visualizes CPU performance using C++, OpenMP, and parallel matrix math.",
-  respiro:
-    "Pulmonary health monitoring made accessible through simple, real-time FHIR on iOS.",
-  harbor:
-    "Healthcare messaging platform that's event-driven, using Spring Boot and Apache Kafka to exchange HL7 FHIR messages between services.",
-  dotty: "Dot product calculator, kept tiny.",
-  fxcade: "JavaFX arcade project built for CS 151.",
-  pps: "Inventory manager for a store, console-based and built with Java.",
-};
+const sentenceCase = (s) =>
+  s
+    .split(" ")
+    .map((word, i) => (i > 0 && !keepCase.has(word) ? word.toLowerCase() : word))
+    .join(" ");
 
 function projectRow(p) {
   const [name, rest] = p.title.split(" – ");
-  const text = listText[p.slug] ?? dropArticle(p.summary);
 
-  if (!text.toLowerCase().startsWith(rest.toLowerCase())) {
-    throw new Error(`"${p.slug}": the text should begin with "${rest}", but it begins "${text.slice(0, 40)}"`);
-  }
-
-  return `  <li><span class="meta">${esc(p.date)}</span><strong><a href="/projects/${p.slug}/">${esc(name)}</a>.</strong> ${esc(text)}</li>`;
+  return `  <li><span class="meta">${esc(p.date)}</span><strong><a href="/projects/${p.slug}/">${esc(name)}</a>.</strong> ${esc(sentenceCase(rest))}.</li>`;
 }
 
 function write(path, html) {
@@ -134,8 +119,8 @@ function renderText(text) {
         return `<ol>\n${items}\n</ol>`;
       }
 
-      // "FA.2024" followed by a list of classes
-      if (/^[A-Z]{2}\.\d{4}$/.test(first) && rest.length) {
+      // "fall 2024" followed by a list of classes
+      if (/^(fall|spring|summer|winter) \d{4}$/i.test(first) && rest.length) {
         const items = rest.map((l) => `<li>${esc(l)}</li>`).join("\n");
         return `<h2>${esc(first)}</h2>\n\n<ul>\n${items}\n</ul>`;
       }
@@ -174,7 +159,7 @@ write(
   <li><strong>Event-driven systems.</strong> Putting a queue like Kafka between the fast part of a system and the slow, unreliable part. <a href="/projects/etch/">Etch</a> is a notification hub built around that idea.</li>
   <li><strong>Streaming video.</strong> <a href="/projects/margo/">Margo</a>, <a href="/projects/edith/">Edith</a>, and <a href="/projects/agnes/">Agnes</a> together pretend to be a small streaming service, from checking videos to playing ads.</li>
   <li><strong>Media companies.</strong> The big streaming platforms and the conglomerates behind them, like Netflix, Disney+, Paramount+, and NBCUniversal, and the systems that get their shows to millions of people at once.</li>
-  <li><strong>Pop music.</strong> I made <a href="/projects/listenade/">a music zine</a> with my pop opinions. <a href="/projects/zinnia/">Zinnia</a> and <a href="/projects/harbor/">Harbor</a> are named after tracks on Clairo's album <i>Sling</i>.</li>
+  <li><strong>Pop music.</strong> My favorite musician is Jai Paul. I made <a href="/projects/listenade/">a music zine</a> with my pop opinions. <a href="/projects/zinnia/">Zinnia</a> and <a href="/projects/harbor/">Harbor</a> are named after tracks on Clairo's album <i>Sling</i>.</li>
 </ul>
 
 <h2>Elsewhere</h2>
