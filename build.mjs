@@ -67,7 +67,7 @@ function page({ title, description, path, body }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${esc(title)}</title>
+  <title>marl.dev</title>
   <meta name="description" content="${attr(description)}">
   <link rel="canonical" href="${ORIGIN}${path}">
   <meta property="og:title" content="${attr(title)}">
@@ -180,6 +180,17 @@ write(
 
 <ul class="plain">
 ${posts
+  .filter((p) => !p.separate)
+  .map(
+    (p) =>
+      `  <li><div class="row"><strong><a href="/blog/${p.slug}/">${esc(p.title)}</a>.</strong><span class="meta">${esc(p.date)}</span></div></li>`,
+  )
+  .join("\n")}
+</ul>
+
+<ul class="plain">
+${posts
+  .filter((p) => p.separate)
   .map(
     (p) =>
       `  <li><div class="row"><strong><a href="/blog/${p.slug}/">${esc(p.title)}</a>.</strong><span class="meta">${esc(p.date)}</span></div></li>`,
@@ -257,7 +268,7 @@ write(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Not found · ${SITE}</title>
+  <title>marl.dev</title>
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/style.css">
 </head>

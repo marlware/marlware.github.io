@@ -59,6 +59,34 @@ export const posts = [
 
       Barney Jones worked for Pixar as a music editor. Barney's advice: become comfortable with ambiguity. Barney interprets the abstract feelings that animators possess about music that complements their visual work. This relates to software engineering and business application development. The core "value add" of Barney's work is his innate understanding of how the music will let a viewer best experience the end product: the visuals. And he knows how to do the work to get from point A (visual with no music) to point B (visual with music).
     `,
-  }
-];
+  },
+  {
+    slug: "underconsuming",
+    title: "underconsuming",
+    date: "October 30, 2026",
+    separate: true,
+    content: `
+    A list of items I own, as a small minimalism project.
 
+    tech:
+    - Lenovo Slim 7i Aura Edition (14" Intel) Laptop
+    - Signature Comfort M840 L Wireless Mouse - Logitech (x2)
+    - Lenovo ThinkVision T22i-30 Monitor (x2)
+    - HP Thunderbolt Dock 230W G2 w/ Combo Cable
+    - Brio 300 Full HD Webcam - Logitech
+    - Apple iPhone 15 Pro Max - 512GB
+    - Google Pixel 8 Pro - 256GB
+    - Fifine - A6V USB Condenser Microphone
+    - Apple AirPods Pro 3
+    - Apple AirPods Pro 2
+    - WH-1000XM4 Premium Wireless Noise Cancelling Headphones | Midnight Blue
+    - Roku® Streaming Stick® 4K
+
+    shoes:
+    - Vans - checkered slip-ons
+    - Converse - white high tops
+    - Converse - black canvas high tops
+    - Converse - Chuck Taylor All Star XXHi Buckles
+    `,
+  },
+];

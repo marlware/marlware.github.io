@@ -185,6 +185,11 @@ ul.plain {
   list-style: none;
 }
 
+/* A second list sits one blank line below the first. */
+ul.plain + ul.plain {
+  margin-top: 1.5rem;
+}
+
 li + li {
   margin-top: 0.5rem;
 }
