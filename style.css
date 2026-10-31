@@ -9,6 +9,7 @@
   --muted-foreground: hsl(0 0% 45%);
   --heading: hsl(332.6 84.5% 43.1%);
   --rule: hsl(0 0% 10% / 0.2);
+  --link: #0864c7;
   --sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -52,10 +53,13 @@ nav {
   color: var(--muted-foreground);
 }
 
-/* Brackets mark these as links, so no underline */
 nav a {
-  color: inherit;
-  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* The arrow after the two links that leave this site */
+.ext {
+  margin-left: 0.2em;
 }
 
 /* Headings */
@@ -83,9 +87,10 @@ p {
   margin: 0;
 }
 
+/* Links are blue, with no underline */
 a {
-  color: inherit;
-  text-decoration: underline;
+  color: var(--link);
+  text-decoration: none;
 }
 
 strong {

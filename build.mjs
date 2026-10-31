@@ -30,16 +30,12 @@ function write(path, html) {
   writeFileSync(path, html);
 }
 
-function anchor([label, href]) {
-  const external = href.startsWith("http");
-  return external
-    ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`
-    : `<a href="${href}">${label}</a>`;
-}
-
-// The top links wear brackets instead of an underline: [home] [blog] [projects]
+// The top links. The two that leave this site get a small arrow (↗).
 function navAnchor([label, href]) {
-  return anchor([`[${label}]`, href]);
+  if (!href.startsWith("http")) return `<a href="${href}">${label}</a>`;
+
+  const arrow = `<span class="ext" aria-hidden="true">&#8599;&#xFE0E;</span>`;
+  return `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}${arrow}</a>`;
 }
 
 function page({ title, description, path, body }) {

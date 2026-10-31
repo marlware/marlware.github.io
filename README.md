@@ -4,7 +4,7 @@ Minimalist Personal Website
 
 ## What's going on here
 
-This is my personal website, built to look like [newaesthetics.art](https://newaesthetics.art/). It's a plain white page with one centered column of text, the system font, pink headings, and underlined links. There's no JavaScript, no dark mode, and no framework. It holds the same blog and projects as marl.dev, as simple HTML pages.
+This is my personal website, built to look like [newaesthetics.art](https://newaesthetics.art/). It's a plain white page with one centered column of text, the system font, pink headings, and blue links. There's no JavaScript, no dark mode, and no framework. It holds the same blog and projects as marl.dev, as simple HTML pages.
 
 - A home page with a short summary of me, written like the about page on patrickcollison.com
 - A blog with three short posts
