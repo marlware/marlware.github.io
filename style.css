@@ -122,6 +122,14 @@ strong {
   white-space: nowrap;
 }
 
+/* In the projects list, the date sits flush right on the title's line. */
+li > .meta {
+  float: right;
+  margin: 0 0 0 1rem;
+  line-height: 1.5rem;
+  white-space: nowrap;
+}
+
 /* The opening paragraph above the figure */
 .lead {
   margin-bottom: 2rem;

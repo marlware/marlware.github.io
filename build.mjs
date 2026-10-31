@@ -25,6 +25,9 @@ const esc = (s) =>
 
 const attr = (s) => esc(s).replace(/"/g, "&quot;");
 
+// For the projects list: "A media service." becomes "Media service."
+const dropArticle = (s) => s.replace(/^An? (\S)/, (_, c) => c.toUpperCase());
+
 function write(path, html) {
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, html);
@@ -159,7 +162,7 @@ write(
     title: `Blog · ${SITE}`,
     description: "Short posts by Marl Jonson.",
     path: "/blog/",
-    body: `<h1>Blog</h1>
+    body: `<h1>blog</h1>
 
 <ul>
 ${posts
@@ -196,13 +199,13 @@ write(
     title: `Projects · ${SITE}`,
     description: "Projects by Marl Jonson.",
     path: "/projects/",
-    body: `<h1>Projects</h1>
+    body: `<h1>projects</h1>
 
 <ul>
 ${projects
   .map(
     (p) =>
-      `  <li><div class="row"><a href="/projects/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></div></li>`,
+      `  <li><span class="meta">${esc(p.date)}</span><strong><a href="/projects/${p.slug}/">${esc(p.title)}</a>.</strong> ${esc(dropArticle(p.summary))}</li>`,
   )
   .join("\n")}
 </ul>`,
