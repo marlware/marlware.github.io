@@ -18,8 +18,6 @@ This is my personal website, built to look like [newaesthetics.art](https://newa
 - **Node** builds every page from two data files
 - **GitHub Pages** hosts the finished pages for free
 
-Here's how the pieces connect.
-
 ```mermaid
 flowchart LR
     Data["data files: projects and posts"] --> Build["build.mjs on Node"]
