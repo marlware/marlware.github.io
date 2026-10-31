@@ -168,7 +168,7 @@ write(
 ${posts
   .map(
     (p) =>
-      `  <li><a href="/blog/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></li>`,
+      `  <li><div class="row"><a href="/blog/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></div></li>`,
   )
   .join("\n")}
 </ul>`,
@@ -205,7 +205,7 @@ write(
 ${projects
   .map(
     (p) =>
-      `  <li><a href="/projects/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></li>`,
+      `  <li><div class="row"><a href="/projects/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></div></li>`,
   )
   .join("\n")}
 </ul>`,

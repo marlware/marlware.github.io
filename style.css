@@ -24,6 +24,9 @@ html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   font-family: var(--sans);
+  /* Keep room for the scrollbar on every page, so short pages don't sit a few
+     pixels off from long ones. */
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -105,9 +108,18 @@ strong {
   color: var(--muted-foreground);
 }
 
-li .meta {
-  display: inline;
-  margin: 0 0 0 0.5rem;
+/* Lists of posts and projects: the title on the left, the date flush right,
+   so each line spans the full column like a paragraph does. */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.row .meta {
+  margin: 0;
+  white-space: nowrap;
 }
 
 /* The opening paragraph above the figure */
