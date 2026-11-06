@@ -210,10 +210,14 @@ ul.posters li + li {
 
 ul.posters img {
   display: block;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 2 / 3;
   object-fit: cover;
   border-radius: 6px;
+}
+
+ul.posters a {
+  aspect-ratio: 2 / 3;
 }
 
 /* A 4x4 grid of square album covers, like a Topster chart */
@@ -232,10 +236,50 @@ ul.topster li + li {
 
 ul.topster img {
   display: block;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 6px;
+}
+
+ul.topster a {
+  aspect-ratio: 1;
+}
+
+/* Squares alternate pink and green in a checkerboard across the 4-column grid */
+/* Each image is shrunk inside its cell with a solid square peeking out behind it */
+ul.posters a,
+ul.topster a {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+ul.posters a::before,
+ul.topster a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65%;
+  aspect-ratio: 1;
+  background: var(--heading);
+}
+
+ul.posters li:nth-child(8n+2) a::before,
+ul.posters li:nth-child(8n+4) a::before,
+ul.posters li:nth-child(8n+5) a::before,
+ul.posters li:nth-child(8n+7) a::before,
+ul.topster li:nth-child(8n+2) a::before,
+ul.topster li:nth-child(8n+4) a::before,
+ul.topster li:nth-child(8n+5) a::before,
+ul.topster li:nth-child(8n+7) a::before {
+  background: #c7c862;
+}
+
+ul.posters img,
+ul.topster img {
+  position: relative;
 }
 
 /* 404 */
