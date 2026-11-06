@@ -246,7 +246,7 @@ ul.topster a {
   aspect-ratio: 1;
 }
 
-/* Squares alternate pink and green in a checkerboard across the 4-column grid */
+/* Square colour: pink, green, or split diagonally between the two */
 /* Each image is shrunk inside its cell with a solid square peeking out behind it */
 ul.posters a,
 ul.topster a {
@@ -266,15 +266,14 @@ ul.topster a::before {
   background: var(--heading);
 }
 
-ul.posters li:nth-child(8n+2) a::before,
-ul.posters li:nth-child(8n+4) a::before,
-ul.posters li:nth-child(8n+5) a::before,
-ul.posters li:nth-child(8n+7) a::before,
-ul.topster li:nth-child(8n+2) a::before,
-ul.topster li:nth-child(8n+4) a::before,
-ul.topster li:nth-child(8n+5) a::before,
-ul.topster li:nth-child(8n+7) a::before {
+ul.posters li.green a::before,
+ul.topster li.green a::before {
   background: #c7c862;
+}
+
+ul.posters li.split a::before,
+ul.topster li.split a::before {
+  background: linear-gradient(to bottom right, var(--heading) 50%, #c7c862 50%);
 }
 
 ul.posters img,
