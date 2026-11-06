@@ -1,7 +1,7 @@
 export const posts = [
   {
     slug: "roadmap",
-    title: "Every CS class of my degree",
+    title: "every CS class of my degree",
     date: "July 5, 2026",
     content: `fall 2024
     Introduction to Programming (CS 46A)
@@ -36,8 +36,8 @@ export const posts = [
     `
   },
   {
-    slug: "dream-jobs",
-    title: "Dream jobs",
+    slug: "jobs",
+    title: "if I didn't want to be a software engineer",
     date: "June 26, 2026",
     content: `1. Yogurtland area manager
     2. Studio Tour guide, Universal Studios Hollywood
@@ -47,8 +47,8 @@ export const posts = [
     `
   },
   {
-    slug: "pixar-advice",
-    title: "Pixar advice",
+    slug: "pixar",
+    title: "advice from Pixar people",
     date: "April 18, 2026",
     content: `
       I find the film studio Pixar fascinating. Pixar is built like a software company with a variety of specialized roles in technology, art, and business that contribute to their products (the movies). Pixar's history is rooted in computer science and sprouted from a desire to generate a film using a computer.
@@ -83,10 +83,13 @@ export const posts = [
     - Roku® Streaming Stick® 4K
 
     shoes:
-    - Vans - checkered slip-ons
+    - Vans checkered slip-ons (black/white)
+    - Vans Authentics (beige)
+    - Vans Old Skool (navy)
     - Converse - white high tops
     - Converse - black canvas high tops
     - Converse - Chuck Taylor All Star XXHi Buckles
+    - Nike running shoes
     `,
   },
 ];

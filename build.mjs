@@ -146,20 +146,20 @@ write(
   page({
     title: `Home · ${SITE}`,
     description:
-      "Marl Jonson studies computer science and builds backend systems.",
+      "Marl Jonson studies computer science and builds backend systems with Java and Spring Boot.",
     path: "/",
     body: `<h1>home</h1>
 
 <div class="flow">
-<p>I study computer science in the San Francisco Bay Area. Most of what I build is backend systems. I'm passionate about distributed systems and the JVM umbrella. I like making small but complete versions of real ones to see how they hold up.</p>
+<p>I study computer science in the San Francisco Bay Area. I'm a backend developer who mostly writes Java and Spring Boot. I like making small but complete versions of real systems to see how they hold up.</p>
 
 <p>Things I'm interested in:</p>
 
 <ul>
-  <li><strong>Event-driven systems.</strong> Putting a queue like Kafka between the fast part of a system and the slow, unreliable part. <a href="/projects/etch/">Etch</a> is a notification hub built around that idea.</li>
-  <li><strong>Streaming video.</strong> <a href="/projects/margo/">Margo</a>, <a href="/projects/edith/">Edith</a>, and <a href="/projects/agnes/">Agnes</a> together pretend to be a small streaming service, from checking videos to playing ads.</li>
-  <li><strong>Media companies.</strong> The big streaming platforms and the conglomerates behind them, like Netflix, Disney+, Paramount+, and NBCUniversal, and the systems that get their shows to millions of people at once.</li>
-  <li><strong>Stateful stream processing.</strong> Programs that read a nonstop flow of events and remember what came before. I'm interested in building them on the JVM with Kafka Streams or Flink, and in handling events that show up late.</li>
+  <li><strong>Backend Java and Spring Boot.</strong> Building services with Spring Boot, from REST APIs and data access to messaging and testing.</li>
+  <li><strong>Scala, Kotlin, etc.</strong> Functional programming on the JVM, and tools like Akka, Pekko, and Cats Effect; Coroutines, Ktor, and using Kotlin alongside Spring Boot.</li>
+  <li><strong>Event-driven systems.</strong> Putting a queue like Kafka between the fast part of a system and the slow, unreliable part.</li>
+  <li><strong>Stateful stream processing.</strong> Programs that read a nonstop flow of events and remember what came before, built with tools like Spark and Flink.</li>
 </ul>
 
 <h2>elsewhere</h2>
@@ -183,7 +183,7 @@ ${posts
   .filter((p) => !p.separate)
   .map(
     (p) =>
-      `  <li><div class="row"><strong><a href="/blog/${p.slug}/">${esc(p.title)}</a>.</strong><span class="meta">${esc(p.date)}</span></div></li>`,
+      `  <li><div class="row"><a href="/blog/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></div></li>`,
   )
   .join("\n")}
 </ul>
@@ -193,7 +193,7 @@ ${posts
   .filter((p) => p.separate)
   .map(
     (p) =>
-      `  <li><div class="row"><strong><a href="/blog/${p.slug}/">${esc(p.title)}</a>.</strong><span class="meta">${esc(p.date)}</span></div></li>`,
+      `  <li><div class="row"><a href="/blog/${p.slug}/">${esc(p.title)}</a><span class="meta">${esc(p.date)}</span></div></li>`,
   )
   .join("\n")}
 </ul>`,
