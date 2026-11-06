@@ -194,6 +194,56 @@ li + li {
   margin-top: 0.5rem;
 }
 
+/* Four posters in a row, like a Letterboxd favorites strip */
+ul.posters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+ul.posters li + li {
+  margin-top: 0;
+}
+
+ul.posters img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px var(--rule);
+  outline: 1px solid var(--rule);
+  outline-offset: -1px;
+}
+
+/* A 4x4 grid of square album covers, like a Topster chart */
+ul.topster {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+ul.topster li + li {
+  margin-top: 0;
+}
+
+ul.topster img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px var(--rule);
+  outline: 1px solid var(--rule);
+  outline-offset: -1px;
+}
+
 /* 404 */
 .notfound {
   display: flex;
