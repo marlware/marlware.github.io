@@ -194,10 +194,10 @@ li + li {
   margin-top: 0.5rem;
 }
 
-/* Four posters in a row, like a Letterboxd favorites strip */
+/* Three posters in a row, like a Letterboxd favorites strip */
 ul.posters {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   margin-top: 1rem;
   padding-left: 0;
@@ -220,10 +220,10 @@ ul.posters a {
   aspect-ratio: 2 / 3;
 }
 
-/* A 4x4 grid of square album covers, like a Topster chart */
+/* A 3x4 grid of square album covers, like a Topster chart */
 ul.topster {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   margin-top: 1rem;
   padding-left: 0;
